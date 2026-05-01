@@ -120,6 +120,14 @@ select {
   font: inherit;
 }
 
+input[readonly] {
+  background: #f1e9df;
+  color: #675e55;
+  cursor: not-allowed;
+  pointer-events: none;
+  user-select: none;
+}
+
 input:disabled,
 select:disabled {
   background: #f1e9df;

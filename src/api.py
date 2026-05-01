@@ -148,10 +148,6 @@ def median_or_none(frame: pd.DataFrame, column: str) -> int | None:
 
 def enrich_request_from_catalog(request: PredictRequest) -> dict:
     payload = request.model_dump(exclude_none=True)
-    needs_spec = any(not payload.get(field) for field in ["transmission", "fuel_type", "assembly"])
-    if not needs_spec:
-        return payload
-
     catalog = load_catalog_artifact()
     if catalog is None:
         return payload
@@ -167,11 +163,12 @@ def enrich_request_from_catalog(request: PredictRequest) -> dict:
         return payload
 
     spec_fields = spec.get("spec", {})
+    payload["catalog_source_rows"] = int(spec.get("source_rows", 0))
+    payload["spec_locked_from_catalog"] = True
     for field in ["transmission", "fuel_type", "assembly", "body_type", "engine_capacity_cc"]:
-        if payload.get(field) in [None, "", "Unknown"]:
-            value = spec_fields.get(field)
-            if value not in [None, ""]:
-                payload[field] = value
+        value = spec_fields.get(field)
+        if value not in [None, ""]:
+            payload[field] = value
     return payload
 
 

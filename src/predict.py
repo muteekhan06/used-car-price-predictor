@@ -40,6 +40,8 @@ def predict_record(record: dict, model_dir: str | Path = "artifacts") -> dict:
         "price_range_high": round(float(result["price_range_high"]), 2),
         "prediction_mode": result["prediction_mode"],
         "confidence_score": round(float(result["confidence_score"]), 4),
+        "catalog_source_rows": int(result.get("catalog_source_rows", 0)),
+        "support_tier": result.get("support_tier", "unknown"),
         "anchor_price": round(float(result["anchor_price"]), 2),
         "condition_adjusted_price": round(float(result["condition_adjusted_price"]), 2),
         "comparable_reference_price": comparable_reference_price,

@@ -95,6 +95,20 @@ def _compute_confidence(summary: dict, prediction_mode: str) -> float:
     return float(min(max(confidence, 0.05), 0.98))
 
 
+def _support_profile(row: pd.Series) -> tuple[int, float, str]:
+    raw_rows = row.get("catalog_source_rows", np.nan)
+    if raw_rows is None or pd.isna(raw_rows):
+        return 0, 0.0, "unknown"
+
+    source_rows = int(raw_rows)
+    support_factor = float(min(max(source_rows / 100.0, 0.0), 1.0))
+    if source_rows >= 100:
+        return source_rows, support_factor, "strong"
+    if source_rows >= 30:
+        return source_rows, support_factor, "moderate"
+    return source_rows, support_factor, "thin"
+
+
 def predict_frame(frame: pd.DataFrame, artifacts: dict, top_k_comps: int = 20) -> pd.DataFrame:
     frame = frame.reset_index(drop=True).copy()
     anchor_point_model = artifacts["anchor_point_model"]
@@ -155,6 +169,7 @@ def predict_frame(frame: pd.DataFrame, artifacts: dict, top_k_comps: int = 20) -
         prediction_mode = row["prediction_mode"]
         if prediction_mode == "score_only" and str(row.get("inspection_input_source", "")).startswith("derived"):
             prediction_mode = "section_based"
+        source_rows, support_factor, support_tier = _support_profile(row)
 
         comp_weight = 0.0
         blended_point = float(adjusted_point[index])
@@ -164,6 +179,9 @@ def predict_frame(frame: pd.DataFrame, artifacts: dict, top_k_comps: int = 20) -
         if summary["comp_count"] > 0 and summary["weighted_price"] is not None:
             comp_weight = _compute_comp_weight(summary, prediction_mode)
             comp_weight = _adjust_comp_weight_for_inspection(comp_weight, row, prediction_mode)
+            if source_rows > 0 and source_rows < 100:
+                min_stat_weight = 0.30 + (1.0 - support_factor) * 0.30
+                comp_weight = max(comp_weight, min_stat_weight)
             model_weight = 1.0 - comp_weight
             comp_point = float(summary["weighted_price"])
             comp_lower = float(summary["p25_price"] or comp_point)
@@ -187,6 +205,11 @@ def predict_frame(frame: pd.DataFrame, artifacts: dict, top_k_comps: int = 20) -
         if prediction_mode == "no_inspection":
             final_low *= 0.98
             final_high *= 1.02
+        if source_rows > 0 and source_rows < 100:
+            width_penalty = 1.0 + ((1.0 - support_factor) * 0.14)
+            final_low *= 1.0 - ((width_penalty - 1.0) * 0.6)
+            final_high *= width_penalty
+            confidence *= 0.70 + (0.30 * support_factor)
 
         results.append(
             {
@@ -195,6 +218,8 @@ def predict_frame(frame: pd.DataFrame, artifacts: dict, top_k_comps: int = 20) -
                 "price_range_high": float(max(final_high, blended_point)),
                 "prediction_mode": prediction_mode,
                 "confidence_score": confidence,
+                "catalog_source_rows": source_rows,
+                "support_tier": support_tier,
                 "anchor_price": float(point_price[index]),
                 "condition_adjusted_price": float(adjusted_point[index]),
                 "comparable_reference_price": summary["weighted_price"],

@@ -191,6 +191,9 @@ function serializeForm() {
 }
 
 function renderResult(result) {
+  const supportLabel = result.catalog_source_rows
+    ? `${result.support_tier} support (${result.catalog_source_rows} exact rows)`
+    : "support unknown";
   resultCard.innerHTML = `
     <div class="result-hero">
       <div class="result-kicker">Predicted Price</div>
@@ -200,6 +203,7 @@ function renderResult(result) {
         <span class="pill">Mode: ${result.prediction_mode}</span>
         <span class="pill">Confidence: ${Number(result.confidence_score).toFixed(2)}</span>
         <span class="pill">Prediction ID: ${result.prediction_id}</span>
+        <span class="pill">${supportLabel}</span>
       </div>
     </div>
 
