@@ -1,0 +1,1201 @@
+make,model,variant,year,mileage_km,inspection_score,engine_cc,fuel_type,transmission,body_type,city,ownership_count,service_history,accident_history,price,synthetic_data_only
+Toyota,Corolla,Altis,2016,180316,8.5,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,none,3484218,True
+Honda,City,1.2LS,2019,125859,5.9,1500,Petrol,Automatic,Sedan,Rawalpindi,1,full,major,3137485,True
+Toyota,Yaris,GLI CVT,2017,176081,6.5,1500,Hybrid,Automatic,Sedan,Faisalabad,1,unknown,none,2957154,True
+Suzuki,Alto,VXL AGS,2013,206905,8.6,660,Petrol,Manual,Hatchback,Lahore,3,full,none,987875,True
+Honda,City,1.5 Aspire,2015,184536,6.2,1500,Petrol,Manual,Sedan,Lahore,2,full,none,2537763,True
+Honda,City,1.2LS,2015,185585,8.7,1500,Petrol,Manual,Sedan,Faisalabad,3,full,none,2353299,True
+Hyundai,Elantra,Ultimate,2014,216489,9.3,2000,Petrol,Automatic,Sedan,Faisalabad,1,full,major,2323082,True
+Toyota,Corolla,Altis,2014,219023,8.1,1800,Petrol,Automatic,Sedan,Rawalpindi,2,unknown,minor,2379276,True
+Toyota,Yaris,ATIV X,2013,231148,8.5,1500,Petrol,Automatic,Sedan,Islamabad,4,partial,none,2020477,True
+Kia,Sportage,Alpha,2017,137517,7.9,2000,Petrol,Automatic,SUV,Karachi,2,full,none,4380468,True
+Suzuki,Alto,VX,2015,229422,5.8,660,Petrol,Automatic,Hatchback,Karachi,4,full,none,906154,True
+Kia,Picanto,MT,2020,104455,7.9,1000,Petrol,Automatic,Hatchback,Islamabad,1,full,none,4101769,True
+Suzuki,Alto,VXL AGS,2020,109582,8.6,660,Petrol,Automatic,Hatchback,Lahore,1,full,none,3963727,True
+Kia,Sportage,AWD,2021,110417,7.0,2000,Petrol,Automatic,SUV,Karachi,1,full,none,5357621,True
+Toyota,Corolla,XLi,2018,139589,5.7,1800,Petrol,Manual,Sedan,Faisalabad,1,full,none,3555157,True
+Kia,Sportage,Alpha,2022,62969,10.0,2000,Diesel,Automatic,SUV,Lahore,1,full,none,6800309,True
+Toyota,Corolla,GLi,2012,266070,7.7,1800,Hybrid,Automatic,Sedan,Rawalpindi,2,partial,minor,1153647,True
+Honda,Civic,RS,2023,54977,5.9,1800,Petrol,Automatic,Sedan,Faisalabad,3,full,none,5058349,True
+Honda,Civic,RS,2013,228031,7.0,1800,Petrol,Automatic,Sedan,Lahore,2,full,none,1612268,True
+Suzuki,Alto,VXL AGS,2023,47744,7.4,660,Petrol,Automatic,Hatchback,Rawalpindi,1,partial,none,4903087,True
+Kia,Sportage,Alpha,2020,111242,8.7,2000,Diesel,Automatic,SUV,Lahore,1,full,minor,5036868,True
+Kia,Sportage,AWD,2025,0,5.2,2000,Petrol,Automatic,SUV,Islamabad,1,full,none,6786771,True
+Kia,Sportage,AWD,2017,169338,9.4,2000,Petrol,Automatic,SUV,Karachi,1,full,none,4986394,True
+Suzuki,Alto,VXL AGS,2019,100596,6.6,660,Petrol,Manual,Hatchback,Lahore,2,partial,none,3210538,True
+Honda,Civic,Oriel,2017,187848,6.5,1800,Hybrid,Automatic,Sedan,Lahore,2,partial,none,3357493,True
+Honda,Civic,VTi,2024,1580,8.7,1800,Petrol,Automatic,Sedan,Islamabad,2,full,none,6390643,True
+Honda,City,1.2LS,2024,30673,6.7,1500,Petrol,Automatic,Sedan,Lahore,3,full,none,5574119,True
+Honda,City,1.5 Aspire,2016,183900,9.9,1500,Petrol,Automatic,Sedan,Rawalpindi,2,partial,none,3354052,True
+Suzuki,Alto,VXL AGS,2016,203556,8.2,660,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,2001198,True
+Toyota,Corolla,GLi,2018,172261,9.4,1800,Petrol,Manual,Sedan,Karachi,2,full,none,3885183,True
+Hyundai,Tucson,FWD,2015,160485,9.2,2000,Petrol,Automatic,SUV,Faisalabad,2,full,minor,4043195,True
+Kia,Picanto,AT,2019,156612,7.0,1000,Petrol,Automatic,Hatchback,Lahore,2,full,none,3073768,True
+Toyota,Corolla,Altis,2016,181903,8.6,1800,Petrol,Manual,Sedan,Rawalpindi,2,partial,none,2374702,True
+Hyundai,Tucson,AWD,2015,184883,8.9,2000,Hybrid,Automatic,SUV,Karachi,2,full,minor,3913808,True
+Hyundai,Elantra,GLS,2025,24963,8.2,2000,Petrol,Automatic,Sedan,Faisalabad,2,unknown,minor,6067602,True
+Kia,Picanto,MT,2023,33056,8.6,1000,Petrol,Automatic,Hatchback,Islamabad,2,full,none,5429829,True
+Toyota,Yaris,GLI CVT,2016,160452,10.0,1500,Petrol,Manual,Sedan,Rawalpindi,2,partial,none,3169629,True
+Honda,City,1.5 Aspire,2024,31062,6.2,1500,Hybrid,Automatic,Sedan,Rawalpindi,1,unknown,none,5648524,True
+Hyundai,Elantra,Ultimate,2015,195019,9.2,2000,Petrol,Automatic,Sedan,Rawalpindi,2,partial,minor,2125608,True
+Kia,Sportage,Alpha,2022,63654,5.6,2000,Petrol,Manual,SUV,Islamabad,1,full,minor,5535491,True
+Hyundai,Tucson,FWD,2019,148247,8.0,2000,Diesel,Manual,SUV,Karachi,2,partial,minor,4042832,True
+Honda,Civic,VTi,2019,129469,7.1,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,minor,3993701,True
+Honda,City,1.2LS,2021,105363,8.0,1500,Petrol,Automatic,Sedan,Rawalpindi,3,full,none,4366592,True
+Suzuki,Alto,VXL AGS,2024,63795,9.2,660,Petrol,Manual,Hatchback,Islamabad,1,full,none,5236752,True
+Suzuki,Swift,DLX,2018,153786,9.1,1200,Petrol,Automatic,Hatchback,Faisalabad,2,full,minor,3157566,True
+Toyota,Yaris,ATIV X,2015,210140,7.8,1500,Petrol,Manual,Sedan,Rawalpindi,3,full,none,1603311,True
+Suzuki,Swift,GLX CVT,2020,151689,8.0,1200,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,3488583,True
+Suzuki,Alto,VXR,2023,55073,7.9,660,Petrol,Automatic,Hatchback,Islamabad,1,partial,none,5050607,True
+Suzuki,Swift,GLX CVT,2015,206549,8.3,1200,Petrol,Automatic,Hatchback,Lahore,1,partial,none,2186651,True
+Toyota,Corolla,GLi,2015,173789,7.1,1800,Petrol,Manual,Sedan,Karachi,4,partial,none,2785700,True
+Hyundai,Elantra,GLS,2021,85601,9.1,2000,Petrol,Automatic,Sedan,Islamabad,3,full,minor,5397475,True
+Toyota,Corolla,XLi,2024,47384,6.9,1800,Diesel,Manual,Sedan,Rawalpindi,2,partial,none,5485616,True
+Hyundai,Tucson,AWD,2025,1821,7.1,2000,Petrol,Manual,SUV,Karachi,3,full,none,6907324,True
+Toyota,Corolla,XLi,2018,153279,6.3,1800,Petrol,Manual,Sedan,Islamabad,2,full,none,3010779,True
+Kia,Sportage,FWD,2013,209013,7.3,2000,Hybrid,Automatic,SUV,Karachi,1,partial,none,2931766,True
+Hyundai,Tucson,AWD,2016,170801,6.4,2000,Petrol,Manual,SUV,Rawalpindi,2,partial,none,3477022,True
+Kia,Sportage,AWD,2025,17369,8.1,2000,Petrol,Automatic,SUV,Rawalpindi,3,full,none,6996630,True
+Suzuki,Swift,GLX CVT,2017,162409,6.7,1200,Petrol,Automatic,Hatchback,Islamabad,2,full,minor,2765395,True
+Toyota,Yaris,ATIV X,2017,185117,9.2,1500,Hybrid,Automatic,Sedan,Karachi,2,full,none,3818423,True
+Hyundai,Elantra,GLS,2016,203093,5.2,2000,Petrol,Automatic,Sedan,Karachi,1,partial,minor,1993872,True
+Suzuki,Alto,VXL AGS,2018,190771,9.9,660,Hybrid,Automatic,Hatchback,Karachi,2,full,major,2950139,True
+Hyundai,Tucson,FWD,2019,108073,6.7,2000,Hybrid,Automatic,SUV,Lahore,3,full,minor,4890192,True
+Kia,Picanto,MT,2016,174856,5.5,1000,Petrol,Automatic,Hatchback,Lahore,1,full,none,1701693,True
+Honda,Civic,RS,2018,173168,8.0,1800,Petrol,Automatic,Sedan,Rawalpindi,1,partial,minor,3194129,True
+Hyundai,Elantra,GLS,2020,123787,7.6,2000,Petrol,Automatic,Sedan,Karachi,2,full,minor,4379817,True
+Hyundai,Tucson,AWD,2021,81387,7.2,2000,Hybrid,Automatic,SUV,Faisalabad,1,full,minor,5439533,True
+Kia,Sportage,AWD,2013,236611,9.6,2000,Petrol,Manual,SUV,Karachi,1,full,none,2304224,True
+Toyota,Corolla,GLi,2024,45599,8.9,1800,Petrol,Manual,Sedan,Rawalpindi,2,partial,none,6002931,True
+Hyundai,Elantra,Ultimate,2021,102454,8.8,2000,Petrol,Manual,Sedan,Karachi,3,full,none,5170560,True
+Kia,Picanto,AT,2023,73419,7.8,1000,Petrol,Automatic,Hatchback,Rawalpindi,1,full,none,5279562,True
+Suzuki,Alto,VXL AGS,2018,140437,9.3,660,Petrol,Automatic,Hatchback,Karachi,3,partial,minor,2750417,True
+Suzuki,Alto,VXL AGS,2015,185152,6.5,660,Petrol,Automatic,Hatchback,Lahore,2,unknown,none,1589454,True
+Hyundai,Elantra,Ultimate,2023,80761,9.7,2000,Petrol,Automatic,Sedan,Lahore,1,full,major,5744612,True
+Suzuki,Swift,GLX CVT,2023,36460,9.3,1200,Petrol,Manual,Hatchback,Lahore,3,partial,major,4525903,True
+Kia,Picanto,MT,2024,24875,8.4,1000,Petrol,Automatic,Hatchback,Islamabad,2,partial,major,5167046,True
+Kia,Picanto,MT,2022,76031,9.9,1000,Hybrid,Manual,Hatchback,Rawalpindi,1,full,none,5167483,True
+Toyota,Corolla,XLi,2020,121026,8.8,1800,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,4756431,True
+Hyundai,Tucson,FWD,2023,66162,6.9,2000,Diesel,Automatic,SUV,Karachi,4,full,minor,5905663,True
+Toyota,Yaris,ATIV X,2015,241041,7.2,1500,Hybrid,Manual,Sedan,Lahore,2,partial,none,1643773,True
+Kia,Sportage,Alpha,2025,27331,7.9,2000,Petrol,Automatic,SUV,Islamabad,2,partial,none,6934558,True
+Honda,Civic,RS,2016,182607,7.2,1800,Hybrid,Manual,Sedan,Islamabad,2,full,none,3603555,True
+Kia,Sportage,AWD,2013,243575,5.7,2000,Petrol,Manual,SUV,Faisalabad,1,partial,minor,1198270,True
+Kia,Picanto,AT,2022,78214,7.7,1000,Petrol,Automatic,Hatchback,Karachi,1,unknown,none,4660120,True
+Suzuki,Swift,GLX CVT,2021,85825,6.5,1200,Petrol,Manual,Hatchback,Karachi,3,partial,minor,3563654,True
+Honda,City,1.5 Aspire,2015,169086,9.0,1500,Petrol,Automatic,Sedan,Islamabad,1,partial,none,3462360,True
+Toyota,Corolla,GLi,2013,230878,7.8,1800,Petrol,Manual,Sedan,Faisalabad,2,partial,none,1077643,True
+Hyundai,Elantra,Ultimate,2021,86780,8.3,2000,Petrol,Manual,Sedan,Rawalpindi,1,full,minor,4966621,True
+Hyundai,Elantra,Ultimate,2012,228555,8.6,2000,Petrol,Manual,Sedan,Karachi,1,full,none,2752809,True
+Toyota,Corolla,Altis,2020,112082,9.0,1800,Petrol,Automatic,Sedan,Islamabad,2,partial,none,5102794,True
+Toyota,Yaris,ATIV X,2022,92859,6.3,1500,Petrol,Manual,Sedan,Faisalabad,1,full,none,4411328,True
+Hyundai,Tucson,FWD,2015,178739,8.8,2000,Petrol,Manual,SUV,Lahore,2,partial,none,3716960,True
+Honda,City,1.2LS,2020,108313,6.1,1500,Petrol,Automatic,Sedan,Karachi,1,full,none,4181802,True
+Hyundai,Tucson,AWD,2016,182769,8.0,2000,Petrol,Automatic,SUV,Faisalabad,1,partial,none,3883769,True
+Hyundai,Elantra,Ultimate,2025,29883,7.4,2000,Petrol,Manual,Sedan,Faisalabad,2,full,none,6148142,True
+Suzuki,Alto,VX,2013,241227,8.4,660,Petrol,Automatic,Hatchback,Karachi,1,partial,none,932974,True
+Kia,Picanto,AT,2014,196388,6.5,1000,Petrol,Automatic,Hatchback,Faisalabad,1,full,none,1784458,True
+Toyota,Yaris,ATIV X,2013,203550,5.2,1500,Petrol,Automatic,Sedan,Rawalpindi,1,partial,minor,704798,True
+Honda,City,1.5 Aspire,2020,118186,8.1,1500,Petrol,Automatic,Sedan,Islamabad,4,full,none,4535662,True
+Hyundai,Tucson,FWD,2017,151761,8.5,2000,Petrol,Manual,SUV,Faisalabad,1,partial,none,4111912,True
+Suzuki,Alto,VXR,2013,227661,7.2,660,Petrol,Automatic,Hatchback,Rawalpindi,1,partial,none,950283,True
+Suzuki,Alto,VXL AGS,2023,68039,6.1,660,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,4050700,True
+Honda,Civic,VTi,2014,241728,9.8,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,minor,2928024,True
+Hyundai,Elantra,GLS,2014,231119,6.0,2000,Hybrid,Manual,Sedan,Rawalpindi,1,full,minor,1222892,True
+Hyundai,Elantra,GLS,2016,160742,9.9,2000,Hybrid,Manual,Sedan,Faisalabad,4,full,none,3745799,True
+Kia,Picanto,MT,2025,25622,9.4,1000,Hybrid,Manual,Hatchback,Rawalpindi,3,partial,none,5969127,True
+Honda,City,1.5 Aspire,2020,96134,8.6,1500,Diesel,Manual,Sedan,Rawalpindi,3,unknown,none,4415151,True
+Suzuki,Alto,VXR,2013,230957,8.0,660,Diesel,Automatic,Hatchback,Islamabad,2,full,none,984095,True
+Hyundai,Tucson,FWD,2013,224719,8.6,2000,Petrol,Automatic,SUV,Faisalabad,2,full,none,3093444,True
+Toyota,Corolla,GLi,2022,77418,6.5,1800,Petrol,Automatic,Sedan,Faisalabad,2,partial,none,4734286,True
+Suzuki,Alto,VXL AGS,2018,144973,8.5,660,Petrol,Automatic,Hatchback,Faisalabad,2,partial,none,3497142,True
+Hyundai,Elantra,Ultimate,2017,161925,8.0,2000,Hybrid,Manual,Sedan,Karachi,2,partial,none,3802522,True
+Honda,City,1.5 Aspire,2022,62594,8.1,1500,Petrol,Automatic,Sedan,Karachi,1,full,none,5619613,True
+Suzuki,Swift,GLX CVT,2016,205288,8.2,1200,Petrol,Automatic,Hatchback,Karachi,3,full,none,2695676,True
+Hyundai,Tucson,FWD,2019,107004,7.4,2000,Hybrid,Manual,SUV,Karachi,2,full,none,4830782,True
+Kia,Picanto,AT,2013,257192,8.7,1000,Petrol,Automatic,Hatchback,Rawalpindi,1,full,none,1261864,True
+Hyundai,Tucson,FWD,2013,220889,7.2,2000,Petrol,Automatic,SUV,Lahore,4,full,none,2081138,True
+Toyota,Corolla,XLi,2015,201064,6.7,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,none,2607794,True
+Suzuki,Swift,GLX CVT,2022,76551,7.3,1200,Petrol,Manual,Hatchback,Faisalabad,1,partial,none,4816906,True
+Hyundai,Elantra,Ultimate,2023,72109,7.1,2000,Petrol,Automatic,Sedan,Rawalpindi,1,partial,major,5216137,True
+Suzuki,Alto,VXL AGS,2020,97302,7.5,660,Petrol,Automatic,Hatchback,Lahore,2,full,none,4056820,True
+Honda,Civic,Oriel,2012,236944,9.0,1800,Petrol,Automatic,Sedan,Lahore,2,full,none,1416633,True
+Hyundai,Elantra,GLS,2017,140434,7.0,2000,Petrol,Manual,Sedan,Faisalabad,2,full,major,2777865,True
+Toyota,Corolla,Altis,2014,212430,8.5,1800,Diesel,Manual,Sedan,Faisalabad,3,partial,none,1970964,True
+Suzuki,Alto,VXL AGS,2022,69076,9.2,660,Petrol,Automatic,Hatchback,Faisalabad,1,unknown,none,4765230,True
+Toyota,Corolla,Altis,2024,12858,7.0,1800,Petrol,Automatic,Sedan,Karachi,1,partial,none,5879476,True
+Hyundai,Tucson,AWD,2013,237479,7.5,2000,Petrol,Automatic,SUV,Islamabad,2,full,minor,2098744,True
+Suzuki,Swift,DLX,2024,20117,8.9,1200,Petrol,Automatic,Hatchback,Islamabad,1,full,none,6155385,True
+Honda,City,1.5 Aspire,2015,183883,7.9,1500,Petrol,Automatic,Sedan,Islamabad,1,full,none,2726478,True
+Honda,Civic,RS,2017,175953,8.1,1800,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,3771821,True
+Hyundai,Tucson,FWD,2018,161106,9.3,2000,Petrol,Manual,SUV,Rawalpindi,2,partial,none,3992751,True
+Kia,Sportage,Alpha,2013,208818,9.1,2000,Petrol,Automatic,SUV,Lahore,1,full,none,3856743,True
+Hyundai,Tucson,FWD,2021,102288,8.3,2000,Diesel,Manual,SUV,Rawalpindi,4,partial,none,5247715,True
+Kia,Picanto,AT,2019,132926,6.7,1000,Petrol,Automatic,Hatchback,Faisalabad,1,unknown,minor,2744831,True
+Kia,Sportage,AWD,2012,243911,7.2,2000,Petrol,Automatic,SUV,Rawalpindi,1,partial,none,1634919,True
+Toyota,Corolla,XLi,2019,121981,8.4,1800,Petrol,Automatic,Sedan,Faisalabad,3,unknown,minor,4150669,True
+Suzuki,Swift,GLX CVT,2017,171359,9.1,1200,Petrol,Automatic,Hatchback,Islamabad,2,full,none,3127377,True
+Honda,City,1.5 Aspire,2023,61459,9.6,1500,Petrol,Manual,Sedan,Islamabad,1,partial,none,5416867,True
+Honda,City,1.2LS,2016,190189,8.3,1500,Hybrid,Automatic,Sedan,Rawalpindi,1,partial,none,3101954,True
+Suzuki,Alto,VX,2021,89238,6.9,660,Petrol,Automatic,Hatchback,Lahore,2,full,none,4035630,True
+Toyota,Corolla,GLi,2022,90245,10.0,1800,Petrol,Manual,Sedan,Islamabad,1,partial,minor,5332785,True
+Kia,Sportage,AWD,2023,46891,5.0,2000,Hybrid,Manual,SUV,Lahore,3,full,minor,5711021,True
+Suzuki,Alto,VX,2016,207564,7.3,660,Diesel,Manual,Hatchback,Faisalabad,2,unknown,none,1465348,True
+Suzuki,Alto,VX,2017,172424,8.9,660,Petrol,Manual,Hatchback,Islamabad,2,partial,minor,2781591,True
+Hyundai,Tucson,FWD,2018,113842,7.4,2000,Petrol,Manual,SUV,Lahore,1,full,none,4692784,True
+Suzuki,Swift,DLX,2016,164267,6.3,1200,Petrol,Manual,Hatchback,Islamabad,1,partial,major,1477516,True
+Suzuki,Swift,DLX,2015,170654,9.1,1200,Petrol,Automatic,Hatchback,Islamabad,1,full,none,2861687,True
+Honda,Civic,RS,2024,9894,6.6,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,none,5938760,True
+Honda,Civic,Oriel,2025,17190,7.2,1800,Petrol,Automatic,Sedan,Karachi,3,full,none,6283180,True
+Hyundai,Tucson,FWD,2020,76262,8.3,2000,Petrol,Automatic,SUV,Karachi,2,partial,none,6078110,True
+Toyota,Yaris,GLI CVT,2016,202500,6.1,1500,Petrol,Automatic,Sedan,Rawalpindi,1,unknown,none,1883886,True
+Hyundai,Tucson,FWD,2022,107749,7.3,2000,Petrol,Automatic,SUV,Karachi,1,full,none,5544675,True
+Toyota,Yaris,ATIV X,2022,73479,7.6,1500,Petrol,Manual,Sedan,Rawalpindi,1,full,major,4184373,True
+Toyota,Corolla,Altis,2018,112306,5.9,1800,Hybrid,Manual,Sedan,Karachi,1,full,none,4073256,True
+Hyundai,Tucson,FWD,2020,116902,8.3,2000,Petrol,Automatic,SUV,Islamabad,1,unknown,none,5432550,True
+Suzuki,Alto,VXR,2014,237759,7.7,660,Petrol,Manual,Hatchback,Faisalabad,3,unknown,minor,450000,True
+Suzuki,Swift,GLX CVT,2023,63300,7.2,1200,Petrol,Automatic,Hatchback,Rawalpindi,1,full,minor,5020079,True
+Hyundai,Elantra,Ultimate,2018,134959,7.6,2000,Petrol,Manual,Sedan,Karachi,3,partial,none,3543856,True
+Kia,Sportage,Alpha,2015,211248,8.3,2000,Petrol,Manual,SUV,Lahore,3,full,major,2923254,True
+Honda,Civic,RS,2024,22699,7.9,1800,Petrol,Manual,Sedan,Lahore,2,partial,none,5851556,True
+Kia,Picanto,AT,2013,244841,8.4,1000,Petrol,Manual,Hatchback,Lahore,1,full,none,1422463,True
+Honda,Civic,Oriel,2020,129719,7.2,1800,Petrol,Manual,Sedan,Islamabad,1,partial,none,4156834,True
+Hyundai,Tucson,AWD,2014,210318,7.7,2000,Petrol,Automatic,SUV,Lahore,3,full,none,3342794,True
+Toyota,Corolla,Altis,2012,253670,6.6,1800,Hybrid,Manual,Sedan,Lahore,1,full,none,1306477,True
+Hyundai,Tucson,FWD,2012,230410,6.6,2000,Petrol,Automatic,SUV,Faisalabad,4,full,minor,1603468,True
+Honda,Civic,VTi,2020,114972,8.4,1800,Petrol,Automatic,Sedan,Islamabad,2,full,major,4206753,True
+Suzuki,Alto,VXL AGS,2025,45799,7.6,660,Petrol,Automatic,Hatchback,Rawalpindi,1,full,none,5309340,True
+Hyundai,Tucson,FWD,2020,119364,7.4,2000,Hybrid,Automatic,SUV,Faisalabad,1,full,none,5266550,True
+Toyota,Corolla,GLi,2012,238295,9.3,1800,Petrol,Automatic,Sedan,Rawalpindi,3,full,none,1837539,True
+Hyundai,Tucson,AWD,2024,33950,5.7,2000,Petrol,Manual,SUV,Islamabad,1,full,minor,6144592,True
+Hyundai,Tucson,FWD,2022,27514,7.3,2000,Petrol,Automatic,SUV,Rawalpindi,1,partial,none,6783127,True
+Kia,Picanto,MT,2023,66727,8.2,1000,Petrol,Automatic,Hatchback,Lahore,2,full,none,5164162,True
+Suzuki,Alto,VX,2013,249876,8.3,660,Petrol,Automatic,Hatchback,Karachi,1,partial,none,903971,True
+Hyundai,Elantra,Ultimate,2018,138232,8.1,2000,Hybrid,Automatic,Sedan,Lahore,2,full,none,4608604,True
+Toyota,Corolla,GLi,2016,199909,6.6,1800,Petrol,Manual,Sedan,Lahore,2,full,none,2572924,True
+Honda,City,1.2LS,2018,131629,9.3,1500,Hybrid,Manual,Sedan,Islamabad,1,partial,none,4102386,True
+Honda,City,1.5 Aspire,2014,239255,10.0,1500,Petrol,Automatic,Sedan,Rawalpindi,4,partial,none,2276820,True
+Hyundai,Tucson,FWD,2021,109183,10.0,2000,Petrol,Automatic,SUV,Karachi,4,full,minor,5558505,True
+Hyundai,Tucson,FWD,2022,98729,7.5,2000,Petrol,Automatic,SUV,Rawalpindi,1,unknown,none,5674088,True
+Kia,Picanto,MT,2024,63445,7.4,1000,Hybrid,Automatic,Hatchback,Karachi,1,full,none,5483393,True
+Hyundai,Tucson,AWD,2013,218933,8.7,2000,Petrol,Automatic,SUV,Faisalabad,2,full,none,2985021,True
+Kia,Sportage,FWD,2012,237024,7.9,2000,Hybrid,Manual,SUV,Lahore,1,full,minor,2428300,True
+Hyundai,Tucson,FWD,2016,186651,9.6,2000,Petrol,Manual,SUV,Karachi,2,full,major,3697404,True
+Honda,Civic,Oriel,2020,90063,8.4,1800,Hybrid,Automatic,Sedan,Lahore,2,full,none,5210744,True
+Hyundai,Elantra,GLS,2015,220800,7.5,2000,Hybrid,Automatic,Sedan,Faisalabad,1,full,none,3356612,True
+Hyundai,Tucson,AWD,2021,83079,8.2,2000,Petrol,Automatic,SUV,Lahore,3,partial,none,5626029,True
+Toyota,Corolla,GLi,2013,238901,8.6,1800,Petrol,Automatic,Sedan,Lahore,2,full,none,2271834,True
+Honda,Civic,Oriel,2016,189949,8.6,1800,Petrol,Manual,Sedan,Islamabad,4,full,none,2764819,True
+Hyundai,Tucson,AWD,2023,44116,8.5,2000,Petrol,Manual,SUV,Lahore,1,full,none,6454944,True
+Hyundai,Tucson,FWD,2021,113427,9.2,2000,Hybrid,Automatic,SUV,Karachi,2,full,none,6052892,True
+Honda,City,1.2LS,2019,99888,7.6,1500,Petrol,Automatic,Sedan,Karachi,2,full,minor,4316115,True
+Suzuki,Swift,DLX,2021,97851,8.4,1200,Petrol,Manual,Hatchback,Islamabad,2,partial,none,3974536,True
+Kia,Sportage,Alpha,2024,58636,8.4,2000,Diesel,Automatic,SUV,Lahore,2,full,none,6524872,True
+Honda,City,1.5 Aspire,2014,203411,7.4,1500,Petrol,Automatic,Sedan,Karachi,1,partial,none,1701206,True
+Kia,Sportage,AWD,2013,239849,7.6,2000,Petrol,Automatic,SUV,Karachi,2,full,major,1549492,True
+Hyundai,Tucson,AWD,2025,13252,9.3,2000,Petrol,Automatic,SUV,Islamabad,3,partial,none,7344795,True
+Honda,City,1.5 Aspire,2012,249210,9.1,1500,Diesel,Automatic,Sedan,Islamabad,1,unknown,none,1573963,True
+Suzuki,Alto,VXR,2022,80909,7.4,660,Petrol,Manual,Hatchback,Lahore,1,full,none,4479733,True
+Kia,Picanto,MT,2012,263362,7.1,1000,Diesel,Automatic,Hatchback,Lahore,1,full,none,450000,True
+Toyota,Yaris,ATIV X,2016,200200,9.4,1500,Petrol,Manual,Sedan,Lahore,1,partial,none,3117726,True
+Honda,City,1.5 Aspire,2025,28025,8.3,1500,Petrol,Manual,Sedan,Rawalpindi,1,full,minor,6234612,True
+Toyota,Corolla,Altis,2021,70082,6.8,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,none,4881673,True
+Honda,City,1.5 Aspire,2013,208966,7.9,1500,Petrol,Automatic,Sedan,Karachi,4,unknown,none,1529520,True
+Kia,Picanto,AT,2020,95513,5.9,1000,Diesel,Automatic,Hatchback,Karachi,2,full,none,3761054,True
+Suzuki,Swift,GLX CVT,2023,48253,6.4,1200,Petrol,Manual,Hatchback,Karachi,1,full,none,4918409,True
+Kia,Picanto,AT,2021,67307,6.1,1000,Petrol,Manual,Hatchback,Rawalpindi,2,partial,none,3871203,True
+Kia,Sportage,FWD,2022,79915,7.7,2000,Petrol,Automatic,SUV,Karachi,1,unknown,none,5483281,True
+Suzuki,Alto,VXR,2014,215948,5.4,660,Petrol,Manual,Hatchback,Karachi,1,full,none,1376878,True
+Hyundai,Tucson,AWD,2012,248050,6.2,2000,Petrol,Manual,SUV,Karachi,3,partial,none,1343300,True
+Toyota,Corolla,XLi,2015,214414,8.1,1800,Hybrid,Manual,Sedan,Karachi,2,unknown,minor,2392229,True
+Suzuki,Swift,DLX,2021,106807,6.8,1200,Hybrid,Manual,Hatchback,Faisalabad,4,unknown,none,3842838,True
+Suzuki,Swift,GLX CVT,2013,231848,7.8,1200,Petrol,Automatic,Hatchback,Islamabad,2,full,none,1265984,True
+Kia,Sportage,Alpha,2012,251567,8.0,2000,Petrol,Automatic,SUV,Karachi,4,full,none,1753098,True
+Suzuki,Alto,VX,2020,126676,7.7,660,Diesel,Automatic,Hatchback,Lahore,2,full,major,2679487,True
+Suzuki,Swift,DLX,2021,86537,8.3,1200,Hybrid,Manual,Hatchback,Faisalabad,1,partial,none,4738609,True
+Suzuki,Swift,GLX CVT,2017,149443,8.1,1200,Diesel,Manual,Hatchback,Faisalabad,1,full,none,3317819,True
+Honda,City,1.5 Aspire,2019,137663,7.7,1500,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,4144675,True
+Honda,City,1.5 Aspire,2020,122455,8.1,1500,Hybrid,Manual,Sedan,Rawalpindi,3,partial,none,4621970,True
+Toyota,Corolla,XLi,2025,37110,8.0,1800,Petrol,Automatic,Sedan,Karachi,2,full,minor,6133709,True
+Toyota,Corolla,Altis,2019,128878,7.3,1800,Hybrid,Automatic,Sedan,Karachi,1,full,none,4515528,True
+Toyota,Yaris,ATIV X,2014,199754,6.2,1500,Petrol,Automatic,Sedan,Lahore,1,partial,none,2438480,True
+Hyundai,Tucson,FWD,2013,232180,8.4,2000,Petrol,Automatic,SUV,Faisalabad,1,unknown,none,3022129,True
+Hyundai,Tucson,AWD,2021,109151,6.6,2000,Petrol,Manual,SUV,Lahore,1,partial,none,4814027,True
+Hyundai,Tucson,FWD,2014,237286,8.8,2000,Petrol,Automatic,SUV,Karachi,2,unknown,none,2051150,True
+Honda,Civic,VTi,2021,117162,7.0,1800,Petrol,Automatic,Sedan,Islamabad,3,partial,none,4762136,True
+Hyundai,Tucson,FWD,2019,131947,7.9,2000,Petrol,Manual,SUV,Rawalpindi,1,unknown,none,4680917,True
+Suzuki,Alto,VX,2014,176532,5.5,660,Petrol,Automatic,Hatchback,Islamabad,4,full,major,724812,True
+Toyota,Yaris,ATIV X,2017,168896,8.3,1500,Diesel,Automatic,Sedan,Rawalpindi,2,full,major,2929664,True
+Honda,Civic,Oriel,2016,166314,7.7,1800,Petrol,Manual,Sedan,Faisalabad,1,unknown,major,2570519,True
+Kia,Picanto,MT,2022,33248,6.7,1000,Petrol,Automatic,Hatchback,Lahore,1,full,none,4975027,True
+Suzuki,Swift,DLX,2016,155867,8.3,1200,Petrol,Automatic,Hatchback,Karachi,1,full,none,3545262,True
+Hyundai,Tucson,AWD,2017,154020,7.6,2000,Petrol,Automatic,SUV,Lahore,1,full,minor,4134680,True
+Toyota,Yaris,GLI CVT,2018,184241,8.1,1500,Diesel,Automatic,Sedan,Islamabad,2,partial,none,3850812,True
+Honda,City,1.2LS,2012,261821,8.3,1500,Petrol,Automatic,Sedan,Faisalabad,1,full,none,1806805,True
+Honda,Civic,Oriel,2012,236985,6.9,1800,Petrol,Automatic,Sedan,Lahore,1,full,none,1173418,True
+Hyundai,Elantra,Ultimate,2024,19320,8.6,2000,Petrol,Manual,Sedan,Faisalabad,1,full,none,6502721,True
+Suzuki,Alto,VXR,2021,95360,9.7,660,Petrol,Manual,Hatchback,Islamabad,3,full,minor,4247495,True
+Toyota,Yaris,ATIV X,2020,91726,5.2,1500,Petrol,Manual,Sedan,Islamabad,1,unknown,minor,3745269,True
+Kia,Sportage,Alpha,2024,17079,5.0,2000,Petrol,Manual,SUV,Lahore,1,full,major,5828411,True
+Honda,City,1.5 Aspire,2023,59752,7.6,1500,Petrol,Automatic,Sedan,Islamabad,3,full,minor,5274085,True
+Hyundai,Elantra,Ultimate,2014,193196,8.8,2000,Petrol,Automatic,Sedan,Karachi,2,full,none,3075847,True
+Suzuki,Swift,GLX CVT,2018,130792,6.5,1200,Petrol,Manual,Hatchback,Rawalpindi,1,partial,none,3361843,True
+Honda,Civic,RS,2019,115669,10.0,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,minor,4399049,True
+Honda,Civic,Oriel,2023,22474,8.6,1800,Petrol,Automatic,Sedan,Karachi,1,full,minor,6110356,True
+Toyota,Corolla,XLi,2016,143895,7.5,1800,Hybrid,Automatic,Sedan,Faisalabad,1,full,minor,3160799,True
+Honda,Civic,Oriel,2012,276464,6.9,1800,Petrol,Automatic,Sedan,Faisalabad,1,unknown,none,1204704,True
+Hyundai,Tucson,AWD,2014,217377,8.3,2000,Hybrid,Manual,SUV,Karachi,1,full,none,2754914,True
+Honda,Civic,RS,2015,195789,9.0,1800,Petrol,Automatic,Sedan,Karachi,1,full,none,2867905,True
+Suzuki,Swift,GLX CVT,2018,168311,8.6,1200,Petrol,Manual,Hatchback,Faisalabad,3,full,none,2773021,True
+Suzuki,Swift,GLX CVT,2022,77086,8.1,1200,Diesel,Automatic,Hatchback,Islamabad,1,partial,minor,5032913,True
+Toyota,Yaris,ATIV X,2022,96792,8.0,1500,Petrol,Manual,Sedan,Rawalpindi,1,partial,none,4461252,True
+Honda,City,1.2LS,2022,41188,7.3,1500,Hybrid,Automatic,Sedan,Faisalabad,1,full,none,5592752,True
+Suzuki,Alto,VXL AGS,2017,181542,7.3,660,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,2414547,True
+Toyota,Yaris,GLI CVT,2025,2246,6.6,1500,Petrol,Automatic,Sedan,Lahore,2,unknown,none,6200609,True
+Honda,Civic,Oriel,2018,155770,10.0,1800,Diesel,Manual,Sedan,Lahore,2,full,none,4331067,True
+Toyota,Corolla,GLi,2016,187831,9.8,1800,Petrol,Manual,Sedan,Karachi,1,full,none,3413416,True
+Kia,Sportage,AWD,2017,162246,10.0,2000,Petrol,Automatic,SUV,Karachi,2,partial,none,4302647,True
+Suzuki,Swift,DLX,2013,216147,8.9,1200,Petrol,Automatic,Hatchback,Islamabad,3,full,none,1663373,True
+Honda,City,1.5 Aspire,2017,173103,7.8,1500,Hybrid,Automatic,Sedan,Karachi,1,partial,none,3208331,True
+Kia,Sportage,Alpha,2017,154281,5.7,2000,Petrol,Automatic,SUV,Faisalabad,2,partial,none,3938358,True
+Toyota,Yaris,ATIV X,2018,139148,8.5,1500,Petrol,Manual,Sedan,Karachi,1,partial,none,3890777,True
+Kia,Sportage,FWD,2025,35323,6.9,2000,Petrol,Manual,SUV,Karachi,1,partial,minor,6452492,True
+Hyundai,Tucson,FWD,2012,249151,5.3,2000,Petrol,Automatic,SUV,Lahore,1,partial,minor,1125552,True
+Hyundai,Elantra,GLS,2024,7213,7.7,2000,Petrol,Manual,Sedan,Lahore,1,unknown,none,6267360,True
+Suzuki,Swift,GLX CVT,2018,110202,7.8,1200,Petrol,Manual,Hatchback,Lahore,2,full,none,3470137,True
+Kia,Picanto,MT,2017,166540,7.1,1000,Petrol,Automatic,Hatchback,Islamabad,3,partial,none,2652318,True
+Honda,Civic,VTi,2013,226867,6.4,1800,Hybrid,Automatic,Sedan,Lahore,2,partial,none,1664903,True
+Honda,City,1.5 Aspire,2013,248762,7.0,1500,Petrol,Automatic,Sedan,Karachi,2,partial,minor,799956,True
+Suzuki,Alto,VXR,2022,52257,7.6,660,Petrol,Automatic,Hatchback,Lahore,3,partial,major,3905652,True
+Honda,City,1.5 Aspire,2025,33222,9.5,1500,Petrol,Manual,Sedan,Islamabad,1,full,none,6407931,True
+Kia,Picanto,MT,2025,37866,6.8,1000,Diesel,Automatic,Hatchback,Karachi,1,full,none,5735114,True
+Toyota,Yaris,GLI CVT,2022,51107,5.2,1500,Petrol,Manual,Sedan,Lahore,3,full,minor,4273711,True
+Hyundai,Elantra,GLS,2024,19270,7.8,2000,Petrol,Automatic,Sedan,Islamabad,2,full,none,6369534,True
+Hyundai,Elantra,Ultimate,2013,233679,8.6,2000,Petrol,Automatic,Sedan,Lahore,1,partial,minor,2312420,True
+Kia,Sportage,FWD,2019,147060,6.2,2000,Petrol,Automatic,SUV,Faisalabad,2,partial,none,3825485,True
+Kia,Sportage,AWD,2021,105267,9.8,2000,Petrol,Automatic,SUV,Faisalabad,3,full,none,5680611,True
+Suzuki,Swift,GLX CVT,2016,164616,7.2,1200,Petrol,Automatic,Hatchback,Faisalabad,1,partial,minor,2222539,True
+Kia,Sportage,Alpha,2015,187398,7.1,2000,Petrol,Automatic,SUV,Lahore,2,partial,none,3554837,True
+Kia,Picanto,AT,2025,34490,7.6,1000,Petrol,Automatic,Hatchback,Karachi,2,full,minor,5529713,True
+Suzuki,Swift,DLX,2025,47164,8.6,1200,Petrol,Automatic,Hatchback,Islamabad,3,full,minor,5694761,True
+Kia,Picanto,MT,2020,85741,8.3,1000,Petrol,Automatic,Hatchback,Rawalpindi,1,unknown,major,3469737,True
+Kia,Sportage,Alpha,2023,53788,9.5,2000,Hybrid,Automatic,SUV,Lahore,3,partial,none,6612730,True
+Honda,City,1.5 Aspire,2014,208932,8.3,1500,Diesel,Automatic,Sedan,Karachi,1,full,none,2959622,True
+Kia,Picanto,MT,2017,120558,8.4,1000,Petrol,Automatic,Hatchback,Faisalabad,1,unknown,none,2925103,True
+Suzuki,Alto,VXL AGS,2017,163392,4.8,660,Petrol,Automatic,Hatchback,Lahore,1,full,none,2267043,True
+Honda,City,1.5 Aspire,2017,150075,10.0,1500,Petrol,Automatic,Sedan,Faisalabad,3,unknown,none,3081781,True
+Kia,Sportage,Alpha,2022,85060,8.7,2000,Hybrid,Manual,SUV,Islamabad,2,full,minor,5802323,True
+Suzuki,Swift,GLX CVT,2012,244482,9.5,1200,Petrol,Manual,Hatchback,Karachi,1,unknown,none,2056761,True
+Honda,City,1.2LS,2015,208722,6.0,1500,Diesel,Automatic,Sedan,Karachi,2,full,none,2323987,True
+Toyota,Corolla,XLi,2014,222308,6.3,1800,Petrol,Manual,Sedan,Islamabad,1,full,none,2071930,True
+Toyota,Corolla,Altis,2021,95779,10.0,1800,Petrol,Automatic,Sedan,Islamabad,2,full,none,5359128,True
+Hyundai,Tucson,AWD,2025,7145,6.6,2000,Petrol,Manual,SUV,Rawalpindi,2,partial,none,6545929,True
+Suzuki,Alto,VXL AGS,2025,53886,7.2,660,Petrol,Automatic,Hatchback,Faisalabad,2,full,none,4943609,True
+Suzuki,Alto,VXR,2022,77939,7.3,660,Petrol,Automatic,Hatchback,Islamabad,1,full,minor,4331722,True
+Kia,Picanto,MT,2016,146415,7.4,1000,Petrol,Automatic,Hatchback,Islamabad,1,partial,none,2846749,True
+Toyota,Corolla,GLi,2019,102272,8.3,1800,Petrol,Automatic,Sedan,Faisalabad,2,partial,major,3938069,True
+Hyundai,Tucson,AWD,2014,245132,7.3,2000,Petrol,Automatic,SUV,Islamabad,1,full,none,3194535,True
+Suzuki,Alto,VXL AGS,2015,194882,10.0,660,Petrol,Manual,Hatchback,Karachi,3,partial,minor,1774536,True
+Toyota,Yaris,ATIV X,2022,59639,8.0,1500,Petrol,Automatic,Sedan,Islamabad,1,full,none,5351974,True
+Toyota,Corolla,Altis,2022,82910,9.0,1800,Petrol,Manual,Sedan,Faisalabad,2,unknown,minor,4737817,True
+Hyundai,Elantra,GLS,2016,189807,7.6,2000,Petrol,Automatic,Sedan,Islamabad,1,unknown,minor,3313784,True
+Suzuki,Alto,VXL AGS,2020,98387,7.1,660,Petrol,Automatic,Hatchback,Faisalabad,1,partial,none,3613977,True
+Hyundai,Elantra,Ultimate,2017,143349,8.3,2000,Hybrid,Automatic,Sedan,Karachi,2,full,none,4419353,True
+Suzuki,Alto,VX,2014,229433,9.2,660,Hybrid,Automatic,Hatchback,Rawalpindi,3,partial,none,1810539,True
+Hyundai,Elantra,GLS,2012,262350,8.9,2000,Petrol,Automatic,Sedan,Faisalabad,1,full,major,1483851,True
+Hyundai,Elantra,Ultimate,2013,239122,9.4,2000,Petrol,Automatic,Sedan,Lahore,3,partial,minor,1751905,True
+Suzuki,Alto,VXL AGS,2022,96043,7.1,660,Petrol,Manual,Hatchback,Rawalpindi,1,full,none,3876943,True
+Hyundai,Elantra,GLS,2014,191423,8.1,2000,Petrol,Automatic,Sedan,Faisalabad,2,full,none,2335608,True
+Hyundai,Tucson,AWD,2025,17784,9.2,2000,Petrol,Automatic,SUV,Rawalpindi,1,partial,minor,7208882,True
+Kia,Sportage,FWD,2014,215129,9.8,2000,Hybrid,Manual,SUV,Faisalabad,3,full,none,3215216,True
+Toyota,Corolla,GLi,2022,49077,8.4,1800,Petrol,Manual,Sedan,Rawalpindi,2,full,minor,5516314,True
+Suzuki,Swift,GLX CVT,2024,42544,9.3,1200,Petrol,Manual,Hatchback,Faisalabad,2,full,none,5509875,True
+Toyota,Corolla,GLi,2024,7772,7.6,1800,Petrol,Automatic,Sedan,Islamabad,3,partial,none,6109513,True
+Hyundai,Elantra,GLS,2025,43099,10.0,2000,Petrol,Manual,Sedan,Lahore,1,partial,minor,6136137,True
+Suzuki,Alto,VX,2022,87373,7.6,660,Hybrid,Automatic,Hatchback,Faisalabad,1,full,none,4595062,True
+Honda,Civic,RS,2012,235293,9.2,1800,Diesel,Manual,Sedan,Islamabad,2,full,none,1718551,True
+Toyota,Corolla,Altis,2016,176727,7.6,1800,Petrol,Manual,Sedan,Islamabad,1,unknown,none,2732759,True
+Toyota,Yaris,GLI CVT,2018,120996,7.7,1500,Petrol,Manual,Sedan,Karachi,3,unknown,minor,2827367,True
+Hyundai,Tucson,FWD,2024,23437,6.7,2000,Petrol,Automatic,SUV,Karachi,1,full,none,6926122,True
+Honda,Civic,Oriel,2018,164855,7.4,1800,Petrol,Automatic,Sedan,Lahore,1,full,minor,3525961,True
+Suzuki,Swift,DLX,2021,86206,7.5,1200,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,4839049,True
+Honda,Civic,VTi,2025,10295,7.3,1800,Petrol,Automatic,Sedan,Rawalpindi,2,partial,none,6116804,True
+Hyundai,Tucson,AWD,2014,218782,10.0,2000,Petrol,Manual,SUV,Faisalabad,1,full,none,2771822,True
+Toyota,Yaris,ATIV X,2025,13654,7.1,1500,Diesel,Automatic,Sedan,Rawalpindi,1,full,none,6420810,True
+Suzuki,Alto,VXL AGS,2016,190088,7.9,660,Petrol,Automatic,Hatchback,Rawalpindi,1,full,minor,2347284,True
+Hyundai,Tucson,AWD,2014,170842,6.4,2000,Petrol,Automatic,SUV,Islamabad,3,partial,minor,3213587,True
+Hyundai,Elantra,GLS,2018,115961,3.9,2000,Hybrid,Automatic,Sedan,Islamabad,2,full,none,3751182,True
+Hyundai,Elantra,GLS,2012,254968,8.7,2000,Hybrid,Manual,Sedan,Islamabad,1,full,none,1674551,True
+Suzuki,Alto,VXL AGS,2021,105392,6.9,660,Diesel,Manual,Hatchback,Islamabad,2,full,minor,3203031,True
+Hyundai,Tucson,AWD,2022,106901,7.1,2000,Petrol,Automatic,SUV,Rawalpindi,2,partial,minor,5482141,True
+Suzuki,Swift,GLX CVT,2021,101025,7.2,1200,Petrol,Automatic,Hatchback,Islamabad,2,full,none,4365084,True
+Toyota,Corolla,Altis,2015,175552,5.4,1800,Petrol,Manual,Sedan,Lahore,1,full,major,2070659,True
+Kia,Sportage,Alpha,2016,190253,7.4,2000,Diesel,Automatic,SUV,Lahore,1,full,none,4123931,True
+Honda,Civic,VTi,2022,47123,9.9,1800,Hybrid,Automatic,Sedan,Faisalabad,3,full,none,5867091,True
+Hyundai,Tucson,AWD,2017,156119,6.9,2000,Petrol,Manual,SUV,Rawalpindi,1,full,none,3642773,True
+Honda,City,1.5 Aspire,2019,99200,7.4,1500,Petrol,Automatic,Sedan,Islamabad,1,full,none,4610768,True
+Hyundai,Tucson,AWD,2015,198789,8.8,2000,Petrol,Automatic,SUV,Islamabad,1,partial,none,3550681,True
+Kia,Picanto,AT,2022,70545,5.6,1000,Petrol,Automatic,Hatchback,Lahore,1,full,none,4329101,True
+Suzuki,Alto,VX,2012,232057,8.0,660,Diesel,Manual,Hatchback,Lahore,2,partial,none,1238334,True
+Hyundai,Elantra,Ultimate,2018,131825,9.8,2000,Diesel,Automatic,Sedan,Karachi,1,partial,major,4430714,True
+Hyundai,Elantra,GLS,2025,11162,7.8,2000,Petrol,Automatic,Sedan,Lahore,1,unknown,none,6631132,True
+Honda,City,1.2LS,2020,101802,7.1,1500,Petrol,Automatic,Sedan,Islamabad,1,partial,minor,4254055,True
+Suzuki,Alto,VXR,2012,266317,8.4,660,Petrol,Automatic,Hatchback,Islamabad,1,partial,none,877068,True
+Honda,Civic,VTi,2021,94267,6.5,1800,Petrol,Automatic,Sedan,Karachi,1,full,none,5062285,True
+Toyota,Corolla,GLi,2022,66240,8.6,1800,Petrol,Automatic,Sedan,Islamabad,4,partial,minor,5180205,True
+Hyundai,Elantra,GLS,2023,33213,9.1,2000,Petrol,Manual,Sedan,Rawalpindi,2,full,none,5942854,True
+Hyundai,Tucson,FWD,2013,229691,6.5,2000,Hybrid,Automatic,SUV,Rawalpindi,1,partial,none,3040570,True
+Toyota,Yaris,GLI CVT,2017,157220,6.1,1500,Petrol,Automatic,Sedan,Faisalabad,2,partial,none,2863867,True
+Toyota,Corolla,XLi,2025,26519,8.5,1800,Petrol,Manual,Sedan,Lahore,1,partial,minor,6056606,True
+Kia,Picanto,MT,2017,167237,9.7,1000,Petrol,Automatic,Hatchback,Rawalpindi,3,partial,none,2725524,True
+Hyundai,Tucson,FWD,2025,40767,6.7,2000,Petrol,Automatic,SUV,Karachi,3,unknown,none,6232374,True
+Kia,Picanto,MT,2015,184569,7.7,1000,Petrol,Manual,Hatchback,Faisalabad,1,full,none,1969345,True
+Toyota,Corolla,XLi,2020,114829,6.9,1800,Petrol,Automatic,Sedan,Rawalpindi,3,unknown,none,3786481,True
+Suzuki,Swift,GLX CVT,2025,14276,6.2,1200,Petrol,Manual,Hatchback,Faisalabad,3,full,major,4579530,True
+Suzuki,Alto,VXL AGS,2014,233457,8.8,660,Petrol,Manual,Hatchback,Islamabad,1,partial,none,1649216,True
+Kia,Sportage,Alpha,2012,241836,8.0,2000,Petrol,Automatic,SUV,Lahore,1,partial,none,2763975,True
+Suzuki,Swift,DLX,2019,111541,8.6,1200,Petrol,Automatic,Hatchback,Faisalabad,2,full,minor,3663077,True
+Toyota,Yaris,ATIV X,2025,0,8.9,1500,Petrol,Automatic,Sedan,Faisalabad,3,partial,none,6266977,True
+Kia,Sportage,FWD,2020,105590,7.6,2000,Petrol,Automatic,SUV,Rawalpindi,2,partial,none,5082335,True
+Hyundai,Elantra,GLS,2017,182350,8.6,2000,Petrol,Automatic,Sedan,Karachi,1,full,none,3364527,True
+Hyundai,Elantra,GLS,2015,199430,9.7,2000,Petrol,Automatic,Sedan,Karachi,1,full,none,3783051,True
+Suzuki,Alto,VXR,2014,240836,7.7,660,Diesel,Automatic,Hatchback,Lahore,1,unknown,none,1155839,True
+Toyota,Corolla,Altis,2012,276141,7.9,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,none,1704415,True
+Toyota,Yaris,GLI CVT,2023,42192,7.6,1500,Petrol,Manual,Sedan,Rawalpindi,2,unknown,none,4883892,True
+Kia,Sportage,FWD,2014,243399,8.5,2000,Petrol,Manual,SUV,Rawalpindi,2,full,none,2992646,True
+Suzuki,Alto,VX,2016,197528,6.5,660,Petrol,Automatic,Hatchback,Karachi,3,full,none,2276836,True
+Kia,Sportage,Alpha,2015,242569,8.7,2000,Petrol,Automatic,SUV,Karachi,1,full,none,3547226,True
+Kia,Picanto,MT,2022,71140,9.0,1000,Diesel,Automatic,Hatchback,Faisalabad,3,full,none,5088820,True
+Kia,Sportage,FWD,2015,220117,6.7,2000,Petrol,Automatic,SUV,Rawalpindi,2,full,none,2827370,True
+Honda,Civic,Oriel,2023,47900,6.4,1800,Petrol,Automatic,Sedan,Lahore,2,partial,none,5267871,True
+Honda,City,1.2LS,2023,48098,8.8,1500,Diesel,Automatic,Sedan,Islamabad,1,unknown,minor,5549611,True
+Suzuki,Alto,VX,2013,236809,8.0,660,Diesel,Automatic,Hatchback,Faisalabad,2,full,none,848419,True
+Hyundai,Elantra,Ultimate,2023,75253,7.3,2000,Petrol,Automatic,Sedan,Lahore,1,full,minor,5543445,True
+Suzuki,Swift,DLX,2023,48250,7.1,1200,Petrol,Manual,Hatchback,Rawalpindi,3,full,none,4801521,True
+Toyota,Yaris,ATIV X,2018,162334,6.3,1500,Petrol,Automatic,Sedan,Karachi,2,full,minor,3232709,True
+Honda,City,1.2LS,2020,84713,9.1,1500,Diesel,Manual,Sedan,Rawalpindi,1,full,minor,4530835,True
+Toyota,Corolla,GLi,2025,29613,7.5,1800,Petrol,Manual,Sedan,Faisalabad,3,partial,none,5744973,True
+Hyundai,Elantra,GLS,2019,102029,6.8,2000,Petrol,Automatic,Sedan,Islamabad,1,partial,minor,4402924,True
+Hyundai,Tucson,FWD,2020,100171,7.3,2000,Diesel,Automatic,SUV,Lahore,1,full,minor,4855101,True
+Kia,Sportage,Alpha,2025,36950,9.4,2000,Petrol,Manual,SUV,Rawalpindi,1,full,minor,7079263,True
+Toyota,Yaris,ATIV X,2025,18680,5.6,1500,Petrol,Automatic,Sedan,Lahore,2,full,none,5825574,True
+Kia,Sportage,Alpha,2020,103547,9.5,2000,Hybrid,Manual,SUV,Lahore,1,partial,none,5448012,True
+Suzuki,Swift,DLX,2012,222221,10.0,1200,Petrol,Manual,Hatchback,Faisalabad,2,partial,major,982525,True
+Suzuki,Alto,VX,2024,30738,8.9,660,Petrol,Manual,Hatchback,Rawalpindi,3,full,none,5315264,True
+Hyundai,Elantra,GLS,2021,77567,9.3,2000,Diesel,Automatic,Sedan,Karachi,1,partial,major,5011554,True
+Suzuki,Swift,GLX CVT,2016,122123,7.2,1200,Petrol,Manual,Hatchback,Faisalabad,1,partial,none,2655873,True
+Suzuki,Alto,VX,2013,225253,9.5,660,Petrol,Automatic,Hatchback,Faisalabad,4,full,none,1301833,True
+Honda,Civic,RS,2015,192923,6.9,1800,Petrol,Manual,Sedan,Faisalabad,1,full,none,2522877,True
+Toyota,Corolla,XLi,2017,137417,9.2,1800,Petrol,Automatic,Sedan,Karachi,2,full,none,3514657,True
+Kia,Picanto,AT,2024,52191,5.3,1000,Petrol,Automatic,Hatchback,Faisalabad,2,full,none,4661786,True
+Suzuki,Alto,VX,2016,150343,8.4,660,Petrol,Automatic,Hatchback,Lahore,2,full,none,2322057,True
+Suzuki,Swift,DLX,2016,161912,8.5,1200,Petrol,Automatic,Hatchback,Islamabad,1,full,none,2907073,True
+Hyundai,Elantra,Ultimate,2020,68793,8.4,2000,Petrol,Automatic,Sedan,Islamabad,2,full,minor,5096671,True
+Kia,Sportage,Alpha,2023,71357,8.1,2000,Hybrid,Manual,SUV,Islamabad,3,partial,none,6324155,True
+Kia,Picanto,MT,2021,91143,7.9,1000,Petrol,Manual,Hatchback,Islamabad,1,full,none,4259413,True
+Honda,Civic,Oriel,2013,259024,8.0,1800,Petrol,Manual,Sedan,Islamabad,2,full,major,642092,True
+Suzuki,Swift,GLX CVT,2012,247047,8.7,1200,Petrol,Manual,Hatchback,Karachi,1,full,minor,734274,True
+Hyundai,Tucson,AWD,2017,173692,6.1,2000,Petrol,Automatic,SUV,Rawalpindi,2,full,minor,3396926,True
+Hyundai,Tucson,FWD,2015,206904,9.4,2000,Petrol,Automatic,SUV,Lahore,2,partial,minor,3224745,True
+Hyundai,Tucson,FWD,2013,217450,8.0,2000,Petrol,Manual,SUV,Islamabad,2,full,none,2414958,True
+Toyota,Yaris,ATIV X,2018,128699,7.1,1500,Petrol,Manual,Sedan,Rawalpindi,1,full,minor,3216779,True
+Hyundai,Tucson,FWD,2014,212216,7.4,2000,Diesel,Automatic,SUV,Rawalpindi,1,partial,none,3389705,True
+Hyundai,Elantra,GLS,2022,77212,8.6,2000,Petrol,Automatic,Sedan,Karachi,1,partial,minor,5044824,True
+Toyota,Corolla,Altis,2014,201704,8.1,1800,Petrol,Automatic,Sedan,Lahore,2,full,none,2058524,True
+Hyundai,Tucson,FWD,2021,130620,10.0,2000,Petrol,Manual,SUV,Islamabad,1,unknown,major,5239985,True
+Kia,Picanto,MT,2025,17089,8.1,1000,Petrol,Automatic,Hatchback,Islamabad,2,full,none,5998981,True
+Kia,Picanto,AT,2025,26731,6.9,1000,Hybrid,Manual,Hatchback,Karachi,1,full,minor,5628811,True
+Hyundai,Elantra,GLS,2014,204306,6.8,2000,Petrol,Automatic,Sedan,Faisalabad,3,partial,none,2269153,True
+Honda,Civic,Oriel,2021,73951,9.2,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,5383058,True
+Kia,Picanto,AT,2013,193740,6.3,1000,Petrol,Automatic,Hatchback,Faisalabad,4,unknown,minor,1099584,True
+Toyota,Corolla,GLi,2022,89847,7.6,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,none,4649792,True
+Hyundai,Tucson,AWD,2021,88089,6.6,2000,Diesel,Automatic,SUV,Islamabad,1,partial,none,5664295,True
+Hyundai,Elantra,GLS,2022,58354,10.0,2000,Petrol,Manual,Sedan,Karachi,1,full,minor,5843944,True
+Kia,Picanto,AT,2025,16706,9.8,1000,Petrol,Automatic,Hatchback,Lahore,2,full,none,6244726,True
+Kia,Sportage,FWD,2013,245325,9.4,2000,Hybrid,Automatic,SUV,Rawalpindi,2,full,none,2964989,True
+Honda,City,1.2LS,2022,68991,10.0,1500,Petrol,Automatic,Sedan,Rawalpindi,1,partial,minor,5240151,True
+Hyundai,Tucson,FWD,2020,127295,7.9,2000,Hybrid,Automatic,SUV,Islamabad,4,partial,none,4885007,True
+Suzuki,Swift,GLX CVT,2017,157871,9.9,1200,Petrol,Automatic,Hatchback,Rawalpindi,2,partial,minor,3131799,True
+Honda,City,1.2LS,2022,87363,8.2,1500,Petrol,Automatic,Sedan,Rawalpindi,1,partial,none,5229603,True
+Kia,Sportage,Alpha,2021,71065,5.9,2000,Diesel,Automatic,SUV,Karachi,1,partial,none,5318938,True
+Honda,Civic,RS,2014,189996,7.8,1800,Diesel,Automatic,Sedan,Islamabad,2,partial,none,2582833,True
+Suzuki,Alto,VX,2016,182997,6.6,660,Petrol,Manual,Hatchback,Islamabad,1,full,major,1517080,True
+Toyota,Corolla,Altis,2024,52190,6.3,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,5874159,True
+Hyundai,Elantra,Ultimate,2014,215570,7.8,2000,Petrol,Automatic,Sedan,Lahore,2,unknown,none,2431493,True
+Hyundai,Tucson,FWD,2020,100291,8.0,2000,Petrol,Automatic,SUV,Karachi,2,unknown,none,5247365,True
+Hyundai,Elantra,GLS,2017,117243,7.1,2000,Petrol,Automatic,Sedan,Islamabad,2,full,none,4101932,True
+Toyota,Yaris,ATIV X,2013,259886,8.8,1500,Petrol,Manual,Sedan,Karachi,2,partial,none,1946305,True
+Kia,Picanto,AT,2020,140103,7.3,1000,Diesel,Manual,Hatchback,Islamabad,1,partial,none,3819765,True
+Hyundai,Elantra,GLS,2013,208995,8.4,2000,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,2773672,True
+Toyota,Yaris,GLI CVT,2019,99824,6.3,1500,Petrol,Automatic,Sedan,Karachi,1,partial,none,3617205,True
+Hyundai,Tucson,FWD,2022,86705,7.2,2000,Hybrid,Automatic,SUV,Karachi,2,full,none,6186772,True
+Hyundai,Elantra,Ultimate,2020,114847,8.6,2000,Petrol,Manual,Sedan,Faisalabad,1,full,minor,4986151,True
+Kia,Picanto,AT,2023,55864,8.5,1000,Petrol,Manual,Hatchback,Islamabad,2,full,major,4278105,True
+Toyota,Corolla,Altis,2019,120110,7.5,1800,Hybrid,Manual,Sedan,Rawalpindi,1,full,none,4451293,True
+Kia,Sportage,FWD,2024,45650,7.2,2000,Petrol,Manual,SUV,Lahore,2,unknown,none,6123571,True
+Toyota,Corolla,Altis,2017,157798,9.1,1800,Petrol,Automatic,Sedan,Rawalpindi,1,partial,major,3523140,True
+Toyota,Corolla,XLi,2023,33775,6.3,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,5830047,True
+Hyundai,Elantra,Ultimate,2015,219372,8.5,2000,Petrol,Automatic,Sedan,Lahore,3,full,none,3084112,True
+Suzuki,Alto,VXR,2014,191003,9.3,660,Petrol,Manual,Hatchback,Rawalpindi,1,full,none,1608008,True
+Kia,Sportage,AWD,2021,109607,6.9,2000,Petrol,Manual,SUV,Rawalpindi,3,full,major,4409515,True
+Hyundai,Elantra,GLS,2017,149557,7.0,2000,Hybrid,Automatic,Sedan,Faisalabad,3,full,none,3365506,True
+Kia,Sportage,FWD,2020,82176,9.1,2000,Petrol,Manual,SUV,Rawalpindi,1,partial,none,5522509,True
+Suzuki,Alto,VXL AGS,2013,231027,9.6,660,Petrol,Automatic,Hatchback,Faisalabad,2,full,none,1190784,True
+Hyundai,Elantra,Ultimate,2022,47138,8.2,2000,Hybrid,Manual,Sedan,Islamabad,2,full,minor,5569608,True
+Honda,Civic,RS,2017,146702,7.8,1800,Diesel,Automatic,Sedan,Karachi,1,full,none,3914437,True
+Honda,Civic,RS,2023,55450,7.2,1800,Petrol,Automatic,Sedan,Rawalpindi,2,partial,minor,5195814,True
+Suzuki,Swift,GLX CVT,2020,77556,7.4,1200,Petrol,Manual,Hatchback,Rawalpindi,2,partial,none,3867589,True
+Kia,Picanto,AT,2021,71798,9.1,1000,Petrol,Automatic,Hatchback,Karachi,1,unknown,none,4889431,True
+Toyota,Corolla,XLi,2016,220904,8.3,1800,Petrol,Manual,Sedan,Karachi,1,unknown,none,2959833,True
+Suzuki,Swift,GLX CVT,2023,44817,7.0,1200,Petrol,Automatic,Hatchback,Lahore,3,full,none,4901718,True
+Hyundai,Tucson,AWD,2016,153740,5.5,2000,Petrol,Automatic,SUV,Lahore,1,unknown,minor,3507210,True
+Suzuki,Swift,GLX CVT,2014,208168,7.3,1200,Petrol,Manual,Hatchback,Lahore,3,partial,none,1824958,True
+Suzuki,Alto,VXR,2016,185203,7.2,660,Petrol,Automatic,Hatchback,Islamabad,1,full,major,1744633,True
+Toyota,Corolla,GLi,2019,131077,4.9,1800,Hybrid,Manual,Sedan,Faisalabad,4,full,minor,3145057,True
+Kia,Sportage,AWD,2023,95873,8.9,2000,Petrol,Automatic,SUV,Karachi,1,partial,none,6176877,True
+Honda,City,1.5 Aspire,2013,222625,9.3,1500,Petrol,Automatic,Sedan,Islamabad,1,full,minor,2350056,True
+Hyundai,Elantra,Ultimate,2017,149076,6.7,2000,Petrol,Automatic,Sedan,Rawalpindi,1,unknown,none,3353450,True
+Suzuki,Swift,GLX CVT,2016,216293,7.5,1200,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,2485947,True
+Hyundai,Elantra,GLS,2014,177928,8.2,2000,Hybrid,Automatic,Sedan,Karachi,3,partial,none,3689461,True
+Suzuki,Swift,DLX,2020,85338,8.2,1200,Hybrid,Manual,Hatchback,Rawalpindi,1,full,minor,4327560,True
+Hyundai,Elantra,GLS,2024,25279,8.7,2000,Diesel,Automatic,Sedan,Rawalpindi,1,partial,none,6606355,True
+Honda,Civic,VTi,2024,26147,10.0,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,none,6860285,True
+Suzuki,Alto,VXR,2014,210646,7.2,660,Petrol,Automatic,Hatchback,Islamabad,1,full,none,1123251,True
+Suzuki,Alto,VXR,2016,138485,7.3,660,Petrol,Automatic,Hatchback,Lahore,2,partial,none,2504636,True
+Suzuki,Swift,GLX CVT,2013,265792,6.7,1200,Petrol,Manual,Hatchback,Islamabad,1,full,none,450000,True
+Toyota,Corolla,XLi,2020,110099,8.6,1800,Hybrid,Automatic,Sedan,Faisalabad,3,partial,minor,4157564,True
+Toyota,Corolla,XLi,2019,145884,6.7,1800,Petrol,Automatic,Sedan,Faisalabad,2,unknown,none,3809381,True
+Toyota,Corolla,XLi,2025,8570,6.1,1800,Petrol,Manual,Sedan,Karachi,1,partial,none,5863201,True
+Honda,Civic,VTi,2024,37888,6.9,1800,Petrol,Automatic,Sedan,Karachi,1,partial,minor,5493883,True
+Kia,Sportage,AWD,2015,204674,8.8,2000,Petrol,Automatic,SUV,Islamabad,3,full,none,3507115,True
+Kia,Sportage,Alpha,2025,4727,7.6,2000,Petrol,Manual,SUV,Islamabad,1,partial,none,7022722,True
+Honda,City,1.5 Aspire,2023,37602,7.1,1500,Diesel,Manual,Sedan,Islamabad,4,full,none,5315755,True
+Hyundai,Elantra,GLS,2019,110404,7.9,2000,Petrol,Manual,Sedan,Islamabad,1,full,none,4114348,True
+Hyundai,Elantra,Ultimate,2016,198939,7.7,2000,Hybrid,Automatic,Sedan,Rawalpindi,3,full,none,2970597,True
+Kia,Sportage,Alpha,2014,200037,6.3,2000,Diesel,Automatic,SUV,Lahore,1,unknown,none,2925364,True
+Hyundai,Elantra,GLS,2025,0,8.4,2000,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,6602569,True
+Hyundai,Tucson,AWD,2014,219702,7.9,2000,Petrol,Automatic,SUV,Lahore,1,partial,minor,2789886,True
+Toyota,Corolla,GLi,2021,85540,7.2,1800,Petrol,Manual,Sedan,Karachi,2,full,none,4668296,True
+Kia,Picanto,AT,2024,56342,8.8,1000,Diesel,Manual,Hatchback,Rawalpindi,3,full,none,5004114,True
+Hyundai,Tucson,FWD,2012,263716,9.4,2000,Petrol,Automatic,SUV,Lahore,1,full,minor,2619841,True
+Kia,Picanto,AT,2020,125121,8.7,1000,Petrol,Automatic,Hatchback,Rawalpindi,2,full,major,3420888,True
+Toyota,Corolla,XLi,2025,0,9.4,1800,Petrol,Automatic,Sedan,Islamabad,1,full,major,6668739,True
+Honda,City,1.2LS,2023,58678,8.7,1500,Petrol,Manual,Sedan,Islamabad,1,partial,none,5516949,True
+Hyundai,Tucson,FWD,2023,50251,7.8,2000,Petrol,Automatic,SUV,Islamabad,2,partial,none,6239423,True
+Suzuki,Alto,VXL AGS,2016,198248,7.0,660,Petrol,Automatic,Hatchback,Karachi,3,full,none,2414394,True
+Kia,Picanto,MT,2021,89646,7.3,1000,Hybrid,Manual,Hatchback,Islamabad,1,partial,none,4368260,True
+Suzuki,Swift,GLX CVT,2022,77886,7.0,1200,Petrol,Automatic,Hatchback,Rawalpindi,2,full,minor,4328949,True
+Kia,Sportage,AWD,2019,136623,10.0,2000,Petrol,Automatic,SUV,Faisalabad,3,unknown,minor,4389917,True
+Honda,City,1.5 Aspire,2014,209742,7.9,1500,Petrol,Automatic,Sedan,Rawalpindi,1,partial,none,2750691,True
+Hyundai,Tucson,AWD,2022,86612,9.3,2000,Petrol,Manual,SUV,Lahore,1,full,minor,5767979,True
+Toyota,Corolla,XLi,2016,172926,8.4,1800,Hybrid,Automatic,Sedan,Lahore,2,full,minor,3269630,True
+Toyota,Corolla,GLi,2021,88062,8.2,1800,Diesel,Automatic,Sedan,Karachi,1,partial,minor,4984146,True
+Toyota,Yaris,ATIV X,2013,224855,7.8,1500,Hybrid,Manual,Sedan,Faisalabad,2,partial,minor,1203583,True
+Honda,Civic,VTi,2014,219224,8.7,1800,Petrol,Automatic,Sedan,Karachi,1,full,major,2144359,True
+Suzuki,Alto,VXR,2019,138568,7.3,660,Petrol,Automatic,Hatchback,Faisalabad,1,partial,minor,2940103,True
+Honda,City,1.5 Aspire,2016,162038,6.4,1500,Hybrid,Automatic,Sedan,Faisalabad,3,unknown,none,2094839,True
+Suzuki,Swift,DLX,2025,48976,7.8,1200,Hybrid,Manual,Hatchback,Rawalpindi,2,unknown,minor,5217855,True
+Toyota,Yaris,GLI CVT,2025,21853,6.4,1500,Petrol,Automatic,Sedan,Islamabad,2,unknown,minor,5484003,True
+Suzuki,Swift,GLX CVT,2019,105723,7.1,1200,Petrol,Manual,Hatchback,Rawalpindi,2,full,none,3260636,True
+Suzuki,Alto,VX,2014,216070,9.7,660,Petrol,Automatic,Hatchback,Lahore,3,partial,minor,1542373,True
+Suzuki,Alto,VXL AGS,2021,93976,8.8,660,Petrol,Automatic,Hatchback,Lahore,1,full,minor,3959749,True
+Toyota,Corolla,Altis,2022,62109,7.2,1800,Petrol,Automatic,Sedan,Islamabad,2,full,none,5369269,True
+Suzuki,Alto,VXL AGS,2013,241758,9.3,660,Petrol,Automatic,Hatchback,Rawalpindi,1,partial,none,931521,True
+Suzuki,Swift,GLX CVT,2018,168240,9.5,1200,Petrol,Automatic,Hatchback,Islamabad,2,full,none,3639541,True
+Honda,City,1.2LS,2017,170845,6.3,1500,Petrol,Automatic,Sedan,Islamabad,4,full,none,2752086,True
+Hyundai,Tucson,FWD,2013,228484,7.7,2000,Diesel,Automatic,SUV,Islamabad,4,unknown,major,1849482,True
+Suzuki,Swift,GLX CVT,2018,138506,7.5,1200,Hybrid,Manual,Hatchback,Lahore,1,full,major,2694953,True
+Honda,Civic,Oriel,2023,44227,7.7,1800,Petrol,Manual,Sedan,Lahore,1,unknown,none,5221750,True
+Suzuki,Swift,GLX CVT,2018,160528,8.6,1200,Diesel,Automatic,Hatchback,Lahore,2,unknown,none,3245485,True
+Honda,Civic,VTi,2015,206275,9.0,1800,Petrol,Automatic,Sedan,Karachi,4,unknown,none,2655624,True
+Hyundai,Elantra,GLS,2013,213940,7.3,2000,Petrol,Automatic,Sedan,Faisalabad,3,partial,none,2335105,True
+Toyota,Corolla,GLi,2013,234510,9.2,1800,Petrol,Manual,Sedan,Islamabad,2,partial,none,2166119,True
+Honda,Civic,VTi,2019,115655,8.7,1800,Petrol,Automatic,Sedan,Faisalabad,2,full,none,4186448,True
+Hyundai,Tucson,FWD,2015,219144,6.2,2000,Petrol,Automatic,SUV,Karachi,2,partial,none,3083267,True
+Hyundai,Elantra,GLS,2025,48840,8.1,2000,Petrol,Automatic,Sedan,Lahore,1,full,none,6477096,True
+Suzuki,Alto,VXR,2022,86180,8.5,660,Petrol,Automatic,Hatchback,Rawalpindi,1,partial,none,4411317,True
+Hyundai,Tucson,FWD,2012,228969,4.6,2000,Petrol,Automatic,SUV,Lahore,3,full,none,2232176,True
+Hyundai,Tucson,FWD,2024,25890,7.9,2000,Petrol,Automatic,SUV,Lahore,2,full,none,6996775,True
+Hyundai,Tucson,FWD,2019,128401,7.0,2000,Petrol,Manual,SUV,Karachi,2,full,minor,4221541,True
+Honda,City,1.2LS,2013,209700,8.7,1500,Petrol,Automatic,Sedan,Rawalpindi,2,full,major,1328853,True
+Kia,Picanto,MT,2018,154631,7.7,1000,Petrol,Manual,Hatchback,Rawalpindi,1,full,none,2758716,True
+Hyundai,Tucson,AWD,2023,41303,6.2,2000,Petrol,Manual,SUV,Lahore,1,full,minor,5850399,True
+Hyundai,Elantra,GLS,2018,147884,9.1,2000,Petrol,Manual,Sedan,Rawalpindi,1,full,none,3541213,True
+Hyundai,Tucson,AWD,2012,267198,6.6,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,none,1939481,True
+Kia,Picanto,MT,2019,121504,6.6,1000,Petrol,Automatic,Hatchback,Rawalpindi,1,full,none,3500042,True
+Kia,Sportage,FWD,2022,54317,8.5,2000,Petrol,Automatic,SUV,Islamabad,1,full,none,6268139,True
+Kia,Sportage,AWD,2022,75712,6.9,2000,Hybrid,Automatic,SUV,Lahore,3,partial,none,6088619,True
+Suzuki,Swift,DLX,2021,97325,9.6,1200,Petrol,Automatic,Hatchback,Lahore,1,partial,none,4928400,True
+Honda,Civic,VTi,2017,161400,8.6,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,none,3480797,True
+Toyota,Corolla,GLi,2016,211529,7.7,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,none,2663016,True
+Hyundai,Tucson,FWD,2013,209348,8.1,2000,Hybrid,Manual,SUV,Faisalabad,1,full,none,2517791,True
+Suzuki,Alto,VXL AGS,2016,172075,5.8,660,Petrol,Automatic,Hatchback,Lahore,2,full,none,1506485,True
+Toyota,Corolla,GLi,2017,168966,7.6,1800,Petrol,Automatic,Sedan,Rawalpindi,1,partial,none,3192719,True
+Hyundai,Elantra,GLS,2024,0,9.0,2000,Hybrid,Automatic,Sedan,Faisalabad,2,full,none,7274104,True
+Toyota,Corolla,GLi,2017,164037,6.1,1800,Petrol,Automatic,Sedan,Karachi,2,partial,minor,3347874,True
+Kia,Picanto,AT,2018,165065,6.6,1000,Hybrid,Automatic,Hatchback,Islamabad,3,full,none,3186347,True
+Hyundai,Elantra,Ultimate,2023,40607,6.6,2000,Petrol,Automatic,Sedan,Islamabad,1,full,none,6009354,True
+Honda,City,1.2LS,2013,218467,7.7,1500,Petrol,Automatic,Sedan,Karachi,1,partial,none,2272743,True
+Kia,Sportage,AWD,2012,223348,8.3,2000,Petrol,Manual,SUV,Karachi,1,partial,none,2601493,True
+Honda,Civic,Oriel,2016,173207,9.9,1800,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,3572078,True
+Toyota,Corolla,Altis,2018,128710,8.0,1800,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,4116300,True
+Kia,Picanto,AT,2021,71110,7.8,1000,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,4346174,True
+Kia,Sportage,AWD,2015,199903,7.5,2000,Petrol,Automatic,SUV,Karachi,2,full,none,3303847,True
+Toyota,Corolla,XLi,2017,156101,8.9,1800,Petrol,Manual,Sedan,Lahore,1,partial,none,3322404,True
+Hyundai,Elantra,GLS,2020,99947,6.4,2000,Petrol,Automatic,Sedan,Faisalabad,1,full,none,4569540,True
+Kia,Sportage,Alpha,2020,88050,6.3,2000,Petrol,Manual,SUV,Islamabad,1,partial,none,5131637,True
+Toyota,Yaris,ATIV X,2022,62393,8.4,1500,Petrol,Automatic,Sedan,Islamabad,2,full,none,5543916,True
+Kia,Sportage,AWD,2020,115603,9.1,2000,Hybrid,Manual,SUV,Faisalabad,1,full,minor,5454494,True
+Hyundai,Elantra,Ultimate,2018,107815,6.6,2000,Diesel,Manual,Sedan,Lahore,1,unknown,none,3925548,True
+Toyota,Corolla,Altis,2014,213481,8.5,1800,Petrol,Manual,Sedan,Rawalpindi,2,full,major,2094247,True
+Toyota,Yaris,GLI CVT,2018,129258,8.5,1500,Diesel,Automatic,Sedan,Karachi,1,partial,none,4017020,True
+Kia,Picanto,MT,2016,198684,8.3,1000,Petrol,Automatic,Hatchback,Rawalpindi,2,unknown,none,2058912,True
+Kia,Sportage,FWD,2021,85707,7.4,2000,Petrol,Manual,SUV,Lahore,1,unknown,minor,5112098,True
+Hyundai,Tucson,FWD,2012,269592,5.0,2000,Petrol,Automatic,SUV,Lahore,1,unknown,none,1372547,True
+Suzuki,Alto,VXL AGS,2025,3105,7.4,660,Petrol,Automatic,Hatchback,Islamabad,1,partial,minor,5515784,True
+Suzuki,Swift,DLX,2021,57617,7.7,1200,Hybrid,Automatic,Hatchback,Islamabad,4,partial,none,4753684,True
+Kia,Picanto,MT,2023,65146,9.6,1000,Petrol,Manual,Hatchback,Karachi,2,full,minor,5145580,True
+Hyundai,Elantra,GLS,2020,141362,8.2,2000,Petrol,Automatic,Sedan,Islamabad,4,full,none,4549529,True
+Toyota,Corolla,GLi,2017,134125,9.0,1800,Petrol,Manual,Sedan,Islamabad,2,partial,none,3479556,True
+Suzuki,Alto,VX,2019,130825,7.7,660,Petrol,Automatic,Hatchback,Faisalabad,1,full,minor,3325571,True
+Hyundai,Elantra,GLS,2022,54965,7.7,2000,Petrol,Manual,Sedan,Faisalabad,1,full,none,5187013,True
+Honda,City,1.2LS,2025,0,4.4,1500,Petrol,Automatic,Sedan,Islamabad,2,unknown,none,5458113,True
+Suzuki,Swift,GLX CVT,2016,156902,8.8,1200,Petrol,Automatic,Hatchback,Karachi,3,full,none,3174665,True
+Hyundai,Tucson,FWD,2018,146536,8.3,2000,Petrol,Manual,SUV,Lahore,4,full,none,4470441,True
+Toyota,Corolla,GLi,2018,157342,8.4,1800,Petrol,Manual,Sedan,Islamabad,1,full,major,2819989,True
+Suzuki,Alto,VX,2024,20351,7.0,660,Petrol,Automatic,Hatchback,Karachi,1,full,none,5383004,True
+Honda,Civic,Oriel,2012,246604,7.3,1800,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,1521891,True
+Hyundai,Elantra,GLS,2019,102100,9.2,2000,Hybrid,Automatic,Sedan,Islamabad,2,partial,none,5067245,True
+Toyota,Corolla,Altis,2024,31488,9.2,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,none,6241360,True
+Toyota,Corolla,XLi,2016,161378,7.1,1800,Petrol,Automatic,Sedan,Faisalabad,3,partial,none,2960221,True
+Toyota,Corolla,XLi,2015,212409,5.5,1800,Hybrid,Automatic,Sedan,Lahore,4,partial,none,2587839,True
+Honda,City,1.5 Aspire,2021,77544,5.6,1500,Petrol,Manual,Sedan,Islamabad,1,full,none,4335134,True
+Toyota,Corolla,Altis,2015,201319,7.0,1800,Petrol,Automatic,Sedan,Islamabad,3,full,none,2188083,True
+Toyota,Yaris,GLI CVT,2013,219641,9.0,1500,Petrol,Automatic,Sedan,Faisalabad,3,full,major,1818835,True
+Suzuki,Alto,VXR,2025,30364,7.1,660,Petrol,Automatic,Hatchback,Karachi,1,partial,none,5274292,True
+Toyota,Yaris,GLI CVT,2016,163358,8.1,1500,Petrol,Manual,Sedan,Faisalabad,4,unknown,minor,2042488,True
+Honda,Civic,VTi,2020,112014,7.0,1800,Petrol,Automatic,Sedan,Lahore,3,partial,none,4091911,True
+Suzuki,Alto,VXR,2015,228296,8.5,660,Hybrid,Automatic,Hatchback,Faisalabad,3,full,none,1878953,True
+Kia,Picanto,AT,2019,120357,7.1,1000,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,3526998,True
+Kia,Sportage,Alpha,2015,213592,7.0,2000,Petrol,Manual,SUV,Rawalpindi,3,partial,major,2209643,True
+Toyota,Yaris,ATIV X,2020,104980,6.9,1500,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,4439086,True
+Suzuki,Swift,DLX,2014,202794,8.1,1200,Petrol,Automatic,Hatchback,Islamabad,3,full,none,1798223,True
+Toyota,Yaris,GLI CVT,2020,104354,8.0,1500,Petrol,Manual,Sedan,Islamabad,1,partial,none,4201249,True
+Kia,Picanto,MT,2024,25765,9.9,1000,Hybrid,Automatic,Hatchback,Rawalpindi,3,partial,none,6382854,True
+Hyundai,Elantra,GLS,2023,51018,7.8,2000,Petrol,Automatic,Sedan,Rawalpindi,2,full,minor,5542378,True
+Honda,City,1.5 Aspire,2015,165339,8.7,1500,Petrol,Manual,Sedan,Lahore,1,partial,none,2658302,True
+Hyundai,Tucson,AWD,2017,172184,6.5,2000,Petrol,Manual,SUV,Islamabad,2,partial,minor,3188730,True
+Hyundai,Tucson,FWD,2018,160384,8.3,2000,Petrol,Manual,SUV,Rawalpindi,2,full,none,4199879,True
+Kia,Picanto,MT,2014,246266,8.6,1000,Petrol,Manual,Hatchback,Islamabad,2,full,none,1712577,True
+Honda,City,1.5 Aspire,2018,148809,8.3,1500,Petrol,Automatic,Sedan,Karachi,1,unknown,none,3252910,True
+Hyundai,Elantra,Ultimate,2021,120907,8.4,2000,Petrol,Manual,Sedan,Lahore,1,partial,none,5053114,True
+Suzuki,Swift,GLX CVT,2019,99872,6.9,1200,Petrol,Automatic,Hatchback,Rawalpindi,1,partial,minor,3751698,True
+Hyundai,Elantra,GLS,2021,58612,7.7,2000,Hybrid,Manual,Sedan,Faisalabad,1,partial,none,5119342,True
+Honda,City,1.5 Aspire,2022,96091,6.9,1500,Petrol,Manual,Sedan,Rawalpindi,1,partial,none,4521581,True
+Suzuki,Swift,GLX CVT,2014,194684,7.8,1200,Petrol,Manual,Hatchback,Rawalpindi,1,partial,minor,1922058,True
+Toyota,Yaris,GLI CVT,2023,67899,7.3,1500,Petrol,Automatic,Sedan,Karachi,1,partial,minor,5012760,True
+Honda,Civic,VTi,2021,92658,8.6,1800,Petrol,Automatic,Sedan,Karachi,2,full,none,5223439,True
+Honda,Civic,RS,2012,269334,6.9,1800,Petrol,Manual,Sedan,Faisalabad,2,partial,minor,827087,True
+Toyota,Corolla,GLi,2024,41514,8.1,1800,Hybrid,Manual,Sedan,Karachi,1,unknown,none,6237421,True
+Toyota,Corolla,XLi,2024,49589,6.3,1800,Petrol,Manual,Sedan,Faisalabad,1,full,none,5538973,True
+Hyundai,Elantra,GLS,2015,219674,8.6,2000,Petrol,Automatic,Sedan,Karachi,1,full,none,2666838,True
+Kia,Picanto,MT,2013,247929,7.0,1000,Petrol,Automatic,Hatchback,Karachi,2,partial,major,450000,True
+Suzuki,Swift,DLX,2017,170030,8.7,1200,Petrol,Automatic,Hatchback,Rawalpindi,1,full,minor,3224075,True
+Kia,Sportage,AWD,2021,89171,7.6,2000,Petrol,Automatic,SUV,Karachi,1,partial,minor,5512512,True
+Suzuki,Alto,VX,2018,150411,7.9,660,Hybrid,Automatic,Hatchback,Rawalpindi,2,full,none,3161893,True
+Toyota,Yaris,ATIV X,2024,70488,8.1,1500,Petrol,Manual,Sedan,Faisalabad,1,unknown,major,4523161,True
+Hyundai,Tucson,FWD,2019,113951,7.5,2000,Petrol,Automatic,SUV,Karachi,2,full,none,5182163,True
+Kia,Sportage,Alpha,2020,133504,8.7,2000,Petrol,Automatic,SUV,Lahore,1,partial,none,5239631,True
+Hyundai,Elantra,Ultimate,2018,141568,6.8,2000,Petrol,Automatic,Sedan,Rawalpindi,2,partial,minor,3928043,True
+Hyundai,Tucson,FWD,2024,48657,7.2,2000,Petrol,Automatic,SUV,Lahore,1,full,none,6584792,True
+Honda,City,1.2LS,2014,211701,7.9,1500,Hybrid,Automatic,Sedan,Islamabad,1,unknown,major,1442756,True
+Suzuki,Swift,GLX CVT,2016,164836,6.6,1200,Petrol,Manual,Hatchback,Karachi,1,partial,none,2370284,True
+Suzuki,Swift,GLX CVT,2023,93764,8.9,1200,Petrol,Manual,Hatchback,Rawalpindi,1,partial,none,4755887,True
+Honda,City,1.5 Aspire,2022,80157,8.5,1500,Petrol,Automatic,Sedan,Lahore,1,partial,none,4887829,True
+Toyota,Corolla,GLi,2014,230336,8.2,1800,Petrol,Automatic,Sedan,Rawalpindi,2,partial,minor,1419549,True
+Toyota,Corolla,Altis,2021,92760,6.7,1800,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,4864182,True
+Hyundai,Tucson,AWD,2023,71743,7.1,2000,Petrol,Manual,SUV,Rawalpindi,1,unknown,none,5616156,True
+Honda,Civic,VTi,2023,66459,9.6,1800,Petrol,Automatic,Sedan,Rawalpindi,1,unknown,none,5806187,True
+Toyota,Yaris,GLI CVT,2017,165662,8.7,1500,Petrol,Automatic,Sedan,Karachi,1,partial,none,3405392,True
+Toyota,Corolla,XLi,2020,112534,6.7,1800,Petrol,Automatic,Sedan,Islamabad,3,full,none,4116106,True
+Suzuki,Alto,VXR,2022,99449,6.5,660,Diesel,Automatic,Hatchback,Karachi,1,unknown,none,3903173,True
+Honda,Civic,RS,2013,243909,7.1,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,minor,1588007,True
+Suzuki,Alto,VXL AGS,2017,160795,10.0,660,Petrol,Automatic,Hatchback,Lahore,2,full,none,3202831,True
+Hyundai,Tucson,FWD,2023,35556,8.9,2000,Petrol,Automatic,SUV,Faisalabad,2,partial,none,6831693,True
+Kia,Picanto,MT,2019,143699,9.1,1000,Petrol,Manual,Hatchback,Lahore,2,partial,none,3397626,True
+Toyota,Corolla,GLi,2018,145299,7.0,1800,Petrol,Automatic,Sedan,Karachi,2,unknown,none,3527131,True
+Honda,Civic,RS,2017,146465,6.4,1800,Petrol,Automatic,Sedan,Faisalabad,4,full,none,3405612,True
+Suzuki,Alto,VX,2013,221051,9.2,660,Petrol,Automatic,Hatchback,Faisalabad,1,unknown,major,823729,True
+Kia,Sportage,FWD,2018,144067,7.3,2000,Petrol,Automatic,SUV,Faisalabad,2,partial,none,4712419,True
+Hyundai,Tucson,FWD,2025,50113,7.0,2000,Petrol,Automatic,SUV,Faisalabad,1,partial,minor,6392591,True
+Kia,Sportage,FWD,2025,21385,7.4,2000,Hybrid,Automatic,SUV,Rawalpindi,1,partial,none,7088684,True
+Honda,Civic,VTi,2025,104,7.9,1800,Diesel,Automatic,Sedan,Lahore,4,full,none,6804763,True
+Hyundai,Elantra,Ultimate,2016,178156,7.5,2000,Hybrid,Automatic,Sedan,Lahore,1,partial,minor,3626676,True
+Suzuki,Swift,DLX,2021,108030,9.2,1200,Petrol,Manual,Hatchback,Lahore,3,full,none,4404843,True
+Honda,City,1.5 Aspire,2022,65441,9.3,1500,Petrol,Automatic,Sedan,Lahore,3,full,none,5228075,True
+Hyundai,Elantra,Ultimate,2015,211059,8.0,2000,Petrol,Automatic,Sedan,Lahore,2,full,none,2350468,True
+Hyundai,Tucson,AWD,2017,135799,8.4,2000,Petrol,Automatic,SUV,Faisalabad,1,partial,major,3954827,True
+Toyota,Corolla,GLi,2019,154037,7.8,1800,Petrol,Manual,Sedan,Islamabad,1,unknown,minor,3730698,True
+Kia,Picanto,MT,2020,104681,8.6,1000,Hybrid,Automatic,Hatchback,Lahore,4,unknown,none,3893879,True
+Honda,Civic,RS,2019,128878,7.2,1800,Petrol,Manual,Sedan,Lahore,1,full,minor,4121431,True
+Kia,Sportage,FWD,2022,82700,8.8,2000,Diesel,Automatic,SUV,Islamabad,2,full,none,6190386,True
+Kia,Picanto,MT,2023,81079,9.1,1000,Petrol,Manual,Hatchback,Islamabad,3,full,none,4717877,True
+Kia,Picanto,MT,2020,100088,7.8,1000,Hybrid,Automatic,Hatchback,Karachi,3,partial,major,3977988,True
+Honda,Civic,RS,2023,50900,9.5,1800,Petrol,Automatic,Sedan,Faisalabad,2,partial,none,6166945,True
+Hyundai,Tucson,FWD,2021,136236,7.8,2000,Petrol,Automatic,SUV,Rawalpindi,1,partial,none,5356164,True
+Suzuki,Alto,VX,2016,197482,7.9,660,Diesel,Automatic,Hatchback,Karachi,2,full,none,1674747,True
+Toyota,Yaris,ATIV X,2020,90714,7.7,1500,Petrol,Manual,Sedan,Rawalpindi,1,partial,none,4225019,True
+Kia,Picanto,AT,2021,91729,7.9,1000,Petrol,Manual,Hatchback,Lahore,1,partial,none,3856545,True
+Honda,City,1.5 Aspire,2014,202720,6.8,1500,Petrol,Manual,Sedan,Rawalpindi,2,partial,major,1557948,True
+Toyota,Yaris,ATIV X,2024,32995,8.3,1500,Petrol,Automatic,Sedan,Karachi,1,full,minor,5664424,True
+Hyundai,Elantra,Ultimate,2019,127646,3.6,2000,Hybrid,Automatic,Sedan,Rawalpindi,1,full,minor,3899259,True
+Hyundai,Tucson,FWD,2023,32550,5.5,2000,Diesel,Automatic,SUV,Faisalabad,1,full,none,6184621,True
+Honda,Civic,Oriel,2025,0,8.5,1800,Petrol,Automatic,Sedan,Lahore,1,full,minor,6778661,True
+Kia,Sportage,FWD,2016,165962,7.9,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,major,3387348,True
+Hyundai,Tucson,FWD,2017,157702,9.1,2000,Petrol,Manual,SUV,Islamabad,3,full,none,4543878,True
+Hyundai,Elantra,GLS,2020,97642,7.7,2000,Petrol,Automatic,Sedan,Lahore,2,full,none,4684189,True
+Kia,Picanto,MT,2019,154577,7.1,1000,Petrol,Automatic,Hatchback,Karachi,1,unknown,none,3194387,True
+Toyota,Corolla,GLi,2018,142522,5.2,1800,Petrol,Manual,Sedan,Rawalpindi,4,unknown,none,2490368,True
+Honda,City,1.5 Aspire,2020,108758,7.5,1500,Hybrid,Manual,Sedan,Karachi,2,full,none,4487228,True
+Honda,Civic,RS,2025,0,10.0,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,7208710,True
+Suzuki,Alto,VXR,2023,42520,7.8,660,Petrol,Automatic,Hatchback,Karachi,2,full,none,5147304,True
+Kia,Sportage,Alpha,2013,237393,8.0,2000,Diesel,Automatic,SUV,Rawalpindi,1,full,minor,2611127,True
+Honda,Civic,Oriel,2018,139634,6.4,1800,Petrol,Manual,Sedan,Islamabad,1,unknown,minor,3335333,True
+Toyota,Corolla,XLi,2012,280165,8.4,1800,Petrol,Automatic,Sedan,Faisalabad,1,full,major,1133035,True
+Toyota,Corolla,GLi,2017,169656,7.7,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,3742922,True
+Toyota,Corolla,Altis,2023,49819,7.6,1800,Diesel,Automatic,Sedan,Lahore,1,full,none,5713906,True
+Hyundai,Elantra,GLS,2012,241631,8.7,2000,Petrol,Automatic,Sedan,Faisalabad,4,unknown,none,1419234,True
+Hyundai,Elantra,Ultimate,2018,100067,7.4,2000,Hybrid,Manual,Sedan,Islamabad,2,full,none,4497402,True
+Hyundai,Tucson,FWD,2014,189376,6.5,2000,Petrol,Automatic,SUV,Faisalabad,1,full,none,3379857,True
+Toyota,Yaris,ATIV X,2016,189059,7.0,1500,Petrol,Manual,Sedan,Lahore,1,full,none,3107055,True
+Suzuki,Alto,VXL AGS,2015,170477,8.6,660,Petrol,Automatic,Hatchback,Faisalabad,4,full,major,1226836,True
+Suzuki,Alto,VXR,2021,75448,10.0,660,Petrol,Manual,Hatchback,Islamabad,1,unknown,none,3902197,True
+Kia,Sportage,AWD,2023,42370,6.7,2000,Petrol,Automatic,SUV,Faisalabad,2,partial,none,5830783,True
+Kia,Picanto,MT,2019,129320,9.7,1000,Petrol,Automatic,Hatchback,Karachi,1,full,minor,3820228,True
+Honda,City,1.2LS,2016,161719,8.2,1500,Petrol,Automatic,Sedan,Karachi,1,full,none,3254594,True
+Hyundai,Elantra,GLS,2023,54007,7.6,2000,Petrol,Automatic,Sedan,Karachi,3,partial,none,5749723,True
+Honda,Civic,VTi,2024,43520,9.3,1800,Petrol,Automatic,Sedan,Lahore,1,partial,minor,6195680,True
+Suzuki,Swift,GLX CVT,2014,216876,9.3,1200,Petrol,Automatic,Hatchback,Karachi,3,full,none,2150330,True
+Honda,Civic,VTi,2018,135478,7.0,1800,Petrol,Automatic,Sedan,Rawalpindi,2,partial,minor,3543889,True
+Toyota,Corolla,XLi,2016,164458,9.1,1800,Petrol,Automatic,Sedan,Karachi,3,partial,none,3186318,True
+Honda,City,1.5 Aspire,2017,146094,8.5,1500,Petrol,Automatic,Sedan,Islamabad,3,partial,none,3736981,True
+Honda,Civic,Oriel,2014,193759,9.0,1800,Hybrid,Automatic,Sedan,Karachi,1,full,minor,3395409,True
+Hyundai,Tucson,AWD,2019,134429,6.2,2000,Petrol,Automatic,SUV,Islamabad,1,unknown,major,4061825,True
+Kia,Picanto,AT,2020,95317,7.6,1000,Petrol,Automatic,Hatchback,Faisalabad,2,partial,minor,3596988,True
+Toyota,Yaris,ATIV X,2014,217357,8.2,1500,Petrol,Automatic,Sedan,Lahore,1,full,minor,1628103,True
+Hyundai,Elantra,GLS,2025,22744,9.8,2000,Petrol,Automatic,Sedan,Lahore,1,full,major,6475313,True
+Toyota,Yaris,GLI CVT,2012,226688,8.2,1500,Petrol,Manual,Sedan,Rawalpindi,1,full,minor,1218316,True
+Suzuki,Swift,GLX CVT,2023,37626,9.6,1200,Petrol,Manual,Hatchback,Lahore,1,partial,none,5673583,True
+Hyundai,Tucson,AWD,2021,105292,5.9,2000,Petrol,Manual,SUV,Karachi,2,unknown,none,4845275,True
+Kia,Sportage,Alpha,2018,156058,9.6,2000,Petrol,Automatic,SUV,Rawalpindi,1,partial,none,4961190,True
+Hyundai,Elantra,Ultimate,2013,239842,8.7,2000,Petrol,Manual,Sedan,Lahore,1,full,none,2110283,True
+Suzuki,Alto,VXL AGS,2015,195020,7.6,660,Petrol,Automatic,Hatchback,Faisalabad,1,unknown,none,2222150,True
+Suzuki,Swift,GLX CVT,2020,116547,8.5,1200,Petrol,Automatic,Hatchback,Karachi,1,unknown,none,4280269,True
+Honda,Civic,RS,2024,18349,8.9,1800,Hybrid,Manual,Sedan,Lahore,2,full,none,6544837,True
+Honda,Civic,RS,2020,120461,9.4,1800,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,4546029,True
+Hyundai,Elantra,Ultimate,2015,204323,9.4,2000,Petrol,Manual,Sedan,Rawalpindi,1,full,minor,3167730,True
+Toyota,Yaris,GLI CVT,2019,102215,6.7,1500,Petrol,Manual,Sedan,Islamabad,1,full,minor,4089830,True
+Hyundai,Tucson,AWD,2022,109922,6.5,2000,Diesel,Automatic,SUV,Islamabad,3,full,minor,5105451,True
+Kia,Picanto,AT,2013,246467,7.2,1000,Petrol,Automatic,Hatchback,Karachi,2,partial,minor,1045813,True
+Kia,Sportage,Alpha,2025,31788,8.5,2000,Petrol,Automatic,SUV,Lahore,1,full,none,7051335,True
+Hyundai,Elantra,GLS,2014,185848,7.5,2000,Hybrid,Automatic,Sedan,Lahore,1,full,none,2739974,True
+Honda,City,1.2LS,2016,158322,8.2,1500,Diesel,Manual,Sedan,Lahore,1,full,none,3426367,True
+Hyundai,Tucson,FWD,2012,245372,7.9,2000,Petrol,Automatic,SUV,Islamabad,2,full,none,2589986,True
+Suzuki,Swift,GLX CVT,2020,116511,10.0,1200,Petrol,Manual,Hatchback,Rawalpindi,1,partial,none,4178717,True
+Honda,City,1.5 Aspire,2023,63952,5.8,1500,Petrol,Automatic,Sedan,Lahore,1,partial,none,4932419,True
+Suzuki,Alto,VX,2019,145371,7.2,660,Petrol,Automatic,Hatchback,Rawalpindi,1,partial,major,2294562,True
+Kia,Sportage,Alpha,2015,178051,7.8,2000,Petrol,Automatic,SUV,Faisalabad,1,full,major,2600511,True
+Kia,Sportage,FWD,2025,7994,8.6,2000,Petrol,Automatic,SUV,Karachi,2,partial,none,7218523,True
+Kia,Picanto,MT,2014,234024,6.7,1000,Petrol,Manual,Hatchback,Rawalpindi,1,partial,none,1193279,True
+Suzuki,Alto,VX,2024,40064,7.4,660,Petrol,Automatic,Hatchback,Karachi,1,partial,major,4515298,True
+Toyota,Yaris,ATIV X,2015,206170,8.0,1500,Petrol,Manual,Sedan,Rawalpindi,4,full,minor,2086970,True
+Hyundai,Elantra,Ultimate,2024,38396,8.8,2000,Hybrid,Manual,Sedan,Rawalpindi,2,full,minor,6589211,True
+Kia,Picanto,AT,2014,221224,10.0,1000,Petrol,Automatic,Hatchback,Lahore,2,full,none,1582312,True
+Hyundai,Elantra,Ultimate,2023,71977,10.0,2000,Petrol,Automatic,Sedan,Karachi,2,full,none,5934419,True
+Suzuki,Alto,VXR,2015,217147,8.0,660,Petrol,Automatic,Hatchback,Lahore,1,partial,major,1701886,True
+Hyundai,Elantra,GLS,2019,105281,6.2,2000,Petrol,Automatic,Sedan,Lahore,1,full,none,4223787,True
+Toyota,Yaris,GLI CVT,2014,185910,6.6,1500,Petrol,Manual,Sedan,Rawalpindi,3,full,none,1974913,True
+Honda,Civic,VTi,2019,148266,5.6,1800,Petrol,Manual,Sedan,Karachi,1,full,none,3409771,True
+Hyundai,Elantra,GLS,2016,198228,8.6,2000,Petrol,Automatic,Sedan,Karachi,1,full,none,2858582,True
+Kia,Sportage,Alpha,2020,105854,5.1,2000,Petrol,Manual,SUV,Karachi,2,partial,none,4540520,True
+Honda,Civic,VTi,2023,51379,7.6,1800,Petrol,Manual,Sedan,Karachi,1,partial,none,5363660,True
+Hyundai,Tucson,AWD,2015,197993,8.6,2000,Hybrid,Automatic,SUV,Rawalpindi,1,partial,none,4236247,True
+Hyundai,Tucson,AWD,2021,117701,7.8,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,minor,4804739,True
+Hyundai,Elantra,GLS,2020,107644,9.0,2000,Petrol,Automatic,Sedan,Faisalabad,1,full,none,5111282,True
+Toyota,Corolla,Altis,2017,145617,6.4,1800,Petrol,Manual,Sedan,Karachi,2,full,none,3466880,True
+Honda,Civic,Oriel,2016,162321,6.9,1800,Petrol,Manual,Sedan,Faisalabad,3,partial,none,2431792,True
+Hyundai,Tucson,AWD,2015,176333,8.5,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,none,3991223,True
+Honda,Civic,Oriel,2012,230042,5.9,1800,Diesel,Automatic,Sedan,Islamabad,1,unknown,none,1329430,True
+Toyota,Corolla,GLi,2013,231190,8.4,1800,Petrol,Manual,Sedan,Islamabad,1,partial,none,1729681,True
+Hyundai,Tucson,AWD,2019,153335,5.2,2000,Petrol,Automatic,SUV,Faisalabad,1,full,minor,4453782,True
+Hyundai,Elantra,GLS,2013,232548,8.7,2000,Petrol,Automatic,Sedan,Karachi,3,unknown,none,2001682,True
+Toyota,Corolla,GLi,2013,231633,9.6,1800,Hybrid,Automatic,Sedan,Lahore,3,partial,none,2835835,True
+Hyundai,Tucson,FWD,2020,127112,6.2,2000,Petrol,Automatic,SUV,Islamabad,2,full,none,4591111,True
+Toyota,Yaris,GLI CVT,2022,50663,5.9,1500,Petrol,Manual,Sedan,Rawalpindi,1,full,none,4740809,True
+Honda,City,1.5 Aspire,2023,61823,7.1,1500,Petrol,Automatic,Sedan,Lahore,3,full,none,5182770,True
+Honda,City,1.2LS,2013,232123,8.5,1500,Petrol,Automatic,Sedan,Karachi,1,unknown,minor,2068219,True
+Toyota,Yaris,ATIV X,2017,154848,7.5,1500,Petrol,Automatic,Sedan,Lahore,1,full,none,3744269,True
+Suzuki,Alto,VX,2022,41454,9.7,660,Petrol,Manual,Hatchback,Lahore,2,full,none,4923639,True
+Toyota,Corolla,XLi,2012,228437,9.0,1800,Petrol,Automatic,Sedan,Islamabad,1,partial,minor,1990865,True
+Toyota,Corolla,Altis,2025,28341,7.1,1800,Petrol,Automatic,Sedan,Islamabad,2,partial,none,6324930,True
+Kia,Picanto,AT,2025,54076,8.5,1000,Petrol,Manual,Hatchback,Lahore,1,full,major,4874184,True
+Hyundai,Tucson,FWD,2014,252677,7.4,2000,Petrol,Automatic,SUV,Karachi,2,unknown,none,2433018,True
+Toyota,Yaris,GLI CVT,2020,116663,5.8,1500,Petrol,Manual,Sedan,Islamabad,1,partial,major,3333441,True
+Hyundai,Tucson,AWD,2019,142725,7.9,2000,Petrol,Automatic,SUV,Faisalabad,1,full,none,4745014,True
+Honda,Civic,Oriel,2019,140822,9.3,1800,Petrol,Automatic,Sedan,Lahore,2,full,major,3811295,True
+Suzuki,Swift,DLX,2016,194096,7.2,1200,Petrol,Automatic,Hatchback,Islamabad,1,full,none,2533628,True
+Hyundai,Tucson,AWD,2013,221550,9.2,2000,Petrol,Automatic,SUV,Lahore,2,full,none,3449989,True
+Hyundai,Tucson,FWD,2024,30509,9.1,2000,Petrol,Automatic,SUV,Karachi,1,full,none,7274204,True
+Suzuki,Swift,DLX,2013,234055,7.6,1200,Petrol,Automatic,Hatchback,Karachi,1,full,major,1286602,True
+Hyundai,Tucson,AWD,2013,265672,6.1,2000,Petrol,Manual,SUV,Rawalpindi,2,full,none,1543507,True
+Kia,Sportage,FWD,2016,189235,9.1,2000,Petrol,Automatic,SUV,Rawalpindi,2,partial,none,3902945,True
+Suzuki,Swift,GLX CVT,2017,145105,8.4,1200,Petrol,Manual,Hatchback,Faisalabad,1,partial,none,3441506,True
+Kia,Picanto,MT,2021,72521,6.3,1000,Petrol,Automatic,Hatchback,Rawalpindi,1,partial,none,4015614,True
+Kia,Picanto,MT,2013,265898,8.6,1000,Petrol,Manual,Hatchback,Karachi,3,partial,none,502001,True
+Kia,Sportage,AWD,2015,214490,6.3,2000,Diesel,Manual,SUV,Lahore,1,full,major,2929709,True
+Hyundai,Elantra,GLS,2013,258493,7.8,2000,Petrol,Manual,Sedan,Lahore,1,full,none,2016233,True
+Hyundai,Elantra,GLS,2025,11188,8.3,2000,Petrol,Automatic,Sedan,Faisalabad,1,full,none,6685486,True
+Honda,Civic,RS,2023,50253,7.0,1800,Petrol,Manual,Sedan,Karachi,4,full,none,5214030,True
+Hyundai,Tucson,FWD,2012,243882,7.7,2000,Petrol,Automatic,SUV,Karachi,2,unknown,none,2812698,True
+Suzuki,Alto,VXR,2023,51646,7.8,660,Petrol,Automatic,Hatchback,Faisalabad,1,unknown,none,4712508,True
+Kia,Picanto,AT,2023,63175,8.2,1000,Hybrid,Automatic,Hatchback,Rawalpindi,1,partial,none,5126607,True
+Kia,Sportage,AWD,2023,81928,6.9,2000,Petrol,Manual,SUV,Islamabad,2,partial,none,5544700,True
+Honda,Civic,VTi,2022,73815,10.0,1800,Petrol,Automatic,Sedan,Lahore,1,unknown,minor,5719580,True
+Hyundai,Elantra,GLS,2021,89984,8.1,2000,Petrol,Automatic,Sedan,Islamabad,2,partial,major,4619996,True
+Kia,Sportage,Alpha,2016,163372,6.0,2000,Petrol,Automatic,SUV,Rawalpindi,3,partial,none,3300577,True
+Toyota,Corolla,XLi,2024,37170,7.9,1800,Petrol,Automatic,Sedan,Karachi,1,partial,major,5448566,True
+Honda,City,1.5 Aspire,2017,159942,6.7,1500,Petrol,Manual,Sedan,Rawalpindi,2,unknown,none,2803721,True
+Kia,Picanto,MT,2013,228148,7.8,1000,Petrol,Manual,Hatchback,Islamabad,3,full,minor,1744351,True
+Toyota,Corolla,Altis,2021,55855,6.6,1800,Petrol,Automatic,Sedan,Karachi,2,unknown,major,4304615,True
+Toyota,Yaris,ATIV X,2016,191524,10.0,1500,Petrol,Manual,Sedan,Islamabad,3,partial,minor,3277361,True
+Kia,Sportage,FWD,2013,253357,9.3,2000,Petrol,Manual,SUV,Faisalabad,1,full,minor,2864567,True
+Hyundai,Elantra,Ultimate,2018,112914,8.1,2000,Hybrid,Manual,Sedan,Karachi,1,partial,none,4252053,True
+Toyota,Yaris,GLI CVT,2018,162769,8.0,1500,Petrol,Automatic,Sedan,Lahore,1,full,none,3071720,True
+Suzuki,Alto,VXR,2018,155556,7.4,660,Petrol,Manual,Hatchback,Rawalpindi,2,unknown,minor,2147866,True
+Honda,Civic,VTi,2012,251822,8.3,1800,Petrol,Manual,Sedan,Lahore,4,full,none,1217261,True
+Toyota,Corolla,GLi,2020,115703,9.6,1800,Hybrid,Automatic,Sedan,Lahore,1,full,none,5327907,True
+Suzuki,Swift,DLX,2012,242121,7.1,1200,Diesel,Automatic,Hatchback,Karachi,1,full,major,1240049,True
+Kia,Sportage,Alpha,2017,157023,5.7,2000,Petrol,Manual,SUV,Rawalpindi,2,full,none,3634141,True
+Hyundai,Tucson,FWD,2012,255058,7.5,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,none,2252580,True
+Kia,Sportage,AWD,2016,209954,8.2,2000,Diesel,Automatic,SUV,Islamabad,3,unknown,minor,3162589,True
+Kia,Picanto,AT,2024,19579,7.5,1000,Petrol,Manual,Hatchback,Rawalpindi,4,unknown,none,4652882,True
+Kia,Picanto,AT,2021,84077,5.8,1000,Petrol,Automatic,Hatchback,Rawalpindi,2,unknown,none,4042670,True
+Toyota,Corolla,Altis,2016,137925,7.2,1800,Petrol,Automatic,Sedan,Islamabad,2,partial,none,3727144,True
+Kia,Picanto,AT,2025,26681,9.0,1000,Petrol,Automatic,Hatchback,Islamabad,1,partial,none,6182757,True
+Kia,Picanto,MT,2019,120570,8.7,1000,Petrol,Automatic,Hatchback,Lahore,1,full,minor,3875331,True
+Honda,Civic,RS,2012,260590,9.1,1800,Petrol,Manual,Sedan,Faisalabad,2,full,minor,1649530,True
+Suzuki,Alto,VXL AGS,2015,225083,7.5,660,Petrol,Automatic,Hatchback,Lahore,1,partial,minor,1223368,True
+Toyota,Yaris,ATIV X,2014,240304,8.1,1500,Petrol,Automatic,Sedan,Islamabad,1,unknown,none,2630534,True
+Kia,Sportage,Alpha,2021,101493,8.0,2000,Petrol,Automatic,SUV,Faisalabad,2,unknown,none,5346702,True
+Honda,City,1.2LS,2013,288283,6.8,1500,Petrol,Automatic,Sedan,Faisalabad,2,full,none,479664,True
+Kia,Picanto,AT,2016,156515,8.3,1000,Hybrid,Manual,Hatchback,Islamabad,1,full,major,2552983,True
+Hyundai,Tucson,AWD,2013,221226,8.9,2000,Hybrid,Automatic,SUV,Faisalabad,1,partial,none,3190900,True
+Honda,City,1.2LS,2021,86585,7.7,1500,Petrol,Manual,Sedan,Rawalpindi,2,full,none,4481797,True
+Honda,Civic,Oriel,2012,261362,8.9,1800,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,1674398,True
+Honda,City,1.5 Aspire,2017,111239,9.1,1500,Petrol,Manual,Sedan,Islamabad,3,unknown,none,3688498,True
+Toyota,Corolla,Altis,2017,199620,7.0,1800,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,3339845,True
+Kia,Sportage,Alpha,2012,212105,6.8,2000,Petrol,Automatic,SUV,Rawalpindi,1,partial,none,2095470,True
+Honda,City,1.5 Aspire,2017,182743,8.2,1500,Petrol,Automatic,Sedan,Rawalpindi,1,full,minor,2939165,True
+Honda,City,1.5 Aspire,2021,101292,8.6,1500,Petrol,Manual,Sedan,Islamabad,1,full,minor,4594693,True
+Suzuki,Alto,VX,2022,70553,8.3,660,Petrol,Automatic,Hatchback,Lahore,1,unknown,major,3967149,True
+Toyota,Yaris,GLI CVT,2016,178016,9.3,1500,Petrol,Automatic,Sedan,Rawalpindi,1,full,minor,2758177,True
+Hyundai,Tucson,AWD,2016,188345,8.1,2000,Petrol,Automatic,SUV,Islamabad,3,partial,none,4095881,True
+Hyundai,Elantra,Ultimate,2012,265554,5.3,2000,Hybrid,Manual,Sedan,Faisalabad,2,unknown,none,846247,True
+Toyota,Corolla,XLi,2021,59288,9.8,1800,Petrol,Manual,Sedan,Lahore,1,full,none,5645727,True
+Kia,Sportage,Alpha,2018,138187,9.2,2000,Petrol,Manual,SUV,Rawalpindi,2,partial,none,4794152,True
+Suzuki,Swift,DLX,2016,199805,5.7,1200,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,2509699,True
+Suzuki,Swift,GLX CVT,2017,153142,7.8,1200,Petrol,Automatic,Hatchback,Karachi,1,full,none,3045922,True
+Hyundai,Tucson,FWD,2012,246551,9.2,2000,Hybrid,Automatic,SUV,Karachi,2,full,none,3147416,True
+Suzuki,Alto,VXR,2019,108345,7.7,660,Hybrid,Manual,Hatchback,Rawalpindi,1,unknown,none,3199231,True
+Toyota,Yaris,GLI CVT,2021,47269,7.1,1500,Petrol,Automatic,Sedan,Islamabad,3,partial,none,4739559,True
+Honda,Civic,RS,2018,142004,8.4,1800,Hybrid,Automatic,Sedan,Islamabad,1,partial,none,4604095,True
+Toyota,Corolla,Altis,2018,145359,7.5,1800,Petrol,Manual,Sedan,Lahore,1,partial,minor,3267789,True
+Suzuki,Alto,VX,2013,253412,5.9,660,Petrol,Manual,Hatchback,Faisalabad,2,full,minor,450000,True
+Honda,City,1.5 Aspire,2018,140092,7.8,1500,Petrol,Manual,Sedan,Islamabad,4,partial,none,3325351,True
+Suzuki,Swift,GLX CVT,2023,72103,6.9,1200,Petrol,Automatic,Hatchback,Rawalpindi,4,partial,minor,4344233,True
+Kia,Sportage,FWD,2024,37939,8.9,2000,Petrol,Automatic,SUV,Islamabad,1,partial,none,7072737,True
+Kia,Sportage,Alpha,2014,257456,5.9,2000,Petrol,Automatic,SUV,Lahore,1,full,none,2172037,True
+Honda,Civic,Oriel,2023,37138,7.3,1800,Petrol,Automatic,Sedan,Faisalabad,2,full,none,5560883,True
+Kia,Sportage,Alpha,2018,169445,7.4,2000,Petrol,Manual,SUV,Karachi,1,full,major,3845631,True
+Hyundai,Tucson,FWD,2022,78819,6.5,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,major,5198499,True
+Suzuki,Swift,DLX,2014,206215,7.3,1200,Hybrid,Automatic,Hatchback,Islamabad,2,full,none,1969787,True
+Honda,Civic,RS,2023,55210,7.7,1800,Petrol,Manual,Sedan,Karachi,4,full,minor,5332212,True
+Toyota,Corolla,Altis,2019,137088,7.4,1800,Petrol,Automatic,Sedan,Islamabad,2,unknown,none,3615194,True
+Hyundai,Tucson,AWD,2021,94475,5.0,2000,Petrol,Automatic,SUV,Lahore,1,full,minor,5024085,True
+Kia,Picanto,AT,2021,98335,8.0,1000,Petrol,Automatic,Hatchback,Faisalabad,2,full,none,3898238,True
+Honda,Civic,RS,2014,228701,8.9,1800,Petrol,Manual,Sedan,Karachi,1,partial,none,2240406,True
+Honda,City,1.5 Aspire,2024,64767,6.8,1500,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,5494340,True
+Suzuki,Alto,VXR,2020,82100,8.5,660,Petrol,Manual,Hatchback,Rawalpindi,2,full,minor,3603289,True
+Hyundai,Elantra,GLS,2018,127552,5.8,2000,Diesel,Manual,Sedan,Islamabad,2,full,none,4154518,True
+Suzuki,Swift,DLX,2021,86253,9.5,1200,Petrol,Automatic,Hatchback,Islamabad,1,full,none,5174591,True
+Kia,Picanto,AT,2014,196100,5.4,1000,Petrol,Automatic,Hatchback,Karachi,1,partial,minor,1127081,True
+Honda,Civic,VTi,2018,148575,7.3,1800,Petrol,Automatic,Sedan,Islamabad,1,full,major,3525761,True
+Suzuki,Alto,VXL AGS,2023,51832,9.2,660,Diesel,Automatic,Hatchback,Karachi,1,partial,none,5187553,True
+Toyota,Corolla,GLi,2012,250086,8.6,1800,Petrol,Manual,Sedan,Karachi,1,partial,none,1696841,True
+Hyundai,Elantra,GLS,2013,227452,8.0,2000,Petrol,Automatic,Sedan,Karachi,2,partial,none,2360484,True
+Toyota,Corolla,GLi,2025,0,5.2,1800,Hybrid,Automatic,Sedan,Lahore,1,full,none,6343925,True
+Honda,City,1.2LS,2014,208605,8.7,1500,Petrol,Manual,Sedan,Islamabad,2,full,none,2314860,True
+Honda,Civic,RS,2018,157035,9.1,1800,Diesel,Automatic,Sedan,Islamabad,1,partial,none,3897833,True
+Honda,City,1.2LS,2019,118450,7.6,1500,Petrol,Automatic,Sedan,Rawalpindi,1,partial,none,4392973,True
+Kia,Sportage,FWD,2023,67436,8.5,2000,Hybrid,Manual,SUV,Rawalpindi,1,partial,none,6248906,True
+Honda,Civic,Oriel,2024,54938,6.6,1800,Petrol,Automatic,Sedan,Rawalpindi,3,full,none,5429981,True
+Hyundai,Tucson,FWD,2015,201199,5.2,2000,Petrol,Automatic,SUV,Islamabad,4,full,none,2946550,True
+Kia,Sportage,AWD,2024,18395,8.9,2000,Hybrid,Manual,SUV,Karachi,1,partial,minor,7241990,True
+Honda,City,1.2LS,2022,94387,9.8,1500,Petrol,Manual,Sedan,Lahore,3,full,minor,4802938,True
+Toyota,Yaris,GLI CVT,2017,151395,9.0,1500,Petrol,Manual,Sedan,Rawalpindi,2,partial,minor,3022102,True
+Toyota,Yaris,GLI CVT,2017,162788,7.2,1500,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,3011825,True
+Kia,Sportage,Alpha,2017,161218,6.9,2000,Petrol,Automatic,SUV,Rawalpindi,3,partial,none,4129607,True
+Honda,City,1.5 Aspire,2013,220004,9.3,1500,Petrol,Manual,Sedan,Rawalpindi,2,full,none,1575734,True
+Kia,Sportage,FWD,2024,52390,9.4,2000,Petrol,Automatic,SUV,Karachi,1,full,none,7093272,True
+Toyota,Yaris,ATIV X,2018,146046,6.8,1500,Petrol,Automatic,Sedan,Faisalabad,3,unknown,none,2775817,True
+Suzuki,Alto,VX,2018,110275,6.6,660,Petrol,Manual,Hatchback,Islamabad,3,partial,none,2707755,True
+Kia,Picanto,AT,2012,246992,7.9,1000,Hybrid,Automatic,Hatchback,Karachi,3,partial,none,1348429,True
+Kia,Picanto,MT,2016,211900,7.7,1000,Petrol,Automatic,Hatchback,Faisalabad,1,partial,none,2187830,True
+Honda,Civic,RS,2013,241067,8.3,1800,Petrol,Automatic,Sedan,Islamabad,4,partial,none,1521439,True
+Kia,Picanto,MT,2013,208824,7.6,1000,Petrol,Automatic,Hatchback,Karachi,1,unknown,none,1084899,True
+Suzuki,Swift,GLX CVT,2012,264031,9.6,1200,Petrol,Automatic,Hatchback,Karachi,3,full,none,1734860,True
+Kia,Sportage,AWD,2024,51263,9.3,2000,Petrol,Automatic,SUV,Islamabad,2,partial,none,6869644,True
+Kia,Picanto,MT,2022,71605,7.9,1000,Petrol,Automatic,Hatchback,Lahore,1,full,minor,4683615,True
+Suzuki,Alto,VX,2021,97363,7.4,660,Hybrid,Automatic,Hatchback,Faisalabad,1,full,major,4193688,True
+Suzuki,Swift,GLX CVT,2025,0,8.3,1200,Petrol,Manual,Hatchback,Lahore,2,full,none,6219819,True
+Kia,Picanto,MT,2015,192878,7.8,1000,Petrol,Automatic,Hatchback,Rawalpindi,2,full,none,2294833,True
+Suzuki,Swift,GLX CVT,2024,83944,8.3,1200,Petrol,Automatic,Hatchback,Lahore,1,full,none,5211902,True
+Honda,Civic,RS,2016,192654,8.1,1800,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,2700329,True
+Suzuki,Swift,GLX CVT,2022,101474,9.3,1200,Diesel,Automatic,Hatchback,Islamabad,2,full,none,5071740,True
+Hyundai,Elantra,GLS,2018,129230,7.4,2000,Petrol,Automatic,Sedan,Lahore,2,full,none,4266311,True
+Hyundai,Tucson,FWD,2022,84612,8.0,2000,Petrol,Automatic,SUV,Karachi,2,partial,major,5407972,True
+Hyundai,Elantra,Ultimate,2012,275363,7.7,2000,Petrol,Automatic,Sedan,Lahore,3,full,none,627879,True
+Honda,City,1.2LS,2017,166430,8.1,1500,Petrol,Automatic,Sedan,Rawalpindi,1,partial,major,2651440,True
+Toyota,Yaris,GLI CVT,2015,194395,4.8,1500,Petrol,Manual,Sedan,Rawalpindi,3,unknown,minor,1728003,True
+Hyundai,Tucson,FWD,2023,58321,6.1,2000,Petrol,Manual,SUV,Rawalpindi,3,full,minor,5366062,True
+Hyundai,Tucson,AWD,2024,30925,8.3,2000,Petrol,Automatic,SUV,Karachi,2,full,none,7042423,True
+Honda,City,1.2LS,2016,201144,8.8,1500,Petrol,Automatic,Sedan,Rawalpindi,2,partial,none,2519590,True
+Suzuki,Swift,DLX,2024,53218,8.7,1200,Petrol,Automatic,Hatchback,Faisalabad,1,full,major,5302102,True
+Suzuki,Swift,GLX CVT,2022,63734,9.7,1200,Petrol,Manual,Hatchback,Islamabad,3,full,none,4891548,True
+Toyota,Yaris,ATIV X,2023,48905,5.4,1500,Petrol,Automatic,Sedan,Lahore,4,partial,none,4764961,True
+Kia,Picanto,AT,2025,41268,7.0,1000,Hybrid,Automatic,Hatchback,Rawalpindi,3,full,major,5074814,True
+Suzuki,Alto,VXL AGS,2015,209948,7.0,660,Hybrid,Automatic,Hatchback,Faisalabad,3,partial,none,2247342,True
+Toyota,Yaris,GLI CVT,2016,158968,7.3,1500,Petrol,Automatic,Sedan,Karachi,1,full,none,3032086,True
+Honda,Civic,RS,2023,92522,7.5,1800,Petrol,Automatic,Sedan,Karachi,2,partial,minor,4822439,True
+Honda,City,1.2LS,2015,201353,9.4,1500,Petrol,Automatic,Sedan,Faisalabad,3,full,minor,2780855,True
+Hyundai,Elantra,GLS,2020,110642,6.4,2000,Petrol,Manual,Sedan,Rawalpindi,3,full,minor,3637029,True
+Honda,City,1.2LS,2016,180699,6.2,1500,Petrol,Manual,Sedan,Faisalabad,1,full,none,2462244,True
+Kia,Picanto,AT,2013,230696,10.0,1000,Petrol,Manual,Hatchback,Faisalabad,1,full,none,1704995,True
+Suzuki,Alto,VXR,2017,147501,6.7,660,Petrol,Automatic,Hatchback,Lahore,1,full,none,2719582,True
+Kia,Sportage,AWD,2022,81161,8.2,2000,Petrol,Automatic,SUV,Lahore,2,full,major,5360140,True
+Kia,Picanto,AT,2015,216558,7.2,1000,Hybrid,Manual,Hatchback,Lahore,1,partial,minor,1854407,True
+Hyundai,Elantra,Ultimate,2012,273647,8.9,2000,Hybrid,Automatic,Sedan,Islamabad,1,partial,none,1791412,True
+Suzuki,Swift,DLX,2017,146130,8.3,1200,Petrol,Automatic,Hatchback,Lahore,2,full,none,3688047,True
+Kia,Picanto,MT,2024,60387,6.8,1000,Hybrid,Automatic,Hatchback,Islamabad,4,partial,none,5024635,True
+Suzuki,Swift,GLX CVT,2019,133746,7.5,1200,Petrol,Automatic,Hatchback,Islamabad,4,partial,minor,2778429,True
+Kia,Sportage,FWD,2015,185422,7.1,2000,Petrol,Automatic,SUV,Islamabad,2,full,minor,3072963,True
+Suzuki,Swift,GLX CVT,2023,62594,7.3,1200,Petrol,Automatic,Hatchback,Islamabad,1,unknown,none,4982312,True
+Hyundai,Tucson,AWD,2024,31937,7.4,2000,Petrol,Automatic,SUV,Faisalabad,1,partial,major,6024835,True
+Suzuki,Swift,GLX CVT,2021,86630,8.2,1200,Petrol,Manual,Hatchback,Faisalabad,2,full,minor,4225795,True
+Kia,Sportage,Alpha,2024,57320,6.9,2000,Petrol,Automatic,SUV,Lahore,2,full,none,6173749,True
+Kia,Picanto,MT,2018,142187,7.7,1000,Hybrid,Manual,Hatchback,Lahore,1,full,minor,3193698,True
+Honda,City,1.2LS,2015,175945,7.9,1500,Petrol,Manual,Sedan,Faisalabad,3,full,none,2447035,True
+Toyota,Yaris,ATIV X,2015,191409,7.1,1500,Petrol,Automatic,Sedan,Lahore,3,full,none,2845961,True
+Hyundai,Elantra,Ultimate,2025,6502,7.7,2000,Petrol,Automatic,Sedan,Rawalpindi,1,partial,none,6412783,True
+Honda,Civic,VTi,2024,46734,10.0,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,6401625,True
+Hyundai,Elantra,GLS,2018,146959,8.2,2000,Hybrid,Automatic,Sedan,Islamabad,3,full,minor,4129952,True
+Toyota,Yaris,ATIV X,2012,265756,7.5,1500,Petrol,Manual,Sedan,Lahore,3,full,none,1014472,True
+Toyota,Corolla,Altis,2024,51641,8.3,1800,Petrol,Automatic,Sedan,Lahore,1,full,none,6421124,True
+Honda,City,1.2LS,2024,47048,9.0,1500,Petrol,Automatic,Sedan,Islamabad,2,full,none,5959204,True
+Honda,City,1.2LS,2020,113405,6.6,1500,Petrol,Manual,Sedan,Karachi,1,full,none,4370156,True
+Hyundai,Tucson,AWD,2025,33557,7.0,2000,Hybrid,Automatic,SUV,Karachi,1,full,minor,7025345,True
+Kia,Sportage,FWD,2019,111714,7.8,2000,Petrol,Manual,SUV,Lahore,3,full,none,4351154,True
+Hyundai,Tucson,FWD,2015,199711,8.6,2000,Petrol,Manual,SUV,Rawalpindi,2,full,none,2950318,True
+Hyundai,Tucson,FWD,2021,80452,7.6,2000,Petrol,Automatic,SUV,Karachi,2,unknown,none,5194972,True
+Honda,Civic,Oriel,2017,182552,7.9,1800,Hybrid,Manual,Sedan,Faisalabad,1,unknown,none,3192558,True
+Kia,Picanto,AT,2014,226977,7.7,1000,Petrol,Automatic,Hatchback,Karachi,2,full,none,2387774,True
+Suzuki,Swift,DLX,2020,117065,8.4,1200,Petrol,Manual,Hatchback,Faisalabad,2,full,none,3569075,True
+Kia,Sportage,FWD,2025,3985,10.0,2000,Petrol,Automatic,SUV,Lahore,2,full,minor,7373575,True
+Honda,Civic,RS,2017,135157,7.3,1800,Diesel,Manual,Sedan,Lahore,1,full,none,3686046,True
+Honda,City,1.2LS,2016,154986,10.0,1500,Petrol,Automatic,Sedan,Faisalabad,4,unknown,none,3544838,True
+Suzuki,Alto,VX,2016,173081,6.1,660,Petrol,Automatic,Hatchback,Faisalabad,4,full,none,2128394,True
+Honda,City,1.2LS,2022,44501,6.4,1500,Petrol,Automatic,Sedan,Lahore,4,full,minor,4935769,True
+Kia,Sportage,Alpha,2019,135041,8.6,2000,Petrol,Automatic,SUV,Faisalabad,1,full,none,4944400,True
+Toyota,Yaris,GLI CVT,2013,221172,9.3,1500,Petrol,Automatic,Sedan,Karachi,1,unknown,none,2038705,True
+Kia,Sportage,AWD,2023,67809,6.8,2000,Petrol,Automatic,SUV,Karachi,4,partial,none,5962584,True
+Hyundai,Tucson,FWD,2022,52523,9.4,2000,Hybrid,Automatic,SUV,Islamabad,2,full,none,7096160,True
+Suzuki,Alto,VX,2013,229230,6.5,660,Petrol,Manual,Hatchback,Rawalpindi,2,full,minor,450000,True
+Hyundai,Tucson,FWD,2021,77235,9.6,2000,Petrol,Manual,SUV,Karachi,1,partial,none,6048471,True
+Kia,Picanto,AT,2023,53405,6.7,1000,Hybrid,Automatic,Hatchback,Faisalabad,3,full,none,4896386,True
+Toyota,Corolla,Altis,2014,196872,10.0,1800,Petrol,Automatic,Sedan,Karachi,2,partial,none,2687175,True
+Suzuki,Swift,DLX,2016,174687,7.9,1200,Petrol,Automatic,Hatchback,Islamabad,2,full,none,2292350,True
+Suzuki,Alto,VXR,2025,0,8.7,660,Petrol,Automatic,Hatchback,Lahore,1,full,minor,5952603,True
+Hyundai,Tucson,AWD,2022,78899,8.9,2000,Petrol,Automatic,SUV,Islamabad,1,full,none,6456294,True
+Honda,City,1.5 Aspire,2024,38812,7.1,1500,Petrol,Manual,Sedan,Karachi,1,partial,minor,5315317,True
+Suzuki,Alto,VXL AGS,2017,144286,7.6,660,Hybrid,Manual,Hatchback,Islamabad,2,unknown,none,2947349,True
+Honda,City,1.2LS,2019,113994,8.1,1500,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,4527549,True
+Toyota,Yaris,ATIV X,2018,83493,6.3,1500,Petrol,Manual,Sedan,Faisalabad,2,partial,minor,3168788,True
+Suzuki,Swift,GLX CVT,2017,133811,6.0,1200,Petrol,Automatic,Hatchback,Karachi,4,full,minor,2467965,True
+Honda,Civic,VTi,2024,64140,7.6,1800,Petrol,Manual,Sedan,Faisalabad,1,full,minor,5253309,True
+Suzuki,Alto,VXR,2021,78439,6.3,660,Petrol,Automatic,Hatchback,Karachi,2,partial,none,3976078,True
+Honda,Civic,RS,2017,188287,8.6,1800,Petrol,Automatic,Sedan,Karachi,2,full,minor,2909942,True
+Hyundai,Tucson,AWD,2017,160915,8.0,2000,Petrol,Automatic,SUV,Faisalabad,4,partial,minor,3532148,True
+Toyota,Yaris,GLI CVT,2024,60580,7.6,1500,Petrol,Automatic,Sedan,Lahore,1,partial,minor,5584171,True
+Hyundai,Elantra,Ultimate,2013,257666,8.8,2000,Petrol,Automatic,Sedan,Rawalpindi,1,full,minor,2466298,True
+Suzuki,Swift,DLX,2023,41575,8.2,1200,Petrol,Manual,Hatchback,Lahore,1,unknown,none,5131444,True
+Toyota,Corolla,Altis,2012,230073,7.6,1800,Petrol,Automatic,Sedan,Karachi,1,full,none,1404048,True
+Kia,Picanto,MT,2014,225450,9.3,1000,Petrol,Manual,Hatchback,Islamabad,1,partial,none,2004838,True
+Honda,Civic,Oriel,2012,269394,5.8,1800,Hybrid,Automatic,Sedan,Karachi,3,full,none,1258133,True
+Honda,Civic,VTi,2019,129655,8.5,1800,Petrol,Manual,Sedan,Rawalpindi,3,full,none,4159979,True
+Suzuki,Alto,VXR,2014,231285,7.9,660,Petrol,Automatic,Hatchback,Islamabad,1,unknown,none,1176289,True
+Kia,Sportage,AWD,2013,225817,6.9,2000,Petrol,Automatic,SUV,Faisalabad,2,partial,none,2787430,True
+Suzuki,Swift,GLX CVT,2018,166989,6.8,1200,Petrol,Manual,Hatchback,Rawalpindi,2,full,major,2041460,True
+Toyota,Corolla,XLi,2013,225586,9.3,1800,Hybrid,Automatic,Sedan,Islamabad,2,full,none,3101220,True
+Toyota,Yaris,GLI CVT,2020,150995,6.5,1500,Hybrid,Manual,Sedan,Lahore,3,partial,none,3975611,True
+Honda,Civic,VTi,2018,151508,9.6,1800,Hybrid,Manual,Sedan,Lahore,2,unknown,none,4210693,True
+Hyundai,Elantra,GLS,2014,224267,6.4,2000,Petrol,Automatic,Sedan,Faisalabad,2,unknown,none,1228184,True
+Suzuki,Swift,DLX,2018,151809,6.8,1200,Hybrid,Manual,Hatchback,Rawalpindi,1,full,none,3575321,True
+Honda,Civic,RS,2013,224598,9.7,1800,Petrol,Manual,Sedan,Islamabad,1,partial,major,1752448,True
+Hyundai,Tucson,AWD,2016,188625,7.1,2000,Petrol,Automatic,SUV,Lahore,4,partial,none,3788254,True
+Toyota,Corolla,XLi,2012,251434,8.2,1800,Petrol,Automatic,Sedan,Lahore,1,full,minor,1635816,True
+Toyota,Corolla,XLi,2023,44336,9.2,1800,Diesel,Manual,Sedan,Islamabad,3,full,none,5856315,True
+Suzuki,Alto,VX,2014,222548,7.0,660,Petrol,Manual,Hatchback,Rawalpindi,1,full,none,992695,True
+Honda,City,1.2LS,2013,226632,6.7,1500,Petrol,Automatic,Sedan,Lahore,2,full,none,1194802,True
+Toyota,Corolla,GLi,2024,34205,5.6,1800,Petrol,Manual,Sedan,Faisalabad,1,partial,minor,4960439,True
+Hyundai,Tucson,AWD,2019,137207,7.3,2000,Petrol,Manual,SUV,Rawalpindi,1,unknown,none,4078782,True
+Honda,City,1.5 Aspire,2014,230601,7.6,1500,Hybrid,Manual,Sedan,Rawalpindi,1,unknown,minor,1203385,True
+Honda,City,1.2LS,2018,127531,8.4,1500,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,4137973,True
+Honda,Civic,RS,2022,69470,8.0,1800,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,5340272,True
+Kia,Picanto,AT,2025,52970,7.1,1000,Petrol,Manual,Hatchback,Islamabad,2,full,none,5218585,True
+Honda,City,1.2LS,2016,197635,9.6,1500,Petrol,Automatic,Sedan,Faisalabad,2,full,none,3044759,True
+Honda,City,1.5 Aspire,2021,112617,7.1,1500,Petrol,Automatic,Sedan,Karachi,2,full,none,4465647,True
+Suzuki,Swift,DLX,2023,65462,8.3,1200,Hybrid,Automatic,Hatchback,Islamabad,2,partial,none,5457541,True
+Suzuki,Swift,DLX,2024,192,6.8,1200,Petrol,Automatic,Hatchback,Faisalabad,3,full,none,5521963,True
+Honda,Civic,RS,2014,202091,8.3,1800,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,2449049,True
+Suzuki,Swift,DLX,2019,163531,5.8,1200,Diesel,Automatic,Hatchback,Islamabad,4,unknown,none,2959368,True
+Honda,Civic,RS,2015,215119,8.8,1800,Petrol,Automatic,Sedan,Karachi,1,unknown,none,2527350,True
+Kia,Picanto,MT,2017,168983,7.2,1000,Petrol,Automatic,Hatchback,Karachi,1,unknown,none,2741513,True
+Hyundai,Tucson,FWD,2016,198419,7.8,2000,Petrol,Manual,SUV,Faisalabad,1,unknown,major,2931266,True
+Kia,Sportage,FWD,2018,150312,9.1,2000,Petrol,Automatic,SUV,Islamabad,2,full,minor,4371479,True
+Suzuki,Alto,VXR,2023,36013,7.7,660,Petrol,Manual,Hatchback,Rawalpindi,3,full,none,4806680,True
+Kia,Sportage,Alpha,2024,57085,9.3,2000,Petrol,Manual,SUV,Karachi,1,partial,minor,6400517,True
+Suzuki,Alto,VX,2021,90179,6.1,660,Petrol,Automatic,Hatchback,Karachi,2,full,none,3405050,True
+Toyota,Corolla,XLi,2023,55506,7.8,1800,Hybrid,Manual,Sedan,Karachi,2,full,none,5975501,True
+Hyundai,Elantra,Ultimate,2016,154254,7.6,2000,Hybrid,Automatic,Sedan,Faisalabad,1,full,none,3858604,True
+Kia,Sportage,AWD,2013,231914,7.3,2000,Petrol,Manual,SUV,Lahore,1,partial,none,2155524,True
+Hyundai,Tucson,AWD,2023,53383,7.8,2000,Hybrid,Automatic,SUV,Islamabad,2,full,none,6791704,True
+Toyota,Yaris,GLI CVT,2022,74586,5.9,1500,Petrol,Automatic,Sedan,Karachi,1,partial,minor,4205020,True
+Kia,Picanto,AT,2019,97969,6.4,1000,Petrol,Manual,Hatchback,Rawalpindi,1,unknown,none,3373295,True
+Toyota,Yaris,ATIV X,2019,137618,7.1,1500,Hybrid,Automatic,Sedan,Rawalpindi,1,unknown,none,4156587,True
+Toyota,Corolla,GLi,2018,125224,9.5,1800,Petrol,Manual,Sedan,Lahore,1,unknown,none,4363284,True
+Hyundai,Elantra,Ultimate,2017,168806,9.1,2000,Petrol,Automatic,Sedan,Faisalabad,1,full,none,3581581,True
+Hyundai,Elantra,Ultimate,2013,247942,8.8,2000,Petrol,Manual,Sedan,Lahore,2,full,none,2059038,True
+Suzuki,Alto,VXR,2022,62711,9.3,660,Petrol,Automatic,Hatchback,Faisalabad,1,partial,minor,4266198,True
+Toyota,Corolla,GLi,2017,196908,7.1,1800,Petrol,Manual,Sedan,Islamabad,2,unknown,none,2874106,True
+Suzuki,Swift,DLX,2014,246662,7.3,1200,Petrol,Automatic,Hatchback,Faisalabad,2,partial,none,1298788,True
+Toyota,Yaris,GLI CVT,2021,80091,7.2,1500,Petrol,Automatic,Sedan,Islamabad,1,full,none,4917190,True
+Honda,City,1.2LS,2019,126546,9.5,1500,Petrol,Automatic,Sedan,Rawalpindi,2,partial,major,3624454,True
+Honda,Civic,RS,2021,124312,9.2,1800,Petrol,Manual,Sedan,Faisalabad,1,partial,none,4561496,True
+Toyota,Yaris,ATIV X,2015,200515,8.0,1500,Petrol,Automatic,Sedan,Karachi,1,partial,major,2055110,True
+Hyundai,Tucson,FWD,2016,187103,7.0,2000,Petrol,Manual,SUV,Faisalabad,1,unknown,none,2819439,True
+Kia,Picanto,AT,2014,204541,9.6,1000,Petrol,Automatic,Hatchback,Islamabad,1,full,minor,2640832,True
+Kia,Sportage,AWD,2012,274749,7.5,2000,Petrol,Automatic,SUV,Lahore,1,full,major,1751145,True
+Suzuki,Swift,GLX CVT,2013,208399,8.8,1200,Petrol,Automatic,Hatchback,Faisalabad,1,partial,none,1911740,True
+Honda,Civic,Oriel,2015,204539,7.9,1800,Petrol,Manual,Sedan,Lahore,1,full,minor,2137217,True
+Honda,City,1.5 Aspire,2018,145004,6.0,1500,Petrol,Automatic,Sedan,Rawalpindi,1,partial,none,3549466,True
+Honda,City,1.2LS,2017,166637,7.3,1500,Petrol,Automatic,Sedan,Lahore,1,full,none,2955143,True
+Kia,Picanto,AT,2020,95433,8.6,1000,Hybrid,Automatic,Hatchback,Islamabad,1,full,none,4876191,True
+Kia,Picanto,MT,2014,220245,8.7,1000,Petrol,Automatic,Hatchback,Lahore,1,partial,minor,1434848,True
+Honda,City,1.5 Aspire,2019,149790,8.4,1500,Petrol,Automatic,Sedan,Islamabad,1,full,none,3862919,True
+Hyundai,Tucson,AWD,2018,134588,7.2,2000,Petrol,Automatic,SUV,Islamabad,2,partial,major,4161881,True
+Toyota,Corolla,XLi,2021,92570,7.9,1800,Petrol,Manual,Sedan,Rawalpindi,1,partial,none,4928940,True
+Hyundai,Tucson,FWD,2016,191435,7.6,2000,Petrol,Automatic,SUV,Islamabad,1,full,major,2803301,True
+Honda,Civic,RS,2023,84519,7.2,1800,Hybrid,Automatic,Sedan,Lahore,1,full,none,5359366,True
+Suzuki,Alto,VXL AGS,2021,78955,5.9,660,Petrol,Manual,Hatchback,Rawalpindi,1,full,minor,3560833,True
+Toyota,Corolla,Altis,2013,269616,7.2,1800,Petrol,Automatic,Sedan,Lahore,3,full,none,948382,True
+Toyota,Corolla,Altis,2025,37533,8.8,1800,Petrol,Automatic,Sedan,Karachi,1,full,none,6377335,True
+Kia,Sportage,FWD,2022,95632,6.7,2000,Petrol,Manual,SUV,Islamabad,1,partial,none,5147767,True
+Hyundai,Tucson,AWD,2018,133886,8.6,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,none,4649552,True
+Suzuki,Alto,VXL AGS,2017,129080,7.2,660,Petrol,Automatic,Hatchback,Lahore,4,partial,minor,2581052,True
+Kia,Sportage,AWD,2013,200763,7.0,2000,Petrol,Automatic,SUV,Lahore,2,partial,none,2880283,True
+Suzuki,Swift,GLX CVT,2015,171476,6.9,1200,Petrol,Automatic,Hatchback,Lahore,2,full,minor,1817135,True
+Kia,Sportage,FWD,2014,216575,9.4,2000,Petrol,Automatic,SUV,Islamabad,3,full,none,2892748,True
+Toyota,Corolla,XLi,2016,188357,8.3,1800,Petrol,Manual,Sedan,Islamabad,1,full,major,2568996,True
+Suzuki,Swift,GLX CVT,2015,199611,7.2,1200,Hybrid,Automatic,Hatchback,Faisalabad,1,full,none,2772904,True
+Toyota,Yaris,ATIV X,2025,26910,5.9,1500,Petrol,Automatic,Sedan,Faisalabad,2,full,major,5193561,True
+Hyundai,Elantra,Ultimate,2016,180863,7.3,2000,Petrol,Automatic,Sedan,Karachi,1,partial,none,2691435,True
+Toyota,Yaris,ATIV X,2020,114004,5.5,1500,Petrol,Automatic,Sedan,Karachi,2,partial,none,3997827,True
+Honda,City,1.5 Aspire,2023,53730,5.8,1500,Petrol,Automatic,Sedan,Islamabad,2,partial,none,4831174,True
+Suzuki,Alto,VX,2016,164717,7.0,660,Petrol,Automatic,Hatchback,Karachi,1,full,none,2247164,True
+Hyundai,Elantra,Ultimate,2014,179372,8.2,2000,Petrol,Automatic,Sedan,Rawalpindi,3,unknown,none,3185924,True
+Honda,Civic,Oriel,2019,107336,9.2,1800,Petrol,Automatic,Sedan,Islamabad,2,full,none,4734947,True
+Toyota,Corolla,GLi,2022,65359,7.0,1800,Hybrid,Automatic,Sedan,Lahore,1,full,none,5679252,True
+Hyundai,Tucson,AWD,2019,155039,8.7,2000,Petrol,Automatic,SUV,Faisalabad,1,full,none,4514733,True
+Kia,Sportage,Alpha,2020,119004,7.0,2000,Petrol,Automatic,SUV,Lahore,1,full,none,5105645,True
+Hyundai,Tucson,AWD,2015,212490,8.5,2000,Petrol,Automatic,SUV,Karachi,1,full,none,3303826,True
+Toyota,Corolla,XLi,2022,80951,7.8,1800,Petrol,Manual,Sedan,Islamabad,1,partial,none,4882856,True
+Hyundai,Elantra,GLS,2022,69437,6.7,2000,Petrol,Automatic,Sedan,Lahore,2,full,none,5310716,True
+Honda,Civic,RS,2020,91306,7.3,1800,Petrol,Manual,Sedan,Karachi,2,partial,minor,4291393,True
+Toyota,Yaris,ATIV X,2018,138977,9.5,1500,Diesel,Manual,Sedan,Faisalabad,2,unknown,minor,3284587,True
+Kia,Sportage,FWD,2017,164322,9.0,2000,Petrol,Automatic,SUV,Karachi,1,full,none,4764906,True
+Kia,Sportage,FWD,2017,181416,6.9,2000,Petrol,Manual,SUV,Islamabad,2,full,none,3559119,True
+Honda,City,1.2LS,2022,46101,7.1,1500,Petrol,Manual,Sedan,Rawalpindi,2,full,minor,4542109,True
+Honda,Civic,RS,2024,25081,7.0,1800,Hybrid,Automatic,Sedan,Islamabad,1,full,none,6366784,True
+Kia,Sportage,FWD,2013,231641,9.9,2000,Diesel,Manual,SUV,Lahore,3,full,none,2407419,True
+Kia,Picanto,AT,2015,192989,10.0,1000,Petrol,Automatic,Hatchback,Karachi,1,full,none,2901562,True
+Toyota,Corolla,XLi,2016,204759,9.0,1800,Petrol,Manual,Sedan,Rawalpindi,1,unknown,none,3358673,True
+Suzuki,Swift,GLX CVT,2018,144743,8.6,1200,Petrol,Automatic,Hatchback,Faisalabad,1,full,none,3474118,True
+Hyundai,Elantra,GLS,2014,204979,9.5,2000,Diesel,Manual,Sedan,Rawalpindi,1,full,none,3309799,True
+Kia,Sportage,Alpha,2015,197735,7.9,2000,Petrol,Automatic,SUV,Faisalabad,3,full,none,2805500,True
+Honda,City,1.5 Aspire,2012,262603,6.9,1500,Hybrid,Automatic,Sedan,Faisalabad,1,full,none,1567596,True
+Hyundai,Elantra,Ultimate,2014,208966,6.2,2000,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,2530105,True
+Kia,Picanto,MT,2022,84619,8.6,1000,Petrol,Automatic,Hatchback,Karachi,1,full,none,4833682,True
+Hyundai,Tucson,FWD,2018,143598,8.7,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,none,4681270,True
+Toyota,Yaris,ATIV X,2012,249705,7.8,1500,Hybrid,Manual,Sedan,Faisalabad,1,full,major,1036015,True
+Suzuki,Alto,VXR,2016,187958,7.2,660,Petrol,Manual,Hatchback,Karachi,1,full,none,1897633,True
+Honda,City,1.5 Aspire,2018,100387,8.5,1500,Hybrid,Manual,Sedan,Karachi,1,full,minor,4366600,True
+Toyota,Yaris,ATIV X,2023,63602,9.1,1500,Petrol,Automatic,Sedan,Islamabad,3,partial,none,5646226,True
+Honda,Civic,VTi,2019,125825,8.2,1800,Hybrid,Automatic,Sedan,Faisalabad,2,full,none,4451214,True
+Honda,Civic,RS,2021,90190,7.4,1800,Petrol,Manual,Sedan,Rawalpindi,2,full,minor,4387317,True
+Hyundai,Tucson,AWD,2024,0,7.8,2000,Petrol,Automatic,SUV,Lahore,3,full,none,7345312,True
+Suzuki,Alto,VXL AGS,2018,132761,8.5,660,Petrol,Automatic,Hatchback,Karachi,1,partial,minor,2947728,True
+Honda,City,1.5 Aspire,2015,181665,9.4,1500,Hybrid,Manual,Sedan,Rawalpindi,1,full,minor,3271818,True
+Hyundai,Elantra,GLS,2014,248503,6.2,2000,Petrol,Manual,Sedan,Rawalpindi,3,unknown,minor,1572870,True
+Kia,Picanto,MT,2025,50128,8.1,1000,Petrol,Manual,Hatchback,Faisalabad,1,unknown,none,5055375,True
+Suzuki,Alto,VX,2020,112268,9.2,660,Petrol,Automatic,Hatchback,Faisalabad,1,partial,none,4091547,True
+Hyundai,Tucson,AWD,2024,35015,6.0,2000,Petrol,Automatic,SUV,Faisalabad,1,unknown,major,5663686,True
+Hyundai,Tucson,FWD,2014,216904,7.0,2000,Petrol,Manual,SUV,Lahore,1,full,major,2445012,True
+Honda,City,1.5 Aspire,2015,190106,8.2,1500,Hybrid,Manual,Sedan,Rawalpindi,2,full,minor,2903971,True
+Hyundai,Elantra,GLS,2022,34658,8.4,2000,Petrol,Automatic,Sedan,Rawalpindi,4,full,none,5727585,True
+Suzuki,Alto,VXL AGS,2022,57174,8.6,660,Petrol,Automatic,Hatchback,Lahore,1,full,none,4797470,True
+Kia,Picanto,AT,2023,59832,7.8,1000,Petrol,Automatic,Hatchback,Islamabad,1,full,none,5149630,True
+Honda,Civic,RS,2020,98727,6.6,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,4352139,True
+Toyota,Yaris,GLI CVT,2018,128099,8.5,1500,Petrol,Automatic,Sedan,Islamabad,3,full,none,3336362,True
+Kia,Sportage,FWD,2018,146319,8.4,2000,Petrol,Manual,SUV,Lahore,2,partial,minor,4353005,True
+Toyota,Corolla,XLi,2020,73455,8.9,1800,Diesel,Automatic,Sedan,Lahore,4,full,none,5367439,True
+Suzuki,Alto,VX,2014,214240,8.6,660,Petrol,Automatic,Hatchback,Karachi,2,partial,none,1920829,True
+Hyundai,Tucson,FWD,2016,159276,6.9,2000,Petrol,Automatic,SUV,Islamabad,1,full,minor,4065569,True
+Hyundai,Elantra,Ultimate,2012,230639,6.9,2000,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,1681666,True
+Hyundai,Tucson,FWD,2024,51413,7.7,2000,Petrol,Manual,SUV,Lahore,2,full,none,6564505,True
+Honda,Civic,RS,2013,285277,7.6,1800,Petrol,Manual,Sedan,Rawalpindi,1,full,none,780856,True
+Kia,Picanto,MT,2019,116476,6.9,1000,Petrol,Manual,Hatchback,Karachi,1,unknown,none,3188953,True
+Hyundai,Tucson,AWD,2014,216394,8.6,2000,Petrol,Automatic,SUV,Faisalabad,3,full,minor,3020940,True
+Suzuki,Swift,DLX,2019,137525,7.0,1200,Petrol,Manual,Hatchback,Faisalabad,2,unknown,minor,2411364,True
+Suzuki,Swift,GLX CVT,2017,177246,9.2,1200,Hybrid,Automatic,Hatchback,Lahore,1,partial,minor,3035919,True
+Suzuki,Swift,DLX,2018,147604,5.9,1200,Petrol,Automatic,Hatchback,Faisalabad,2,full,minor,2930622,True
+Toyota,Yaris,ATIV X,2019,141986,9.2,1500,Petrol,Manual,Sedan,Faisalabad,1,full,minor,3432087,True
+Honda,City,1.5 Aspire,2016,192984,7.8,1500,Petrol,Automatic,Sedan,Lahore,1,full,major,2034716,True
+Kia,Picanto,MT,2020,140673,9.1,1000,Petrol,Automatic,Hatchback,Faisalabad,2,full,none,3649054,True
+Kia,Picanto,MT,2025,23158,10.0,1000,Petrol,Manual,Hatchback,Faisalabad,2,full,none,5962516,True
+Toyota,Corolla,Altis,2023,74573,7.7,1800,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,5567640,True
+Suzuki,Alto,VX,2014,240645,6.1,660,Petrol,Manual,Hatchback,Islamabad,4,full,none,1062604,True
+Hyundai,Elantra,Ultimate,2022,40856,6.2,2000,Petrol,Manual,Sedan,Lahore,1,full,major,4601469,True
+Kia,Sportage,Alpha,2014,222479,8.4,2000,Hybrid,Automatic,SUV,Rawalpindi,4,partial,none,3102743,True
+Toyota,Yaris,GLI CVT,2014,235398,8.4,1500,Petrol,Automatic,Sedan,Karachi,4,partial,minor,1343321,True
+Hyundai,Tucson,AWD,2017,154501,7.2,2000,Petrol,Automatic,SUV,Karachi,2,full,none,4116576,True
+Toyota,Yaris,ATIV X,2013,259424,8.2,1500,Petrol,Automatic,Sedan,Faisalabad,1,full,major,874993,True
+Suzuki,Alto,VXL AGS,2024,69473,8.3,660,Petrol,Manual,Hatchback,Rawalpindi,1,unknown,none,4778074,True
+Suzuki,Swift,DLX,2016,177813,7.1,1200,Petrol,Automatic,Hatchback,Karachi,1,partial,none,3051656,True
+Suzuki,Swift,DLX,2023,62160,8.2,1200,Petrol,Automatic,Hatchback,Karachi,1,full,none,5447568,True
+Honda,Civic,VTi,2012,244625,7.4,1800,Petrol,Automatic,Sedan,Karachi,3,full,none,1580280,True
+Suzuki,Swift,DLX,2018,144075,7.5,1200,Hybrid,Automatic,Hatchback,Islamabad,1,full,none,3356268,True
+Hyundai,Elantra,Ultimate,2024,31492,6.8,2000,Petrol,Automatic,Sedan,Faisalabad,3,full,none,6041881,True
+Kia,Sportage,AWD,2024,48566,7.9,2000,Petrol,Manual,SUV,Faisalabad,1,full,none,6158716,True
+Honda,City,1.2LS,2012,238503,6.3,1500,Petrol,Automatic,Sedan,Islamabad,1,full,none,982672,True
+Suzuki,Swift,DLX,2021,95745,7.3,1200,Petrol,Automatic,Hatchback,Rawalpindi,1,full,none,4183596,True
+Kia,Sportage,AWD,2015,175987,8.0,2000,Diesel,Automatic,SUV,Karachi,2,full,none,3444485,True
+Kia,Sportage,AWD,2015,191073,5.6,2000,Petrol,Manual,SUV,Lahore,1,full,none,3023128,True
+Hyundai,Tucson,AWD,2022,108356,8.3,2000,Petrol,Automatic,SUV,Lahore,1,unknown,none,5956608,True
+Hyundai,Tucson,FWD,2012,258681,5.6,2000,Petrol,Automatic,SUV,Lahore,1,unknown,none,1934505,True
+Kia,Sportage,AWD,2019,127341,6.8,2000,Petrol,Automatic,SUV,Islamabad,3,unknown,none,4595657,True
+Hyundai,Elantra,GLS,2024,38029,9.2,2000,Petrol,Automatic,Sedan,Faisalabad,2,full,none,6414408,True
+Kia,Picanto,AT,2012,260208,10.0,1000,Petrol,Automatic,Hatchback,Islamabad,3,partial,none,1305709,True
+Kia,Sportage,AWD,2019,127464,7.8,2000,Diesel,Manual,SUV,Faisalabad,1,full,none,4969097,True
+Hyundai,Tucson,AWD,2021,61415,8.2,2000,Hybrid,Automatic,SUV,Faisalabad,1,full,none,6328058,True
+Suzuki,Alto,VXR,2017,148842,8.0,660,Petrol,Manual,Hatchback,Faisalabad,1,full,none,2846486,True
+Hyundai,Tucson,FWD,2013,236868,6.4,2000,Petrol,Manual,SUV,Lahore,1,full,none,1415599,True
+Hyundai,Elantra,Ultimate,2022,55295,7.1,2000,Petrol,Manual,Sedan,Lahore,2,full,none,5243695,True
+Honda,Civic,Oriel,2023,11529,7.7,1800,Petrol,Automatic,Sedan,Rawalpindi,3,full,none,6071908,True
+Toyota,Corolla,Altis,2016,207792,7.8,1800,Diesel,Automatic,Sedan,Faisalabad,2,full,none,2835270,True
+Honda,Civic,VTi,2023,55932,8.5,1800,Hybrid,Manual,Sedan,Islamabad,1,partial,none,6081679,True
+Toyota,Corolla,GLi,2022,73260,5.8,1800,Hybrid,Automatic,Sedan,Karachi,3,full,none,5337505,True
+Hyundai,Elantra,GLS,2024,38445,8.1,2000,Petrol,Automatic,Sedan,Lahore,1,full,none,6346505,True
+Kia,Picanto,AT,2014,227484,6.4,1000,Petrol,Manual,Hatchback,Rawalpindi,1,partial,minor,1154311,True
+Toyota,Corolla,GLi,2016,192470,6.7,1800,Hybrid,Automatic,Sedan,Karachi,2,full,none,2972034,True
+Kia,Sportage,AWD,2019,105440,8.9,2000,Petrol,Automatic,SUV,Karachi,2,full,none,5696293,True
+Kia,Sportage,Alpha,2020,96279,6.8,2000,Petrol,Manual,SUV,Islamabad,2,partial,none,4880142,True
+Honda,Civic,VTi,2023,39748,6.7,1800,Petrol,Manual,Sedan,Faisalabad,1,partial,none,5395900,True
+Toyota,Corolla,XLi,2024,35256,7.7,1800,Hybrid,Manual,Sedan,Islamabad,1,partial,none,6232576,True
+Honda,City,1.2LS,2019,130701,6.3,1500,Petrol,Automatic,Sedan,Faisalabad,1,full,none,3974291,True
+Suzuki,Swift,GLX CVT,2014,242413,9.7,1200,Petrol,Automatic,Hatchback,Rawalpindi,1,full,minor,2442241,True
+Suzuki,Alto,VXR,2018,122995,8.1,660,Petrol,Manual,Hatchback,Karachi,1,full,none,3215631,True
+Kia,Picanto,MT,2018,158309,7.4,1000,Petrol,Automatic,Hatchback,Faisalabad,1,full,none,3164863,True
+Honda,City,1.2LS,2020,102390,6.2,1500,Petrol,Manual,Sedan,Rawalpindi,2,partial,none,4079550,True
+Kia,Sportage,Alpha,2013,233755,9.8,2000,Hybrid,Automatic,SUV,Islamabad,3,full,none,3416665,True
+Toyota,Yaris,ATIV X,2025,3969,6.6,1500,Petrol,Automatic,Sedan,Lahore,2,full,minor,6058792,True
+Honda,Civic,VTi,2023,59575,6.3,1800,Petrol,Automatic,Sedan,Islamabad,1,full,none,5610498,True
+Honda,City,1.5 Aspire,2015,234355,9.7,1500,Petrol,Automatic,Sedan,Karachi,3,full,major,1990013,True
+Suzuki,Alto,VX,2018,167729,8.3,660,Petrol,Automatic,Hatchback,Lahore,1,unknown,minor,2775109,True
+Toyota,Yaris,ATIV X,2016,167628,8.3,1500,Petrol,Automatic,Sedan,Faisalabad,2,unknown,minor,2361804,True
+Kia,Sportage,FWD,2017,178882,7.7,2000,Petrol,Automatic,SUV,Islamabad,1,partial,none,3620852,True
+Honda,Civic,VTi,2015,230943,7.4,1800,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,2595242,True
+Toyota,Yaris,ATIV X,2023,60486,8.2,1500,Petrol,Automatic,Sedan,Lahore,2,partial,none,5469841,True
+Hyundai,Tucson,FWD,2012,278137,6.2,2000,Petrol,Automatic,SUV,Faisalabad,2,full,major,710964,True
+Hyundai,Elantra,GLS,2014,241818,7.9,2000,Hybrid,Automatic,Sedan,Islamabad,2,full,none,2523581,True
+Toyota,Corolla,Altis,2018,131118,9.3,1800,Petrol,Automatic,Sedan,Faisalabad,1,partial,none,4459786,True
+Suzuki,Swift,DLX,2012,243395,9.2,1200,Hybrid,Automatic,Hatchback,Faisalabad,1,full,none,2038067,True
+Hyundai,Tucson,FWD,2021,129243,10.0,2000,Petrol,Automatic,SUV,Lahore,3,partial,none,5686860,True
+Hyundai,Elantra,GLS,2016,184900,9.5,2000,Hybrid,Manual,Sedan,Faisalabad,2,unknown,none,3384973,True
+Toyota,Yaris,GLI CVT,2019,143507,7.3,1500,Diesel,Automatic,Sedan,Faisalabad,2,full,none,3611171,True
+Honda,Civic,RS,2015,198595,7.0,1800,Petrol,Automatic,Sedan,Karachi,1,partial,none,2250877,True
+Honda,Civic,VTi,2024,43529,10.0,1800,Petrol,Automatic,Sedan,Faisalabad,2,full,none,6119089,True
+Honda,Civic,RS,2025,20823,7.6,1800,Petrol,Manual,Sedan,Faisalabad,1,full,none,6423460,True
+Suzuki,Alto,VXR,2025,6676,6.5,660,Hybrid,Manual,Hatchback,Karachi,1,partial,none,5663676,True
+Toyota,Corolla,Altis,2017,172397,9.4,1800,Petrol,Manual,Sedan,Faisalabad,1,full,major,2558410,True
+Kia,Sportage,FWD,2024,16823,6.9,2000,Diesel,Automatic,SUV,Faisalabad,2,full,minor,6443966,True
+Kia,Picanto,MT,2020,100027,7.4,1000,Petrol,Automatic,Hatchback,Faisalabad,1,full,none,4373486,True
+Kia,Picanto,MT,2014,222660,7.4,1000,Hybrid,Automatic,Hatchback,Lahore,1,full,major,1288328,True
+Hyundai,Elantra,Ultimate,2014,200432,7.3,2000,Petrol,Automatic,Sedan,Karachi,2,full,none,2557286,True
+Honda,Civic,Oriel,2022,51470,5.6,1800,Petrol,Automatic,Sedan,Faisalabad,1,unknown,minor,4856329,True
+Suzuki,Swift,DLX,2014,211964,9.1,1200,Petrol,Manual,Hatchback,Lahore,1,partial,none,2255327,True
+Suzuki,Alto,VXL AGS,2018,129156,7.3,660,Petrol,Automatic,Hatchback,Lahore,1,full,none,3009561,True
+Honda,City,1.5 Aspire,2024,26711,9.5,1500,Petrol,Automatic,Sedan,Lahore,1,partial,none,6499833,True
+Toyota,Corolla,XLi,2019,126011,7.7,1800,Petrol,Automatic,Sedan,Faisalabad,1,unknown,none,4392220,True
+Kia,Sportage,Alpha,2013,207574,6.7,2000,Petrol,Automatic,SUV,Karachi,1,full,none,2499135,True
+Suzuki,Alto,VXR,2022,44117,6.3,660,Petrol,Automatic,Hatchback,Lahore,3,full,minor,3972758,True
+Toyota,Yaris,GLI CVT,2022,52314,7.8,1500,Petrol,Automatic,Sedan,Islamabad,1,full,major,4873471,True
+Hyundai,Tucson,FWD,2021,92322,8.0,2000,Hybrid,Automatic,SUV,Rawalpindi,2,partial,major,5284650,True
+Kia,Sportage,FWD,2012,249374,6.6,2000,Petrol,Manual,SUV,Lahore,1,full,none,2529223,True
+Suzuki,Swift,DLX,2015,172288,10.0,1200,Petrol,Automatic,Hatchback,Karachi,1,full,major,2192098,True
+Honda,Civic,Oriel,2013,227448,8.0,1800,Hybrid,Automatic,Sedan,Islamabad,1,full,none,2860469,True
+Toyota,Corolla,XLi,2019,149863,8.6,1800,Petrol,Manual,Sedan,Karachi,2,full,none,4380252,True
+Toyota,Corolla,GLi,2016,168678,7.7,1800,Petrol,Automatic,Sedan,Karachi,1,full,major,2502062,True
+Hyundai,Elantra,GLS,2013,244641,7.9,2000,Petrol,Automatic,Sedan,Faisalabad,2,full,none,2382506,True
+Kia,Picanto,AT,2024,28064,7.6,1000,Petrol,Automatic,Hatchback,Lahore,3,full,minor,4993420,True
+Honda,City,1.5 Aspire,2012,239618,9.1,1500,Petrol,Automatic,Sedan,Rawalpindi,2,partial,minor,1421785,True
+Hyundai,Tucson,FWD,2018,91375,8.7,2000,Hybrid,Automatic,SUV,Lahore,3,full,minor,5218574,True
+Honda,Civic,RS,2025,24107,8.6,1800,Petrol,Automatic,Sedan,Karachi,4,partial,none,6147172,True
+Toyota,Yaris,ATIV X,2021,136463,8.1,1500,Petrol,Automatic,Sedan,Karachi,4,full,none,3933970,True
+Kia,Sportage,AWD,2021,63386,7.4,2000,Petrol,Automatic,SUV,Faisalabad,1,full,none,5967619,True
+Suzuki,Alto,VXL AGS,2023,50868,7.6,660,Petrol,Automatic,Hatchback,Faisalabad,2,full,major,4011283,True
+Suzuki,Swift,DLX,2022,86350,8.4,1200,Petrol,Automatic,Hatchback,Karachi,2,full,none,5097287,True
+Hyundai,Tucson,FWD,2020,96836,8.0,2000,Petrol,Automatic,SUV,Islamabad,1,full,none,5259410,True
+Hyundai,Tucson,AWD,2018,109725,7.2,2000,Petrol,Automatic,SUV,Rawalpindi,2,full,minor,4493875,True
+Toyota,Yaris,GLI CVT,2018,134251,6.7,1500,Hybrid,Automatic,Sedan,Islamabad,3,partial,minor,3167540,True
+Hyundai,Tucson,AWD,2022,67154,7.9,2000,Petrol,Manual,SUV,Faisalabad,1,partial,minor,5742849,True
+Hyundai,Tucson,FWD,2014,235980,6.5,2000,Petrol,Automatic,SUV,Lahore,2,partial,minor,2161486,True
+Honda,Civic,RS,2021,105045,7.4,1800,Petrol,Manual,Sedan,Islamabad,1,partial,minor,4288892,True
+Hyundai,Elantra,GLS,2018,182982,8.6,2000,Petrol,Manual,Sedan,Faisalabad,2,full,none,2984795,True
+Kia,Sportage,AWD,2023,40680,8.5,2000,Diesel,Automatic,SUV,Islamabad,4,unknown,none,6459841,True
+Suzuki,Swift,DLX,2012,270814,8.4,1200,Petrol,Automatic,Hatchback,Faisalabad,3,full,minor,450000,True
+Kia,Picanto,MT,2012,262697,10.0,1000,Petrol,Manual,Hatchback,Karachi,1,full,none,1796473,True
+Suzuki,Alto,VX,2015,206264,7.6,660,Hybrid,Automatic,Hatchback,Rawalpindi,2,unknown,none,1396419,True
+Hyundai,Tucson,FWD,2012,265699,7.6,2000,Hybrid,Automatic,SUV,Karachi,1,partial,none,2140393,True
+Kia,Sportage,AWD,2021,105875,6.3,2000,Petrol,Automatic,SUV,Rawalpindi,1,full,none,5190963,True
+Kia,Picanto,AT,2014,248474,6.0,1000,Petrol,Automatic,Hatchback,Rawalpindi,1,unknown,minor,450000,True
+Kia,Picanto,AT,2016,195268,8.2,1000,Petrol,Automatic,Hatchback,Islamabad,2,full,none,1959810,True
+Suzuki,Swift,DLX,2020,139254,10.0,1200,Hybrid,Automatic,Hatchback,Rawalpindi,4,full,major,4237451,True
+Suzuki,Swift,DLX,2021,92568,7.3,1200,Diesel,Manual,Hatchback,Karachi,2,unknown,none,4207763,True
+Suzuki,Swift,DLX,2020,115250,9.4,1200,Petrol,Manual,Hatchback,Karachi,1,full,none,4062626,True
+Hyundai,Elantra,Ultimate,2025,34460,6.8,2000,Petrol,Automatic,Sedan,Rawalpindi,2,full,none,5825737,True
+Honda,City,1.2LS,2017,151613,10.0,1500,Petrol,Manual,Sedan,Lahore,2,partial,none,3862746,True
+Kia,Sportage,AWD,2012,243989,6.6,2000,Petrol,Automatic,SUV,Karachi,2,full,none,2392141,True
+Kia,Picanto,AT,2012,221917,7.4,1000,Petrol,Automatic,Hatchback,Rawalpindi,1,full,none,1300890,True
+Kia,Picanto,AT,2014,264350,6.1,1000,Diesel,Manual,Hatchback,Faisalabad,1,partial,minor,450000,True
+Hyundai,Elantra,GLS,2018,178292,8.6,2000,Petrol,Automatic,Sedan,Rawalpindi,1,full,none,3894644,True
+Kia,Sportage,Alpha,2017,149667,8.1,2000,Diesel,Automatic,SUV,Lahore,2,unknown,major,3631426,True

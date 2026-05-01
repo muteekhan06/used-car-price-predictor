@@ -1,0 +1,401 @@
+make,model,variant,year,mileage,transmission,fuel_type,inspection_score,registered_in,color,assembly,price,synthetic_data_only,section_interior_pct,section_engine_transmission_clutch_pct,section_electrical_electronics_pct,section_body_frame_accident_pct,section_exterior_body_pct,section_ac_heater_pct,section_brakes_pct,section_suspension_steering_pct,section_tyres_pct
+Toyota,Corolla,Altis,2016,180316,Automatic,Petrol,8.98,Faisalabad,White,Local,2486816,True,94.2,92.0,90.4,93.9,89.0,100.0,84.6,81.6,54.9
+Honda,City,1.5 Aspire,2016,205288,Manual,Petrol,8.99,Karachi,Black,Local,2096553,True,87.8,93.4,88.5,95.4,87.7,88.5,87.0,100.0,88.7
+Toyota,Corolla,Altis,2015,205548,Automatic,Hybrid,9.34,Rawalpindi,White,Local,2199859,True,82.3,96.8,93.4,100.0,100.0,85.5,86.2,79.3,76.8
+Kia,Sportage,AWD,2017,179152,Manual,Petrol,7.81,Islamabad,Black,Local,2225294,True,98.0,85.6,91.0,86.5,56.0,90.1,87.2,78.8,93.9
+Kia,Picanto,AT,2017,173951,Manual,Petrol,8.65,Karachi,Red,Local,2480088,True,95.3,100.0,86.3,87.8,71.0,84.9,89.9,99.2,99.2
+Kia,Picanto,AT,2013,231148,Automatic,Petrol,8.33,Islamabad,Green,Imported,906223,True,83.7,90.8,82.5,79.0,74.4,89.7,86.7,89.1,100.0
+Kia,Picanto,AT,2012,265042,Automatic,Diesel,8.7,Lahore,White,Imported,630412,True,91.6,89.9,89.4,94.4,84.5,76.4,96.3,93.8,66.8
+Hyundai,Elantra,GLS,2023,31780,Automatic,Petrol,9.25,Faisalabad,Black,Local,5106161,True,89.7,91.6,83.2,89.1,100.0,90.6,92.8,85.6,91.2
+Suzuki,Swift,DLX,2020,136402,Automatic,Petrol,8.65,Rawalpindi,Blue,Local,3156413,True,95.8,95.9,85.0,99.7,80.5,78.1,93.6,83.5,66.8
+Honda,Civic,VTi,2020,90129,Manual,Petrol,9.3,Karachi,Black,Imported,4344740,True,85.2,90.2,100.0,93.9,100.0,86.5,92.8,78.1,67.6
+Toyota,Corolla,GLi,2012,266070,Automatic,Hybrid,8.44,Rawalpindi,Grey,Imported,1317469,True,90.8,79.5,87.5,94.6,83.9,92.7,89.7,79.8,76.1
+Kia,Sportage,Alpha,2020,118110,Automatic,Petrol,8.22,Lahore,Black,Imported,4010869,True,77.3,86.5,94.8,95.1,73.8,81.4,87.5,92.5,71.7
+Honda,City,1.5 Aspire,2017,200048,Automatic,Petrol,9.38,Faisalabad,Green,Local,1524140,True,89.6,97.1,100.0,84.8,92.1,84.7,98.3,100.0,72.1
+Kia,Sportage,AWD,2025,0,Automatic,Petrol,8.85,Islamabad,White,Local,5642151,True,81.2,88.9,83.2,83.3,88.3,100.0,89.2,97.8,100.0
+Hyundai,Tucson,FWD,2012,247222,Manual,Diesel,8.09,Rawalpindi,Silver,Local,450000,True,91.6,91.2,100.0,78.0,59.3,85.7,86.1,80.6,87.0
+Toyota,Yaris,GLI CVT,2022,72024,Automatic,Hybrid,9.19,Rawalpindi,Green,Imported,4982280,True,93.9,88.4,98.6,100.0,88.9,97.4,97.8,100.0,81.1
+Honda,City,1.2LS,2024,30673,Automatic,Petrol,8.97,Lahore,Blue,Local,5462490,True,82.6,100.0,92.2,96.4,87.1,96.7,100.0,60.4,74.1
+Kia,Picanto,MT,2013,244030,Automatic,Petrol,8.21,Karachi,White,Local,870152,True,87.0,84.1,85.4,85.9,70.2,96.9,89.6,100.0,100.0
+Honda,City,1.5 Aspire,2013,272459,Automatic,Petrol,9.2,Karachi,Grey,Local,1006539,True,84.6,98.6,87.2,99.3,92.5,96.0,100.0,77.4,95.0
+Kia,Sportage,FWD,2016,187822,Manual,Petrol,9.08,Rawalpindi,Black,Local,1631635,True,68.9,93.9,93.2,87.6,96.5,94.9,85.1,76.0,88.4
+Honda,Civic,VTi,2012,301573,Automatic,Petrol,8.83,Rawalpindi,Black,Local,835471,True,92.8,100.0,86.8,94.3,82.2,89.3,90.1,63.4,90.4
+Kia,Picanto,MT,2020,108176,Automatic,Petrol,7.72,Faisalabad,Green,Local,3306629,True,100.0,85.8,83.5,82.6,58.5,89.5,73.7,76.4,77.3
+Honda,City,1.5 Aspire,2022,73308,Manual,Petrol,9.24,Islamabad,White,Local,4344719,True,92.2,95.4,88.2,77.8,95.2,93.2,82.0,80.7,82.2
+Kia,Sportage,AWD,2018,101398,Automatic,Petrol,7.77,Rawalpindi,Silver,Imported,3134737,True,93.9,74.7,86.4,94.6,70.2,90.7,83.0,65.3,73.4
+Kia,Sportage,FWD,2021,86121,Manual,Petrol,8.6,Rawalpindi,White,Local,4059301,True,83.4,98.8,84.5,100.0,77.4,100.0,76.6,94.8,53.5
+Suzuki,Alto,VXL AGS,2013,239097,Automatic,Petrol,8.88,Lahore,Red,Local,663186,True,88.7,100.0,100.0,100.0,73.2,91.3,82.6,96.0,100.0
+Honda,City,1.2LS,2021,105363,Automatic,Petrol,8.14,Rawalpindi,Beige,Local,3667782,True,73.8,82.8,92.5,100.0,76.7,100.0,94.9,63.9,74.0
+Suzuki,Alto,VXL AGS,2022,52998,Manual,Hybrid,8.35,Islamabad,Silver,Imported,5286054,True,85.4,82.8,90.2,65.6,80.0,100.0,81.1,80.7,55.7
+Honda,Civic,Oriel,2019,126775,Automatic,Petrol,7.83,Karachi,Silver,Local,3314400,True,79.6,91.6,91.7,100.0,61.0,80.6,80.9,79.0,82.0
+Kia,Sportage,AWD,2019,113275,Manual,Hybrid,9.01,Lahore,Black,Local,3605635,True,83.6,84.4,85.9,90.7,99.4,89.8,84.7,94.6,74.2
+Suzuki,Alto,VXL AGS,2020,134252,Automatic,Petrol,8.77,Islamabad,Grey,Imported,4259411,True,80.7,90.0,95.7,98.3,84.2,95.0,99.8,85.3,71.8
+Honda,City,1.2LS,2025,32680,Manual,Petrol,8.45,Karachi,White,Imported,5640218,True,90.5,92.9,82.8,94.7,80.1,85.8,97.3,56.8,87.7
+Hyundai,Elantra,Ultimate,2019,138691,Automatic,Petrol,8.17,Faisalabad,Silver,Local,2941219,True,86.6,71.6,93.3,100.0,78.9,86.0,91.5,88.2,94.4
+Suzuki,Alto,VX,2016,172506,Automatic,Petrol,7.46,Islamabad,Blue,Local,1926782,True,76.9,75.2,84.2,100.0,66.0,76.0,91.4,79.9,84.5
+Kia,Picanto,AT,2013,218968,Manual,Petrol,9.49,Faisalabad,Silver,Local,777780,True,97.3,93.1,89.7,100.0,100.0,100.0,95.4,70.5,100.0
+Suzuki,Alto,VX,2019,106687,Automatic,Petrol,9.05,Rawalpindi,Silver,Local,3448374,True,95.0,95.0,86.8,100.0,90.3,84.4,87.7,74.7,100.0
+Hyundai,Elantra,Ultimate,2016,158802,Automatic,Petrol,8.17,Karachi,Grey,Local,2111637,True,83.0,93.7,84.4,100.0,67.5,80.4,92.9,98.5,92.5
+Toyota,Corolla,Altis,2021,98633,Manual,Petrol,8.2,Rawalpindi,White,Imported,3866179,True,96.6,86.4,100.0,100.0,62.4,90.1,83.6,83.5,99.3
+Kia,Sportage,FWD,2015,216913,Automatic,Hybrid,8.61,Islamabad,Blue,Imported,2305962,True,79.5,100.0,91.9,94.8,79.3,74.9,79.7,75.5,88.8
+Suzuki,Swift,GLX CVT,2017,196547,Automatic,Petrol,8.56,Rawalpindi,White,Imported,2246216,True,83.4,77.0,84.2,100.0,98.7,69.7,87.8,84.1,58.0
+Hyundai,Elantra,Ultimate,2012,248814,Manual,Petrol,8.35,Rawalpindi,Blue,Local,450000,True,81.5,85.4,97.5,98.7,75.7,81.2,100.0,79.2,91.2
+Kia,Sportage,Alpha,2022,66064,Manual,Petrol,8.84,Karachi,Blue,Local,4384752,True,92.4,93.8,91.5,96.5,81.0,92.4,84.7,93.9,78.6
+Honda,Civic,VTi,2013,220344,Automatic,Petrol,9.53,Faisalabad,White,Local,1313035,True,87.8,97.1,100.0,95.2,98.9,83.0,94.7,94.9,66.7
+Hyundai,Tucson,AWD,2025,0,Manual,Hybrid,8.86,Rawalpindi,Silver,Local,5871515,True,95.5,90.7,100.0,91.8,80.4,100.0,84.8,65.8,97.5
+Suzuki,Alto,VXL AGS,2024,20645,Automatic,Petrol,8.46,Lahore,Silver,Imported,5795258,True,83.3,85.5,83.4,99.3,82.4,86.5,86.3,100.0,81.6
+Suzuki,Swift,DLX,2016,217089,Manual,Diesel,8.77,Islamabad,Blue,Local,2099162,True,100.0,97.1,93.6,100.0,77.0,82.8,95.8,71.4,90.7
+Toyota,Yaris,ATIV X,2022,71912,Automatic,Petrol,8.63,Islamabad,White,Local,4713633,True,100.0,93.6,77.6,84.8,83.8,92.8,97.8,60.5,73.1
+Toyota,Yaris,ATIV X,2013,264810,Automatic,Petrol,8.17,Faisalabad,Black,Imported,722267,True,93.3,97.8,98.6,100.0,56.2,100.0,97.5,86.4,43.5
+Toyota,Yaris,ATIV X,2012,242632,Automatic,Petrol,8.86,Rawalpindi,White,Local,450000,True,72.7,74.6,98.0,97.1,100.0,89.0,94.2,100.0,59.2
+Honda,City,1.2LS,2024,37100,Manual,Hybrid,9.27,Lahore,Silver,Imported,6003253,True,100.0,100.0,96.5,100.0,87.1,79.6,96.3,84.9,89.0
+Toyota,Yaris,ATIV X,2024,20364,Manual,Petrol,8.8,Faisalabad,White,Imported,5555877,True,95.3,83.8,74.6,100.0,96.8,93.4,80.1,94.6,45.2
+Toyota,Yaris,GLI CVT,2013,251676,Automatic,Petrol,9.05,Rawalpindi,Green,Local,1379806,True,76.2,94.1,100.0,100.0,94.4,80.7,91.5,65.0,81.6
+Suzuki,Swift,GLX CVT,2018,142009,Manual,Petrol,8.53,Lahore,Grey,Local,2713563,True,91.2,92.8,81.5,100.0,78.2,93.0,100.0,95.1,57.3
+Hyundai,Elantra,Ultimate,2021,86780,Manual,Petrol,8.8,Rawalpindi,White,Local,3938980,True,92.9,84.7,92.7,79.7,91.8,75.5,100.0,80.5,61.7
+Suzuki,Alto,VX,2016,175468,Manual,Petrol,9.34,Lahore,Silver,Local,1902316,True,96.0,99.8,100.0,97.5,85.9,98.1,85.8,93.7,73.4
+Toyota,Corolla,XLi,2014,216160,Automatic,Petrol,8.97,Rawalpindi,Silver,Local,1427865,True,85.8,100.0,97.6,100.0,78.9,100.0,78.2,85.5,92.4
+Toyota,Corolla,GLi,2015,201328,Manual,Petrol,8.72,Rawalpindi,Grey,Local,1234155,True,77.8,99.5,78.7,94.0,84.7,87.1,91.5,81.3,100.0
+Kia,Picanto,AT,2023,44523,Automatic,Petrol,8.64,Lahore,Blue,Local,5010576,True,98.0,75.4,100.0,100.0,83.7,100.0,82.1,82.2,72.9
+Honda,Civic,RS,2022,88212,Manual,Hybrid,9.39,Lahore,White,Local,4165613,True,92.0,100.0,92.7,78.0,92.9,100.0,76.6,84.7,79.0
+Kia,Picanto,AT,2014,197182,Automatic,Petrol,9.54,Faisalabad,White,Local,1681348,True,84.3,99.1,100.0,100.0,100.0,97.4,96.8,70.9,61.3
+Toyota,Yaris,GLI CVT,2017,145221,Automatic,Diesel,8.0,Islamabad,Green,Local,2709299,True,86.5,89.2,86.3,61.4,65.4,88.3,78.3,100.0,58.3
+Toyota,Yaris,GLI CVT,2017,184471,Automatic,Petrol,8.16,Faisalabad,Red,Local,1962044,True,83.7,88.8,81.2,100.0,78.9,82.4,74.4,68.1,72.7
+Honda,Civic,RS,2022,56877,Manual,Petrol,9.09,Lahore,Black,Imported,4800098,True,100.0,100.0,95.3,100.0,86.7,80.7,77.3,79.1,56.2
+Kia,Sportage,AWD,2018,150434,Automatic,Petrol,9.01,Lahore,Grey,Local,2598182,True,78.6,100.0,100.0,91.1,83.3,76.0,90.6,92.8,100.0
+Honda,City,1.5 Aspire,2019,129805,Automatic,Petrol,8.46,Lahore,Blue,Imported,4029593,True,92.4,95.6,83.0,76.6,77.3,88.7,98.8,64.7,72.4
+Kia,Sportage,FWD,2013,246039,Manual,Petrol,8.76,Karachi,Black,Local,450000,True,81.8,96.6,96.4,97.8,80.5,93.3,88.4,73.4,80.5
+Hyundai,Elantra,Ultimate,2019,96704,Manual,Petrol,9.1,Lahore,Silver,Imported,4090171,True,83.7,90.3,90.6,100.0,96.0,92.5,92.4,71.2,100.0
+Toyota,Corolla,Altis,2014,215741,Automatic,Petrol,9.13,Lahore,Grey,Local,1544392,True,91.3,90.5,83.8,91.9,99.5,89.3,83.0,92.6,50.2
+Toyota,Yaris,GLI CVT,2017,163467,Automatic,Petrol,9.46,Islamabad,White,Local,2823969,True,81.2,100.0,97.1,79.4,97.7,88.9,91.8,89.9,70.4
+Honda,Civic,VTi,2012,245787,Automatic,Petrol,8.95,Rawalpindi,White,Imported,1104788,True,91.1,98.0,94.7,72.4,79.7,93.6,78.7,100.0,76.7
+Honda,City,1.5 Aspire,2017,181368,Automatic,Hybrid,8.84,Karachi,Black,Imported,3067768,True,91.2,97.0,97.0,99.9,79.0,98.3,89.0,76.9,62.7
+Suzuki,Swift,GLX CVT,2022,115412,Automatic,Petrol,8.7,Islamabad,Silver,Imported,5019019,True,89.2,92.7,98.1,80.5,76.7,91.6,91.0,100.0,54.3
+Honda,City,1.5 Aspire,2017,155241,Automatic,Petrol,8.73,Islamabad,Grey,Local,2370088,True,99.1,99.5,85.1,94.1,73.6,87.6,89.4,97.0,90.3
+Hyundai,Elantra,GLS,2014,227886,Automatic,Hybrid,8.84,Karachi,Blue,Imported,2205913,True,100.0,90.0,89.8,80.5,80.2,96.5,96.9,99.8,75.1
+Honda,Civic,VTi,2024,56454,Automatic,Petrol,9.03,Islamabad,Black,Imported,5581729,True,100.0,100.0,98.5,98.5,79.9,81.1,83.0,90.5,71.1
+Toyota,Yaris,ATIV X,2022,62621,Automatic,Hybrid,8.97,Faisalabad,White,Imported,5378242,True,70.0,98.2,95.4,95.9,87.5,93.9,84.5,100.0,57.8
+Toyota,Yaris,GLI CVT,2022,85879,Automatic,Petrol,7.88,Karachi,Silver,Local,4097573,True,92.9,89.3,85.9,79.2,63.3,80.6,76.2,75.3,82.5
+Kia,Picanto,MT,2024,13546,Automatic,Petrol,8.74,Faisalabad,White,Imported,5949412,True,71.8,92.5,89.7,85.5,87.1,91.2,81.4,89.1,83.8
+Suzuki,Swift,GLX CVT,2014,217449,Manual,Petrol,8.88,Karachi,White,Local,959403,True,94.1,94.8,84.8,100.0,83.3,100.0,93.8,93.0,66.5
+Hyundai,Tucson,AWD,2016,172181,Automatic,Petrol,8.52,Lahore,White,Local,1873679,True,98.0,93.9,99.5,83.2,67.1,91.8,94.9,73.6,95.9
+Suzuki,Alto,VXR,2012,241292,Manual,Petrol,8.88,Faisalabad,Black,Local,544599,True,93.7,81.1,89.2,90.3,93.3,94.4,100.0,82.7,72.4
+Hyundai,Elantra,GLS,2012,262557,Automatic,Petrol,8.81,Faisalabad,Beige,Local,553563,True,95.2,88.1,84.4,100.0,92.6,81.0,80.5,83.3,58.7
+Toyota,Yaris,ATIV X,2022,86426,Automatic,Petrol,8.55,Karachi,Silver,Local,4016771,True,74.5,73.3,87.6,90.3,97.1,92.9,77.4,81.1,80.3
+Honda,Civic,RS,2023,56713,Manual,Petrol,8.92,Lahore,Black,Imported,5170070,True,100.0,83.2,91.8,90.1,88.7,94.2,84.6,99.8,65.1
+Kia,Picanto,AT,2022,75960,Automatic,Petrol,8.89,Faisalabad,Silver,Imported,4659190,True,86.6,97.6,100.0,82.8,85.7,77.6,86.6,71.1,58.9
+Suzuki,Swift,DLX,2021,82173,Automatic,Diesel,8.1,Lahore,White,Local,4002535,True,86.1,83.8,87.0,97.0,74.3,90.7,71.9,77.3,75.3
+Kia,Sportage,Alpha,2012,241308,Manual,Petrol,9.07,Rawalpindi,White,Local,734445,True,85.9,87.0,100.0,87.3,93.3,99.7,96.7,74.7,63.3
+Suzuki,Alto,VX,2022,52093,Automatic,Petrol,9.19,Lahore,Black,Imported,5218707,True,90.2,90.1,98.4,77.4,91.4,100.0,94.6,76.9,90.3
+Suzuki,Swift,GLX CVT,2022,51765,Automatic,Diesel,9.27,Rawalpindi,White,Imported,5406941,True,80.9,100.0,85.4,79.9,94.7,90.6,86.7,100.0,85.2
+Hyundai,Tucson,AWD,2013,227454,Automatic,Diesel,8.33,Lahore,White,Local,1450384,True,81.3,93.1,87.6,100.0,73.9,87.2,86.3,90.8,69.7
+Kia,Picanto,MT,2022,85009,Manual,Petrol,8.59,Lahore,Black,Local,3817080,True,96.7,90.5,87.4,70.8,84.1,75.6,96.2,65.9,69.4
+Kia,Picanto,AT,2013,241621,Automatic,Hybrid,8.69,Lahore,Silver,Local,1432608,True,82.9,99.6,95.5,99.0,78.1,88.3,75.5,82.6,60.8
+Toyota,Yaris,ATIV X,2023,67665,Manual,Petrol,9.26,Karachi,White,Local,4166709,True,100.0,100.0,94.4,92.3,86.0,89.2,78.5,95.1,82.1
+Hyundai,Tucson,AWD,2019,152773,Automatic,Petrol,9.36,Faisalabad,White,Imported,3655384,True,100.0,100.0,89.1,97.6,100.0,88.0,90.9,50.8,54.7
+Hyundai,Elantra,GLS,2019,117787,Automatic,Diesel,8.92,Karachi,White,Local,3770980,True,72.2,78.6,96.0,88.8,98.9,94.4,78.7,89.9,85.8
+Hyundai,Elantra,GLS,2024,40020,Manual,Petrol,8.41,Faisalabad,White,Local,4595231,True,84.3,84.8,90.8,99.8,78.1,85.2,89.1,88.0,100.0
+Hyundai,Tucson,FWD,2017,187064,Manual,Hybrid,9.1,Rawalpindi,Black,Local,2545392,True,92.5,100.0,92.3,100.0,87.5,86.5,87.3,85.0,64.7
+Hyundai,Elantra,Ultimate,2015,194469,Automatic,Petrol,8.94,Faisalabad,Grey,Local,2035299,True,86.4,100.0,80.6,80.5,91.3,100.0,88.4,68.8,48.0
+Toyota,Corolla,XLi,2023,106491,Manual,Petrol,8.62,Faisalabad,Grey,Local,3893433,True,88.5,98.0,90.4,100.0,76.4,84.5,79.5,100.0,51.6
+Suzuki,Alto,VXR,2017,142157,Manual,Petrol,8.16,Islamabad,Silver,Local,2710494,True,86.6,84.4,93.7,100.0,74.2,87.4,71.8,75.0,64.7
+Hyundai,Tucson,FWD,2023,57056,Automatic,Petrol,8.77,Faisalabad,Green,Imported,5193381,True,71.0,88.7,100.0,100.0,84.4,90.3,97.3,96.9,85.8
+Hyundai,Tucson,FWD,2021,62797,Automatic,Hybrid,9.31,Karachi,White,Local,4869387,True,99.0,91.7,89.0,100.0,100.0,91.6,83.3,64.7,84.0
+Honda,Civic,VTi,2021,57377,Automatic,Petrol,9.48,Islamabad,Beige,Local,4622565,True,88.6,100.0,87.9,100.0,100.0,100.0,88.8,81.5,65.9
+Toyota,Corolla,XLi,2019,140603,Automatic,Petrol,8.76,Karachi,Beige,Imported,3781161,True,90.5,100.0,88.8,80.7,79.1,100.0,87.4,75.1,56.8
+Suzuki,Alto,VX,2021,110587,Automatic,Hybrid,8.58,Islamabad,White,Local,4410886,True,92.5,84.2,97.0,88.0,83.3,85.6,100.0,82.6,37.4
+Hyundai,Elantra,GLS,2017,142395,Automatic,Petrol,8.04,Islamabad,White,Local,2358956,True,98.4,90.6,81.7,100.0,65.2,95.0,88.2,79.7,58.3
+Toyota,Yaris,GLI CVT,2018,137914,Manual,Petrol,8.29,Karachi,White,Imported,3206528,True,73.7,95.6,94.4,96.8,67.9,94.3,86.3,83.6,94.1
+Suzuki,Swift,DLX,2016,153192,Automatic,Petrol,9.23,Lahore,Silver,Local,2843256,True,84.4,94.0,89.4,100.0,95.8,93.3,81.9,90.6,88.1
+Hyundai,Elantra,Ultimate,2013,235382,Automatic,Petrol,9.23,Rawalpindi,Blue,Local,903775,True,79.6,100.0,100.0,71.0,90.5,95.3,95.1,81.4,62.8
+Suzuki,Swift,DLX,2017,138406,Manual,Petrol,9.38,Faisalabad,White,Imported,3011836,True,94.6,100.0,100.0,97.0,91.4,88.1,94.5,62.4,100.0
+Hyundai,Elantra,Ultimate,2015,197824,Automatic,Petrol,8.15,Rawalpindi,Green,Local,1989523,True,79.3,96.6,100.0,85.9,60.9,86.2,79.2,100.0,57.2
+Honda,City,1.2LS,2022,54399,Automatic,Petrol,8.18,Islamabad,Green,Local,4295526,True,94.9,91.4,83.6,93.1,68.1,84.9,82.5,88.0,80.8
+Suzuki,Alto,VXR,2013,222592,Automatic,Petrol,8.37,Lahore,Black,Local,1328443,True,90.3,81.5,90.2,98.1,80.5,81.4,92.2,85.5,77.2
+Toyota,Corolla,Altis,2015,175307,Automatic,Petrol,8.7,Rawalpindi,White,Local,1714798,True,93.2,100.0,90.4,95.1,76.5,86.5,83.4,77.5,75.1
+Toyota,Corolla,Altis,2014,208068,Automatic,Petrol,8.58,Rawalpindi,Silver,Local,2106293,True,77.9,84.7,86.5,88.7,93.2,80.8,94.9,66.7,71.9
+Honda,City,1.2LS,2015,194097,Automatic,Petrol,8.82,Rawalpindi,Silver,Local,1999684,True,78.8,95.3,76.7,88.3,90.3,87.9,93.3,92.6,89.1
+Suzuki,Alto,VXR,2014,221988,Automatic,Petrol,8.71,Rawalpindi,Grey,Local,1235022,True,93.6,83.2,93.5,95.4,83.8,83.4,88.5,98.7,86.2
+Hyundai,Elantra,GLS,2016,185266,Automatic,Petrol,9.06,Karachi,Blue,Local,1847695,True,89.9,99.3,91.1,78.0,83.4,100.0,96.1,85.9,82.1
+Toyota,Corolla,XLi,2024,33860,Automatic,Hybrid,9.0,Rawalpindi,White,Local,5554036,True,89.6,96.2,98.1,97.7,79.9,99.8,84.4,100.0,75.1
+Toyota,Corolla,GLi,2012,288119,Automatic,Petrol,8.48,Lahore,White,Local,450000,True,88.3,100.0,89.0,97.8,70.7,81.7,87.8,87.4,85.1
+Suzuki,Swift,GLX CVT,2019,125408,Automatic,Petrol,8.52,Rawalpindi,Silver,Local,3018217,True,97.4,79.5,77.3,100.0,89.9,81.7,87.1,92.8,70.4
+Suzuki,Alto,VX,2013,209949,Automatic,Petrol,8.54,Lahore,Black,Local,1393820,True,93.8,89.6,90.6,88.6,78.5,86.2,95.8,80.1,71.6
+Honda,Civic,Oriel,2022,62461,Automatic,Petrol,8.55,Karachi,White,Local,4585609,True,92.3,95.2,91.6,92.6,75.0,76.1,98.4,83.1,81.9
+Toyota,Corolla,GLi,2017,169167,Automatic,Petrol,8.59,Lahore,Grey,Local,2629164,True,98.5,95.3,88.8,89.8,77.7,94.5,89.8,57.0,65.9
+Toyota,Corolla,XLi,2021,87901,Automatic,Petrol,7.88,Lahore,White,Local,3778928,True,76.5,87.4,82.5,82.0,73.8,75.5,86.3,75.5,60.2
+Suzuki,Alto,VX,2019,115921,Manual,Petrol,8.62,Karachi,Green,Imported,3744112,True,100.0,100.0,85.9,89.6,74.0,77.6,100.0,78.2,83.6
+Toyota,Corolla,GLi,2020,101539,Automatic,Petrol,8.74,Rawalpindi,White,Local,3436761,True,82.6,86.7,88.9,100.0,89.8,100.0,82.2,81.3,59.1
+Toyota,Yaris,ATIV X,2023,66726,Automatic,Petrol,8.67,Karachi,Black,Local,4615793,True,82.6,100.0,91.8,88.5,77.7,78.0,100.0,100.0,52.1
+Honda,City,1.2LS,2023,56767,Automatic,Hybrid,8.32,Karachi,White,Local,5000405,True,81.0,90.1,100.0,91.6,67.5,90.2,100.0,92.1,82.4
+Kia,Sportage,Alpha,2023,48606,Manual,Hybrid,9.05,Rawalpindi,Black,Imported,5325415,True,97.9,100.0,100.0,98.4,78.7,78.6,91.0,92.9,89.4
+Kia,Picanto,MT,2020,105256,Automatic,Petrol,8.76,Karachi,Beige,Local,3898808,True,80.8,92.4,95.5,85.9,81.4,89.7,93.1,98.7,71.0
+Kia,Picanto,MT,2023,78669,Manual,Petrol,8.46,Rawalpindi,White,Local,4651968,True,78.9,81.7,98.3,94.6,83.7,82.2,89.5,73.7,89.9
+Toyota,Corolla,Altis,2016,213846,Automatic,Hybrid,8.26,Islamabad,Black,Imported,2405011,True,78.7,86.4,87.4,85.6,79.1,88.4,87.8,78.6,70.4
+Hyundai,Tucson,AWD,2019,125024,Automatic,Petrol,8.85,Faisalabad,White,Local,3522528,True,80.6,93.2,96.8,100.0,84.8,81.3,74.8,89.4,100.0
+Kia,Sportage,Alpha,2025,24330,Automatic,Petrol,8.46,Rawalpindi,Silver,Local,5387792,True,86.2,100.0,99.0,96.2,62.4,93.9,90.0,97.4,80.7
+Honda,Civic,VTi,2025,0,Manual,Diesel,9.51,Faisalabad,White,Imported,6186883,True,91.3,91.4,98.2,87.2,100.0,100.0,93.4,74.5,94.1
+Kia,Picanto,AT,2019,152825,Manual,Petrol,7.99,Lahore,White,Local,2675026,True,95.4,99.9,84.5,83.4,56.1,90.1,86.6,84.7,66.4
+Kia,Sportage,AWD,2024,32558,Automatic,Petrol,8.58,Rawalpindi,Silver,Local,5296510,True,97.1,86.1,88.6,98.5,79.2,95.1,100.0,71.3,100.0
+Kia,Sportage,Alpha,2013,234180,Automatic,Petrol,8.36,Karachi,Blue,Imported,1239673,True,65.2,80.6,79.5,100.0,91.0,89.7,90.6,94.5,76.9
+Suzuki,Alto,VXL AGS,2015,215009,Automatic,Diesel,9.26,Lahore,Silver,Local,1971986,True,88.7,96.6,91.7,93.9,90.6,87.4,98.7,97.9,100.0
+Toyota,Corolla,Altis,2023,80953,Automatic,Hybrid,9.22,Karachi,Black,Imported,5189618,True,84.7,93.3,90.8,99.6,100.0,100.0,95.3,54.5,72.5
+Kia,Picanto,MT,2022,62523,Automatic,Petrol,8.33,Lahore,White,Local,4443598,True,84.5,81.0,99.1,78.8,75.5,87.9,84.0,100.0,61.6
+Hyundai,Elantra,Ultimate,2023,68666,Automatic,Petrol,8.39,Karachi,Blue,Local,4656018,True,86.9,83.8,96.8,94.5,78.8,83.0,92.9,65.4,93.4
+Honda,City,1.5 Aspire,2018,133627,Automatic,Hybrid,8.47,Faisalabad,Grey,Local,3340460,True,89.8,93.7,95.3,86.4,69.6,100.0,94.4,87.3,60.7
+Toyota,Yaris,ATIV X,2023,96198,Automatic,Petrol,7.92,Lahore,White,Local,4321855,True,97.1,89.7,77.0,85.6,64.5,87.1,88.9,89.2,63.2
+Toyota,Yaris,GLI CVT,2018,172589,Automatic,Petrol,8.44,Karachi,White,Local,2270224,True,87.0,94.2,95.3,86.1,71.0,95.6,88.1,79.6,68.8
+Suzuki,Alto,VXR,2012,250319,Manual,Petrol,8.97,Karachi,White,Local,450000,True,99.0,97.8,94.6,83.4,83.4,84.3,97.3,88.4,39.4
+Hyundai,Elantra,Ultimate,2016,214178,Automatic,Petrol,9.06,Faisalabad,Blue,Local,2086428,True,84.7,88.2,92.2,87.2,100.0,87.9,91.5,78.2,38.4
+Honda,City,1.5 Aspire,2023,59752,Automatic,Petrol,8.69,Islamabad,Red,Local,4683414,True,89.2,90.4,89.1,80.1,84.3,86.2,96.1,96.5,44.3
+Toyota,Corolla,GLi,2025,1887,Automatic,Petrol,8.51,Rawalpindi,Silver,Local,5682136,True,92.3,98.2,84.2,82.8,72.4,94.6,98.9,71.3,94.2
+Suzuki,Alto,VXR,2025,22207,Automatic,Hybrid,8.86,Karachi,Green,Local,5718815,True,83.4,100.0,92.9,84.4,80.6,79.2,97.3,90.9,91.1
+Kia,Picanto,MT,2020,109709,Automatic,Petrol,8.13,Faisalabad,Red,Local,3202580,True,94.0,100.0,94.8,86.9,55.0,94.8,88.2,74.8,85.9
+Toyota,Corolla,XLi,2017,142482,Automatic,Diesel,8.39,Faisalabad,Black,Local,2488068,True,99.8,82.8,89.9,85.6,77.1,93.1,71.4,70.4,91.5
+Suzuki,Swift,DLX,2025,23819,Automatic,Petrol,8.56,Lahore,Silver,Local,5594671,True,87.8,100.0,85.8,100.0,74.5,83.4,84.7,91.8,77.8
+Kia,Picanto,MT,2012,225544,Automatic,Hybrid,8.98,Faisalabad,Silver,Local,1049338,True,90.5,92.8,100.0,92.9,89.5,85.2,85.9,59.4,75.4
+Toyota,Yaris,ATIV X,2022,74606,Manual,Petrol,7.94,Rawalpindi,Black,Imported,4509542,True,62.7,78.1,94.6,84.8,78.5,78.1,84.1,73.6,91.2
+Honda,Civic,Oriel,2013,204913,Automatic,Petrol,7.9,Lahore,Beige,Imported,2097413,True,84.4,86.3,94.4,100.0,59.2,98.0,82.6,95.5,70.7
+Kia,Sportage,FWD,2015,161810,Manual,Petrol,9.19,Karachi,Red,Local,1737115,True,96.2,90.6,100.0,92.1,90.2,89.6,93.3,78.2,89.8
+Suzuki,Alto,VX,2019,121513,Automatic,Petrol,8.83,Rawalpindi,Blue,Imported,3535218,True,94.6,97.2,85.3,99.0,81.8,90.1,77.3,79.9,100.0
+Kia,Sportage,Alpha,2022,101267,Automatic,Petrol,8.57,Islamabad,White,Local,3939599,True,83.4,88.4,94.6,85.7,77.7,100.0,84.0,77.8,100.0
+Hyundai,Tucson,FWD,2014,254153,Manual,Petrol,8.16,Lahore,White,Local,1236512,True,83.4,90.9,89.0,75.1,69.8,98.1,91.5,67.4,74.1
+Toyota,Corolla,Altis,2013,218745,Automatic,Petrol,8.39,Lahore,White,Local,1408494,True,97.4,91.5,98.8,100.0,68.5,81.3,75.1,96.5,57.3
+Toyota,Yaris,GLI CVT,2021,94366,Manual,Petrol,9.27,Rawalpindi,White,Local,4009442,True,81.9,91.1,97.7,90.0,100.0,90.2,100.0,71.4,73.8
+Kia,Sportage,AWD,2023,65129,Automatic,Petrol,8.36,Islamabad,White,Local,4760093,True,95.1,76.0,96.0,85.7,76.9,82.4,100.0,99.6,79.6
+Honda,City,1.5 Aspire,2019,139665,Automatic,Petrol,8.71,Islamabad,White,Local,2869188,True,95.0,89.5,81.7,100.0,88.8,79.0,91.1,78.4,76.3
+Honda,Civic,Oriel,2021,66786,Automatic,Petrol,7.84,Islamabad,Silver,Imported,4472934,True,98.6,82.2,98.3,86.1,55.9,91.2,87.3,85.6,76.7
+Kia,Sportage,AWD,2025,6461,Manual,Petrol,8.61,Lahore,Silver,Local,5479597,True,84.8,87.5,98.8,73.4,81.5,89.2,98.7,78.3,60.8
+Hyundai,Tucson,FWD,2017,167684,Automatic,Petrol,8.37,Rawalpindi,Blue,Local,2370488,True,77.0,94.6,99.0,100.0,68.3,100.0,90.0,81.7,74.7
+Toyota,Yaris,GLI CVT,2022,51107,Manual,Petrol,8.25,Lahore,Red,Local,4365861,True,89.3,80.2,90.6,83.8,77.4,91.1,89.7,83.3,65.0
+Kia,Picanto,MT,2012,268713,Automatic,Hybrid,9.12,Rawalpindi,White,Local,674265,True,95.9,100.0,86.0,100.0,87.1,77.5,96.5,91.8,100.0
+Hyundai,Tucson,FWD,2019,155375,Automatic,Petrol,8.77,Faisalabad,Silver,Local,2587002,True,92.9,88.6,82.0,85.6,91.9,95.7,76.6,69.3,63.2
+Honda,City,1.5 Aspire,2017,181428,Automatic,Petrol,8.96,Faisalabad,White,Local,1874654,True,97.1,81.3,100.0,87.9,88.5,100.0,88.1,94.7,58.2
+Honda,City,1.2LS,2024,23660,Automatic,Petrol,8.81,Rawalpindi,Grey,Imported,5906844,True,70.0,87.5,91.0,94.8,93.0,94.9,92.6,85.3,75.2
+Suzuki,Alto,VX,2023,56604,Automatic,Petrol,8.36,Rawalpindi,White,Imported,4876385,True,86.8,75.0,91.6,79.9,84.8,100.0,92.0,74.6,60.5
+Suzuki,Alto,VX,2023,53788,Automatic,Hybrid,8.31,Lahore,Beige,Local,4980747,True,78.9,80.3,82.9,89.7,88.5,69.6,88.6,91.2,74.0
+Kia,Sportage,FWD,2012,231320,Automatic,Petrol,8.86,Islamabad,White,Local,1336100,True,90.4,90.1,100.0,87.6,85.7,78.9,93.7,75.5,82.7
+Suzuki,Alto,VX,2020,127421,Automatic,Petrol,8.0,Karachi,Black,Imported,3900155,True,83.8,84.9,87.4,100.0,72.1,83.9,77.6,76.5,73.6
+Honda,Civic,VTi,2022,85280,Manual,Hybrid,8.3,Islamabad,Silver,Local,4468380,True,100.0,83.1,83.1,100.0,79.3,90.8,94.2,79.3,41.6
+Kia,Sportage,AWD,2013,240187,Automatic,Petrol,9.1,Karachi,White,Imported,1988257,True,98.7,81.9,80.2,100.0,100.0,95.3,100.0,86.8,83.7
+Suzuki,Alto,VXL AGS,2025,19949,Automatic,Petrol,8.66,Rawalpindi,White,Local,5448578,True,88.7,91.6,91.5,90.1,82.9,87.6,94.4,74.8,65.6
+Kia,Sportage,FWD,2024,51803,Manual,Hybrid,8.99,Lahore,Silver,Local,4929079,True,75.5,100.0,75.0,86.1,95.1,99.5,100.0,73.0,76.1
+Kia,Sportage,Alpha,2012,276244,Automatic,Petrol,8.92,Islamabad,White,Imported,1060573,True,87.1,85.5,100.0,82.0,88.2,94.0,85.5,77.9,94.8
+Toyota,Yaris,GLI CVT,2016,173539,Automatic,Petrol,8.53,Islamabad,Black,Local,2191732,True,88.7,97.5,96.2,97.1,71.4,90.6,83.4,68.5,89.2
+Hyundai,Elantra,GLS,2017,162306,Automatic,Petrol,8.26,Islamabad,White,Imported,2882690,True,95.2,84.8,88.2,100.0,75.3,88.4,78.0,69.7,83.2
+Suzuki,Alto,VXL AGS,2013,261289,Automatic,Petrol,7.64,Faisalabad,Black,Local,607217,True,97.5,85.4,67.4,83.2,60.9,92.4,86.2,90.4,81.4
+Hyundai,Elantra,Ultimate,2017,135465,Automatic,Hybrid,8.8,Faisalabad,Grey,Imported,3767468,True,91.4,94.6,83.7,88.2,88.1,86.8,87.9,55.8,100.0
+Suzuki,Swift,DLX,2012,241356,Automatic,Hybrid,8.64,Rawalpindi,Red,Local,1027160,True,85.5,88.0,100.0,90.9,79.9,100.0,80.8,76.6,67.5
+Toyota,Yaris,ATIV X,2015,181294,Automatic,Hybrid,8.78,Rawalpindi,Red,Local,2136977,True,95.1,85.2,93.1,100.0,81.6,94.5,96.0,97.6,87.0
+Suzuki,Alto,VXR,2022,59727,Automatic,Petrol,8.48,Karachi,White,Local,4681821,True,84.0,88.6,77.3,92.2,87.7,93.8,98.5,77.2,45.2
+Suzuki,Alto,VX,2019,110059,Manual,Petrol,8.5,Rawalpindi,Silver,Imported,3996959,True,90.4,86.4,89.0,86.7,81.1,82.8,79.8,88.6,79.9
+Honda,City,1.2LS,2021,106827,Manual,Petrol,8.97,Faisalabad,Silver,Local,3673767,True,83.3,91.5,81.6,81.5,100.0,81.7,84.2,72.2,74.9
+Honda,City,1.5 Aspire,2017,136910,Automatic,Petrol,8.19,Karachi,Black,Local,2774607,True,90.0,73.5,100.0,100.0,73.3,88.3,100.0,84.7,96.2
+Hyundai,Elantra,Ultimate,2018,137232,Manual,Petrol,9.02,Faisalabad,Black,Local,3044181,True,85.8,100.0,92.2,82.6,86.1,81.0,83.0,95.1,77.7
+Hyundai,Elantra,GLS,2023,57989,Manual,Diesel,8.59,Faisalabad,Black,Local,4645569,True,74.8,87.1,90.9,87.7,84.3,89.8,93.8,87.6,92.3
+Honda,City,1.2LS,2021,107232,Automatic,Diesel,9.63,Faisalabad,White,Imported,4766555,True,100.0,95.9,95.7,100.0,100.0,91.0,98.8,77.9,86.9
+Honda,Civic,RS,2012,235293,Manual,Diesel,8.91,Islamabad,Blue,Local,450000,True,78.5,97.5,80.6,92.0,88.1,91.5,86.8,100.0,89.9
+Suzuki,Alto,VXL AGS,2015,180423,Manual,Petrol,9.47,Faisalabad,White,Local,1594152,True,82.0,100.0,97.7,67.9,100.0,79.7,79.0,75.6,96.9
+Suzuki,Swift,GLX CVT,2021,103360,Automatic,Petrol,9.05,Lahore,Grey,Local,3730532,True,79.0,100.0,91.0,93.8,87.8,84.7,100.0,93.9,80.6
+Hyundai,Tucson,AWD,2015,209223,Automatic,Diesel,8.49,Lahore,Silver,Local,1537302,True,86.3,74.8,93.3,100.0,83.0,100.0,92.1,88.7,97.7
+Kia,Sportage,AWD,2012,262015,Automatic,Petrol,8.57,Faisalabad,Red,Local,568373,True,100.0,89.3,91.1,100.0,79.2,88.8,92.8,71.0,60.9
+Honda,City,1.2LS,2023,38425,Automatic,Petrol,7.99,Rawalpindi,Silver,Local,5006461,True,82.7,87.0,87.1,91.6,65.4,92.0,83.7,94.5,83.7
+Hyundai,Tucson,AWD,2014,170842,Automatic,Petrol,8.73,Islamabad,Blue,Local,1797440,True,91.7,86.9,95.5,76.9,81.2,90.2,86.2,87.1,94.6
+Suzuki,Swift,GLX CVT,2016,158438,Automatic,Petrol,8.3,Karachi,White,Local,2282450,True,90.1,87.9,91.8,85.5,72.4,97.9,92.7,73.8,66.1
+Kia,Sportage,AWD,2021,76828,Manual,Diesel,8.13,Islamabad,Grey,Local,4149168,True,86.4,74.3,87.8,100.0,78.1,86.7,97.2,100.0,66.9
+Toyota,Corolla,XLi,2017,164143,Manual,Petrol,8.18,Rawalpindi,White,Local,1758761,True,93.6,85.2,76.5,79.2,75.9,92.6,100.0,86.8,59.3
+Toyota,Corolla,XLi,2018,149213,Automatic,Hybrid,9.18,Karachi,Blue,Local,3300254,True,92.2,90.9,89.8,90.9,94.7,86.7,91.7,100.0,70.7
+Honda,Civic,VTi,2022,47123,Automatic,Hybrid,8.21,Faisalabad,Beige,Local,4513158,True,100.0,100.0,82.9,90.4,62.2,93.6,96.1,75.1,66.2
+Hyundai,Elantra,GLS,2019,119400,Manual,Petrol,9.44,Faisalabad,Blue,Imported,4056951,True,82.4,98.5,100.0,95.3,97.0,87.0,98.5,84.7,75.1
+Suzuki,Alto,VXR,2020,95401,Automatic,Petrol,8.3,Rawalpindi,White,Local,3981352,True,80.3,84.2,95.0,79.6,79.4,84.0,84.1,72.1,76.9
+Honda,City,1.2LS,2022,53007,Automatic,Petrol,8.49,Islamabad,White,Local,4667749,True,82.4,89.9,96.4,99.2,78.5,77.4,90.5,90.8,64.3
+Hyundai,Tucson,AWD,2023,58147,Automatic,Hybrid,8.59,Karachi,White,Local,5368746,True,82.5,89.6,96.2,88.9,81.5,90.9,100.0,81.0,47.5
+Toyota,Corolla,GLi,2023,56873,Automatic,Diesel,7.94,Islamabad,Beige,Local,4474045,True,86.0,77.9,88.6,92.3,72.1,90.8,88.3,87.0,57.8
+Hyundai,Tucson,FWD,2014,222569,Manual,Petrol,8.02,Karachi,Silver,Local,1196870,True,86.0,86.7,92.7,85.8,63.2,90.0,78.8,100.0,78.3
+Honda,Civic,VTi,2019,131530,Automatic,Hybrid,8.55,Rawalpindi,Grey,Local,3542345,True,77.6,99.9,92.0,97.1,78.5,80.1,81.0,80.3,60.8
+Hyundai,Tucson,FWD,2013,214711,Automatic,Hybrid,8.79,Rawalpindi,White,Local,1510557,True,83.8,94.5,100.0,96.5,84.6,84.2,87.9,66.7,63.6
+Hyundai,Elantra,Ultimate,2017,148611,Automatic,Petrol,7.77,Karachi,Red,Local,2495909,True,92.2,87.2,88.8,94.5,60.7,83.4,84.7,71.7,74.5
+Kia,Sportage,Alpha,2015,174927,Automatic,Hybrid,8.12,Karachi,Black,Imported,2783173,True,100.0,81.6,92.7,90.3,71.2,83.4,88.5,61.4,87.2
+Toyota,Corolla,Altis,2018,152168,Automatic,Petrol,8.11,Lahore,Silver,Local,2587145,True,87.6,77.4,82.7,86.4,79.0,81.9,100.0,96.9,61.1
+Kia,Picanto,AT,2017,103903,Automatic,Hybrid,8.83,Rawalpindi,Blue,Local,3537278,True,88.7,100.0,85.7,100.0,82.6,82.4,70.6,93.0,82.0
+Toyota,Corolla,GLi,2012,248034,Manual,Hybrid,8.82,Islamabad,Beige,Local,903446,True,77.4,86.5,98.5,100.0,88.7,95.2,94.7,78.2,77.5
+Kia,Sportage,AWD,2013,228721,Automatic,Petrol,8.77,Faisalabad,Blue,Local,1613418,True,86.4,89.3,94.5,83.9,88.5,72.3,81.7,100.0,46.3
+Honda,Civic,RS,2024,31950,Manual,Petrol,8.24,Faisalabad,White,Local,5000646,True,88.5,93.5,91.2,83.1,66.5,93.6,84.3,83.7,74.3
+Toyota,Yaris,GLI CVT,2020,101881,Automatic,Petrol,9.35,Lahore,Blue,Local,3913227,True,90.9,98.6,83.9,87.9,98.8,89.8,90.3,93.4,57.4
+Toyota,Yaris,ATIV X,2017,152831,Manual,Petrol,8.64,Islamabad,White,Local,2246347,True,95.1,78.0,86.6,85.7,91.4,87.3,88.2,77.6,77.1
+Honda,Civic,Oriel,2012,234019,Automatic,Petrol,8.86,Islamabad,White,Local,1415307,True,91.1,100.0,91.6,100.0,82.1,85.6,89.5,81.8,58.8
+Honda,Civic,Oriel,2015,204086,Automatic,Petrol,8.04,Karachi,White,Local,1234028,True,77.7,75.9,89.9,98.0,75.9,100.0,73.1,100.0,54.4
+Hyundai,Elantra,GLS,2015,178078,Manual,Hybrid,8.54,Lahore,Beige,Local,2311047,True,73.2,91.8,100.0,95.9,76.2,95.4,100.0,83.2,77.1
+Hyundai,Elantra,Ultimate,2015,220232,Manual,Petrol,8.17,Rawalpindi,Silver,Local,1323718,True,97.6,82.3,84.1,100.0,72.9,93.1,83.1,75.9,92.8
+Honda,Civic,Oriel,2023,47900,Automatic,Petrol,9.02,Lahore,Grey,Local,5149140,True,89.8,93.5,81.1,90.4,93.0,100.0,91.2,86.3,61.1
+Suzuki,Swift,GLX CVT,2014,217555,Automatic,Petrol,9.12,Faisalabad,Silver,Local,1846536,True,78.8,84.0,92.2,96.5,100.0,96.7,100.0,100.0,56.7
+Hyundai,Tucson,AWD,2014,222647,Automatic,Petrol,9.02,Islamabad,Beige,Local,1333754,True,85.1,86.3,93.2,100.0,96.4,87.6,80.9,71.7,99.0
+Toyota,Yaris,ATIV X,2018,121334,Automatic,Petrol,8.26,Karachi,Silver,Local,3211534,True,89.2,88.9,100.0,93.7,66.2,98.0,81.0,78.9,74.7
+Hyundai,Tucson,AWD,2019,133531,Automatic,Hybrid,9.48,Lahore,Black,Local,3503827,True,96.9,96.1,96.0,100.0,95.9,83.8,84.5,90.6,94.3
+Honda,City,1.2LS,2016,168316,Manual,Petrol,9.26,Karachi,White,Local,2412650,True,85.5,88.5,89.0,76.9,100.0,88.3,95.4,96.8,86.8
+Honda,Civic,VTi,2014,216701,Automatic,Petrol,9.14,Rawalpindi,White,Local,1720337,True,100.0,78.9,100.0,94.4,98.2,90.7,75.5,84.2,64.4
+Hyundai,Tucson,AWD,2019,147399,Automatic,Petrol,8.98,Faisalabad,Silver,Imported,3875549,True,89.5,95.9,98.1,97.5,85.0,91.6,80.4,76.3,74.9
+Honda,Civic,RS,2016,158850,Automatic,Petrol,9.21,Lahore,Green,Imported,3276231,True,86.4,92.7,92.7,84.4,100.0,81.1,90.8,60.9,93.5
+Suzuki,Swift,GLX CVT,2020,111077,Automatic,Petrol,7.9,Faisalabad,Green,Local,3359985,True,80.1,73.7,97.7,93.2,74.2,85.6,64.3,77.8,73.2
+Kia,Picanto,AT,2024,46521,Automatic,Petrol,8.49,Karachi,White,Local,5181245,True,92.3,78.5,94.6,100.0,79.6,91.2,81.5,100.0,83.0
+Suzuki,Alto,VXR,2016,164087,Automatic,Petrol,9.27,Islamabad,Black,Local,2657237,True,100.0,87.3,96.6,100.0,96.1,85.7,87.9,84.5,83.7
+Kia,Picanto,AT,2024,52191,Automatic,Petrol,8.91,Faisalabad,Grey,Local,5006518,True,82.0,89.8,87.1,75.9,92.3,85.2,96.4,82.2,100.0
+Honda,City,1.2LS,2021,113336,Automatic,Petrol,8.46,Karachi,White,Local,3846682,True,94.2,85.6,94.8,85.8,75.0,89.2,88.4,86.4,80.0
+Hyundai,Elantra,GLS,2017,187928,Automatic,Petrol,9.3,Lahore,Blue,Local,2134184,True,98.8,89.9,96.7,93.7,95.5,91.8,92.6,79.5,76.3
+Toyota,Yaris,ATIV X,2012,276469,Manual,Petrol,8.61,Islamabad,Silver,Local,813278,True,90.3,97.3,80.2,90.2,78.1,84.4,92.2,88.9,96.6
+Kia,Picanto,AT,2016,197699,Manual,Petrol,9.26,Karachi,White,Imported,2006687,True,85.2,90.3,100.0,98.3,95.2,92.5,96.8,90.2,69.1
+Hyundai,Tucson,AWD,2017,173692,Automatic,Petrol,8.09,Rawalpindi,Silver,Local,2742491,True,92.5,79.3,96.9,99.4,69.3,79.2,70.9,89.4,97.7
+Suzuki,Swift,DLX,2023,67989,Manual,Hybrid,8.84,Rawalpindi,White,Local,4570952,True,82.0,98.2,97.7,100.0,77.6,87.5,100.0,97.3,81.9
+Suzuki,Swift,GLX CVT,2021,68547,Automatic,Petrol,8.41,Rawalpindi,White,Local,3842707,True,84.7,83.0,100.0,92.2,72.0,100.0,95.5,99.8,76.4
+Toyota,Yaris,ATIV X,2020,123975,Automatic,Petrol,8.95,Faisalabad,White,Imported,4156779,True,89.2,83.3,81.7,94.6,100.0,97.9,100.0,67.1,77.8
+Honda,City,1.5 Aspire,2018,129346,Automatic,Petrol,8.52,Islamabad,Silver,Imported,3733781,True,80.8,100.0,73.7,100.0,79.9,92.9,100.0,85.8,71.5
+Suzuki,Alto,VX,2023,7569,Manual,Petrol,7.99,Karachi,White,Local,5112860,True,81.8,95.3,86.9,100.0,64.6,86.7,84.9,85.2,52.5
+Honda,City,1.2LS,2014,241956,Automatic,Petrol,8.62,Rawalpindi,Green,Local,1344848,True,98.6,100.0,100.0,76.1,72.9,72.6,83.7,74.8,53.3
+Honda,Civic,Oriel,2021,111114,Automatic,Petrol,8.99,Islamabad,Black,Local,3333703,True,71.3,100.0,82.1,86.9,94.3,96.0,88.4,77.8,73.0
+Suzuki,Swift,DLX,2020,113966,Automatic,Petrol,9.04,Karachi,Grey,Local,3561294,True,77.1,85.7,99.1,86.2,97.3,90.6,98.7,75.3,71.1
+Suzuki,Swift,DLX,2012,243779,Automatic,Petrol,8.72,Islamabad,White,Local,1213767,True,89.4,93.3,100.0,92.8,75.4,85.4,98.2,91.1,85.2
+Suzuki,Swift,GLX CVT,2012,250681,Automatic,Hybrid,9.3,Rawalpindi,Black,Local,617670,True,89.3,85.2,95.6,100.0,100.0,94.8,100.0,80.7,90.5
+Hyundai,Tucson,FWD,2022,48144,Automatic,Petrol,7.52,Islamabad,White,Local,4392202,True,89.3,88.6,84.2,96.8,51.7,92.9,95.2,79.9,71.9
+Kia,Picanto,MT,2016,197628,Automatic,Petrol,8.64,Karachi,White,Local,1789161,True,77.5,100.0,84.2,83.8,81.5,96.3,92.0,75.3,63.6
+Honda,Civic,RS,2017,137045,Manual,Petrol,8.8,Karachi,Red,Local,2313302,True,91.4,93.2,87.4,96.6,81.2,95.1,93.5,84.8,98.3
+Kia,Sportage,AWD,2013,254998,Automatic,Petrol,9.27,Faisalabad,Blue,Local,450000,True,92.4,94.3,89.2,100.0,95.7,94.0,100.0,83.4,70.1
+Suzuki,Alto,VX,2016,182997,Manual,Petrol,9.17,Islamabad,White,Local,2416465,True,94.0,90.3,84.1,100.0,95.6,96.3,80.0,90.9,90.7
+Toyota,Corolla,XLi,2021,85613,Automatic,Petrol,8.05,Karachi,Beige,Local,3621845,True,86.6,100.0,99.6,85.9,52.3,88.2,81.5,84.8,92.6
+Kia,Sportage,Alpha,2018,175856,Automatic,Petrol,9.15,Islamabad,White,Local,2803161,True,100.0,100.0,88.0,85.6,90.2,84.2,97.3,67.0,75.5
+Hyundai,Elantra,Ultimate,2023,47405,Automatic,Petrol,9.52,Rawalpindi,Grey,Local,4755345,True,93.0,100.0,85.2,87.0,98.0,93.8,86.5,97.9,86.3
+Toyota,Yaris,GLI CVT,2017,163252,Automatic,Petrol,8.67,Faisalabad,Black,Local,2323504,True,91.6,87.8,78.0,82.0,90.0,91.0,84.9,72.9,82.0
+Honda,Civic,VTi,2022,86672,Automatic,Hybrid,8.89,Lahore,Red,Local,4608001,True,89.8,87.4,84.0,85.5,91.1,92.1,82.1,100.0,76.8
+Kia,Sportage,FWD,2025,30160,Manual,Petrol,8.79,Karachi,White,Local,5165370,True,76.0,97.3,84.9,90.1,86.3,89.0,100.0,97.7,58.2
+Hyundai,Elantra,GLS,2012,255337,Automatic,Petrol,8.5,Rawalpindi,Grey,Imported,801561,True,83.4,91.6,95.5,100.0,73.8,91.8,95.6,100.0,58.4
+Toyota,Yaris,ATIV X,2018,157190,Automatic,Petrol,8.82,Karachi,Silver,Imported,3080106,True,98.7,90.2,82.4,97.4,84.1,92.6,93.5,88.4,96.4
+Honda,Civic,VTi,2022,63882,Automatic,Petrol,9.3,Rawalpindi,White,Imported,5067516,True,93.0,88.7,93.8,81.6,100.0,100.0,88.1,68.2,73.4
+Suzuki,Alto,VX,2017,163842,Manual,Petrol,9.15,Lahore,White,Local,2660590,True,97.1,93.9,94.0,100.0,88.5,97.0,84.9,86.1,70.5
+Toyota,Corolla,GLi,2014,231434,Automatic,Petrol,8.95,Lahore,Red,Local,1249344,True,91.2,79.9,88.7,89.7,100.0,87.1,100.0,96.2,30.0
+Hyundai,Tucson,FWD,2023,21124,Automatic,Petrol,9.57,Lahore,Beige,Local,5202018,True,95.0,99.4,100.0,95.0,97.2,92.2,90.2,80.9,61.2
+Toyota,Yaris,ATIV X,2015,224095,Automatic,Petrol,8.13,Lahore,White,Local,1102040,True,85.6,88.2,86.1,95.2,75.6,74.9,90.0,81.3,53.2
+Hyundai,Elantra,Ultimate,2022,47138,Manual,Hybrid,8.57,Islamabad,Silver,Local,4629640,True,88.3,78.6,85.0,84.7,88.3,100.0,84.7,76.5,94.4
+Suzuki,Alto,VX,2018,127390,Manual,Petrol,7.94,Faisalabad,Grey,Local,2276345,True,88.7,86.7,87.6,100.0,70.4,79.5,90.2,59.7,70.7
+Suzuki,Swift,GLX CVT,2020,101844,Manual,Petrol,8.36,Rawalpindi,Silver,Imported,4012459,True,77.1,92.8,98.8,73.0,71.1,92.3,84.3,67.7,100.0
+Hyundai,Elantra,GLS,2018,155898,Manual,Diesel,8.31,Islamabad,White,Local,3165363,True,91.6,95.4,93.4,93.3,66.0,96.1,98.2,78.3,56.5
+Honda,Civic,VTi,2025,28963,Manual,Petrol,8.61,Faisalabad,Black,Local,5243103,True,82.4,100.0,87.6,74.0,72.6,92.3,99.5,99.6,83.5
+Suzuki,Alto,VX,2017,152348,Manual,Petrol,8.58,Faisalabad,White,Imported,2836757,True,95.4,80.6,90.0,88.5,83.3,92.3,88.3,89.7,77.4
+Toyota,Yaris,ATIV X,2014,200350,Manual,Petrol,8.78,Karachi,Black,Local,1063740,True,94.1,98.0,91.7,94.9,80.4,68.3,83.9,100.0,65.8
+Kia,Sportage,AWD,2023,70211,Automatic,Petrol,9.03,Karachi,White,Local,5113555,True,84.7,98.6,96.1,83.9,86.7,91.5,83.3,71.7,84.1
+Toyota,Corolla,Altis,2025,0,Automatic,Petrol,8.48,Lahore,Silver,Local,5781660,True,85.0,90.8,88.5,84.4,80.1,81.7,89.1,85.2,70.8
+Kia,Sportage,Alpha,2023,76552,Automatic,Petrol,9.12,Lahore,Blue,Imported,4909386,True,71.0,98.8,98.0,100.0,90.6,92.8,74.1,87.8,83.5
+Hyundai,Elantra,GLS,2018,134748,Automatic,Petrol,9.27,Faisalabad,Grey,Local,3416609,True,91.5,98.2,90.1,92.9,94.4,76.5,86.6,98.5,74.6
+Suzuki,Swift,GLX CVT,2013,212389,Automatic,Petrol,8.11,Lahore,White,Imported,1733714,True,64.1,91.9,86.6,87.9,69.2,91.0,89.4,100.0,100.0
+Kia,Sportage,FWD,2014,207184,Automatic,Petrol,7.65,Islamabad,White,Local,1167898,True,70.6,99.5,88.4,100.0,53.0,86.5,76.4,82.2,80.7
+Kia,Picanto,AT,2025,36147,Automatic,Petrol,8.23,Islamabad,White,Local,5431928,True,88.6,89.8,85.3,92.8,71.2,90.7,93.1,81.0,84.0
+Kia,Sportage,FWD,2019,133743,Manual,Petrol,8.04,Islamabad,White,Local,3432292,True,95.7,75.7,82.3,83.2,71.8,100.0,100.0,88.0,83.1
+Honda,City,1.2LS,2015,202978,Automatic,Petrol,8.41,Karachi,White,Local,2174212,True,82.6,93.2,100.0,97.3,70.8,85.0,92.0,82.1,77.3
+Toyota,Corolla,Altis,2015,204674,Automatic,Petrol,8.79,Islamabad,Beige,Local,2093552,True,93.7,99.0,91.3,85.9,77.6,88.4,88.8,83.1,80.0
+Kia,Sportage,AWD,2013,269999,Automatic,Hybrid,8.65,Faisalabad,White,Local,976920,True,100.0,100.0,99.3,92.6,69.8,89.3,90.5,73.6,60.2
+Suzuki,Swift,DLX,2013,229792,Automatic,Petrol,9.42,Islamabad,Grey,Imported,1601202,True,89.4,99.1,99.4,92.9,100.0,76.7,96.1,57.1,76.4
+Toyota,Yaris,ATIV X,2020,103876,Automatic,Petrol,8.96,Faisalabad,Green,Imported,4017631,True,92.3,88.0,88.9,99.5,90.7,100.0,85.2,88.9,62.3
+Kia,Picanto,AT,2017,137809,Automatic,Petrol,9.56,Islamabad,White,Local,2981634,True,95.5,97.4,94.0,100.0,100.0,92.4,94.5,71.7,87.3
+Suzuki,Alto,VXR,2021,68253,Automatic,Petrol,8.69,Rawalpindi,Blue,Local,4379001,True,82.5,83.1,91.5,100.0,93.4,82.2,91.9,83.1,47.8
+Suzuki,Swift,GLX CVT,2019,136944,Automatic,Petrol,8.18,Lahore,Silver,Local,3060522,True,85.8,82.0,100.0,100.0,72.4,79.7,81.8,78.0,88.9
+Hyundai,Tucson,AWD,2024,51669,Manual,Petrol,8.78,Islamabad,Black,Imported,5518290,True,100.0,93.8,90.3,98.2,76.1,96.2,83.0,98.2,78.3
+Toyota,Yaris,GLI CVT,2017,172809,Automatic,Petrol,8.38,Rawalpindi,Silver,Imported,3087487,True,86.6,100.0,74.6,77.2,73.7,95.5,76.9,74.4,96.2
+Kia,Picanto,MT,2021,75445,Automatic,Petrol,9.18,Karachi,Red,Local,4515192,True,87.3,93.4,99.1,93.7,86.2,100.0,100.0,96.6,89.3
+Kia,Picanto,AT,2015,193872,Automatic,Hybrid,8.93,Islamabad,Black,Local,2450352,True,90.8,98.7,86.6,85.5,83.7,85.0,100.0,86.2,90.8
+Hyundai,Tucson,AWD,2021,89073,Automatic,Petrol,9.12,Lahore,White,Local,4026851,True,85.0,99.1,86.5,100.0,91.1,92.1,77.3,95.7,71.0
+Hyundai,Elantra,GLS,2014,220823,Automatic,Hybrid,8.77,Faisalabad,Green,Local,1328538,True,93.0,88.0,91.8,96.6,85.6,83.7,79.1,78.6,100.0
+Toyota,Corolla,GLi,2021,88062,Automatic,Diesel,8.94,Karachi,Black,Imported,4902204,True,91.6,86.1,84.6,88.4,96.9,98.1,77.9,74.0,60.7
+Kia,Sportage,FWD,2017,176554,Automatic,Hybrid,9.18,Rawalpindi,White,Local,2972741,True,89.6,97.2,80.3,100.0,98.1,93.4,88.8,78.4,61.7
+Suzuki,Alto,VXR,2019,118849,Automatic,Petrol,8.81,Faisalabad,White,Imported,3633528,True,88.9,88.4,100.0,85.9,82.8,97.9,82.0,69.7,96.7
+Honda,City,1.5 Aspire,2012,267172,Manual,Diesel,8.6,Karachi,Beige,Imported,560500,True,82.8,100.0,96.0,100.0,73.3,100.0,81.3,67.3,77.1
+Hyundai,Tucson,AWD,2025,8633,Manual,Hybrid,8.84,Lahore,Grey,Local,5596482,True,80.7,99.7,96.4,77.4,80.1,90.5,100.0,89.5,59.8
+Hyundai,Elantra,Ultimate,2017,154246,Automatic,Petrol,8.37,Lahore,Red,Local,2923054,True,90.1,84.2,80.7,96.4,81.7,100.0,96.7,64.9,82.9
+Hyundai,Elantra,GLS,2012,275006,Automatic,Petrol,9.25,Rawalpindi,White,Local,450000,True,92.5,98.1,87.1,97.7,93.6,94.1,93.8,82.0,74.9
+Hyundai,Tucson,FWD,2015,195343,Automatic,Hybrid,8.86,Islamabad,Grey,Local,2566868,True,82.4,93.3,94.8,100.0,81.8,84.9,96.0,100.0,100.0
+Hyundai,Elantra,Ultimate,2021,82001,Manual,Petrol,9.37,Islamabad,Green,Local,4027009,True,90.1,98.6,83.6,100.0,97.9,94.5,100.0,92.9,64.2
+Kia,Sportage,Alpha,2016,162379,Automatic,Diesel,8.57,Lahore,Green,Local,2828336,True,81.9,88.0,75.8,93.4,88.0,87.0,86.0,97.5,82.7
+Honda,City,1.5 Aspire,2023,41778,Manual,Hybrid,7.76,Islamabad,Silver,Local,4974943,True,95.5,100.0,74.9,95.5,55.4,83.8,84.4,74.2,79.9
+Hyundai,Tucson,FWD,2023,45250,Automatic,Hybrid,8.93,Rawalpindi,Black,Local,5424416,True,77.6,91.9,100.0,75.8,87.1,92.5,93.4,78.4,86.8
+Kia,Sportage,AWD,2012,228900,Manual,Petrol,7.94,Rawalpindi,Grey,Imported,944869,True,100.0,93.0,89.0,84.0,56.1,79.4,92.4,78.1,100.0
+Hyundai,Tucson,FWD,2017,187829,Manual,Diesel,8.12,Faisalabad,White,Imported,2783143,True,90.3,84.8,95.4,76.7,66.1,86.8,95.1,89.1,79.6
+Toyota,Corolla,XLi,2018,146716,Automatic,Petrol,8.28,Karachi,White,Imported,3516452,True,86.2,73.0,99.8,85.5,79.3,92.8,86.4,89.9,64.0
+Kia,Picanto,MT,2024,20752,Automatic,Petrol,7.97,Karachi,White,Local,5301401,True,81.8,92.3,90.4,88.1,64.7,90.3,83.4,82.5,47.8
+Honda,Civic,RS,2016,191915,Manual,Petrol,8.55,Karachi,Beige,Local,1879598,True,78.7,90.4,81.1,97.9,87.7,83.1,78.2,73.5,100.0
+Honda,City,1.2LS,2013,209700,Automatic,Petrol,8.71,Rawalpindi,Silver,Local,1715879,True,100.0,87.6,93.7,100.0,82.7,79.1,92.6,79.9,76.4
+Honda,City,1.5 Aspire,2023,32191,Automatic,Petrol,8.85,Islamabad,Silver,Imported,5529517,True,79.4,100.0,89.4,83.7,80.8,93.9,93.9,84.5,100.0
+Honda,City,1.2LS,2022,73785,Automatic,Hybrid,8.27,Karachi,White,Local,4567044,True,86.1,91.3,94.0,99.5,73.2,70.3,74.4,88.2,69.3
+Hyundai,Elantra,Ultimate,2012,279900,Automatic,Petrol,7.77,Rawalpindi,Grey,Local,450000,True,81.0,88.8,83.9,95.0,68.0,84.0,83.6,64.1,54.3
+Hyundai,Tucson,FWD,2016,194623,Automatic,Petrol,8.25,Islamabad,Black,Local,1906625,True,95.7,100.0,84.6,96.3,65.7,89.5,82.8,59.1,92.4
+Suzuki,Swift,GLX CVT,2025,42405,Automatic,Petrol,8.35,Lahore,Silver,Local,5417829,True,87.9,79.1,95.2,99.3,78.3,87.7,68.0,100.0,74.6
+Toyota,Yaris,ATIV X,2017,157056,Automatic,Hybrid,8.69,Karachi,White,Local,2490474,True,89.7,100.0,69.8,97.0,87.8,76.6,91.3,68.8,100.0
+Kia,Sportage,AWD,2012,269302,Automatic,Petrol,8.18,Karachi,Green,Imported,740981,True,74.3,80.9,99.2,100.0,75.1,89.8,94.0,89.5,62.4
+Kia,Picanto,MT,2014,206211,Automatic,Petrol,8.91,Rawalpindi,Green,Imported,1624306,True,100.0,91.6,86.3,95.5,87.9,95.5,88.2,71.9,70.3
+Kia,Picanto,MT,2014,221941,Automatic,Petrol,9.17,Faisalabad,Blue,Local,1149949,True,93.0,91.8,100.0,95.2,88.1,88.8,81.0,100.0,80.7
+Honda,Civic,RS,2023,65156,Automatic,Diesel,8.85,Faisalabad,Red,Imported,4985818,True,84.8,97.8,99.0,73.1,77.4,87.1,80.5,93.8,94.0
+Hyundai,Tucson,AWD,2024,40958,Manual,Petrol,8.84,Lahore,Silver,Local,5246676,True,90.4,100.0,89.6,100.0,81.1,88.7,97.7,74.5,76.5
+Hyundai,Elantra,GLS,2025,353,Manual,Petrol,8.21,Karachi,Black,Local,5379254,True,96.2,91.2,93.0,100.0,65.1,83.8,100.0,77.2,84.1
+Kia,Sportage,AWD,2018,130525,Automatic,Petrol,9.09,Islamabad,Black,Local,3160783,True,79.7,94.7,98.2,100.0,89.2,94.1,100.0,92.5,62.3
+Suzuki,Swift,GLX CVT,2019,109645,Automatic,Petrol,8.84,Lahore,White,Local,3217628,True,86.9,86.9,88.1,72.9,89.6,93.7,76.9,87.3,91.5
+Kia,Picanto,MT,2013,223838,Manual,Petrol,9.29,Islamabad,Green,Local,1373338,True,72.1,92.3,97.9,100.0,100.0,95.1,94.3,78.6,85.3
+Suzuki,Alto,VX,2018,128610,Manual,Petrol,7.84,Rawalpindi,Black,Imported,3028585,True,76.0,82.6,84.2,93.6,69.5,92.7,94.7,76.1,84.8
+Honda,City,1.5 Aspire,2020,133715,Manual,Petrol,8.91,Karachi,Red,Local,3176323,True,73.6,84.8,89.6,80.4,94.9,97.2,93.9,99.6,73.6
+Honda,City,1.2LS,2013,221912,Manual,Diesel,8.59,Lahore,White,Local,749611,True,95.4,85.4,95.3,79.9,79.8,91.4,91.1,82.0,63.7
+Suzuki,Swift,GLX CVT,2013,240188,Manual,Petrol,9.33,Islamabad,Blue,Local,1490835,True,100.0,87.4,100.0,100.0,91.6,100.0,88.9,89.2,97.8
+Toyota,Corolla,XLi,2015,198320,Automatic,Petrol,8.22,Rawalpindi,Beige,Local,1355039,True,83.2,100.0,93.6,95.1,63.8,76.8,100.0,85.8,72.1
+Honda,City,1.5 Aspire,2019,148109,Automatic,Petrol,9.66,Islamabad,Silver,Local,3611202,True,88.7,100.0,100.0,90.6,100.0,93.8,100.0,80.0,72.8
+Hyundai,Tucson,AWD,2025,0,Manual,Hybrid,9.11,Faisalabad,White,Local,5958339,True,84.7,90.4,100.0,100.0,93.1,78.8,100.0,83.8,82.3
+Suzuki,Swift,GLX CVT,2016,181314,Automatic,Petrol,9.25,Faisalabad,White,Imported,3058410,True,100.0,100.0,91.5,93.4,91.0,90.3,78.4,77.6,63.1
+Toyota,Corolla,Altis,2019,118116,Automatic,Hybrid,8.29,Islamabad,Black,Imported,4129628,True,97.8,69.7,96.8,100.0,83.6,91.0,89.4,63.8,68.0
+Kia,Picanto,MT,2015,244711,Automatic,Petrol,8.05,Faisalabad,White,Local,1516461,True,91.9,83.8,98.2,83.6,66.5,90.4,84.5,70.9,70.0
+Honda,Civic,VTi,2016,212363,Automatic,Hybrid,8.31,Islamabad,White,Local,1660163,True,100.0,90.4,86.8,92.3,69.7,86.8,100.0,77.5,82.6
+Hyundai,Tucson,AWD,2013,225427,Automatic,Petrol,9.02,Lahore,White,Imported,914486,True,80.3,89.6,87.1,100.0,100.0,80.1,95.7,83.5,64.0
+Honda,Civic,Oriel,2016,203280,Automatic,Petrol,8.95,Karachi,Silver,Local,1859097,True,84.5,96.2,96.0,99.1,80.7,92.3,82.9,100.0,100.0
+Toyota,Yaris,GLI CVT,2013,273619,Automatic,Petrol,8.74,Karachi,Blue,Local,939196,True,89.0,88.5,86.3,86.5,86.5,91.6,100.0,91.5,61.1
+Kia,Sportage,FWD,2018,125450,Manual,Petrol,8.78,Karachi,Black,Local,2999428,True,89.5,94.5,89.8,91.7,85.1,84.9,79.8,76.4,77.4
+Hyundai,Elantra,GLS,2014,217851,Automatic,Petrol,8.55,Islamabad,White,Imported,1598489,True,88.8,86.5,89.7,100.0,81.9,90.7,79.7,74.7,94.7
+Toyota,Yaris,ATIV X,2015,223469,Manual,Petrol,9.26,Lahore,Grey,Local,2073901,True,100.0,89.8,87.5,100.0,100.0,87.5,85.8,87.5,52.6
+Honda,Civic,RS,2015,190952,Automatic,Petrol,8.53,Islamabad,Blue,Local,1806499,True,74.4,99.8,93.0,94.1,72.6,97.9,95.4,94.1,55.5
+Toyota,Corolla,XLi,2016,197187,Manual,Petrol,9.48,Faisalabad,White,Local,2171841,True,91.1,96.6,100.0,100.0,95.3,98.9,95.5,76.8,82.1
+Suzuki,Alto,VXL AGS,2024,73184,Manual,Hybrid,8.35,Lahore,Red,Local,4708739,True,92.1,100.0,89.9,85.0,66.3,94.9,100.0,74.3,52.9
+Honda,City,1.2LS,2012,241974,Automatic,Petrol,8.08,Faisalabad,Red,Local,783969,True,96.9,95.4,90.7,90.6,61.3,89.3,84.2,72.7,61.2
+Suzuki,Swift,GLX CVT,2019,123905,Automatic,Hybrid,8.6,Karachi,White,Imported,4328324,True,81.7,92.7,93.4,100.0,77.6,93.3,93.4,76.3,99.6
+Kia,Picanto,MT,2021,110852,Automatic,Petrol,8.64,Rawalpindi,Black,Imported,4111862,True,84.4,98.2,94.2,100.0,75.5,84.0,100.0,95.4,56.5
+Honda,Civic,VTi,2013,219554,Automatic,Petrol,8.92,Islamabad,White,Imported,1429943,True,85.1,85.1,85.2,56.7,100.0,89.9,88.9,57.6,90.6
+Hyundai,Tucson,FWD,2019,95273,Automatic,Diesel,8.54,Lahore,White,Imported,4270444,True,77.3,92.5,94.6,76.0,80.5,81.2,91.8,74.0,87.8
+Honda,City,1.5 Aspire,2025,1720,Manual,Petrol,8.68,Karachi,Silver,Local,5509472,True,84.1,95.5,81.6,100.0,84.6,77.8,86.7,99.2,74.5
+Suzuki,Swift,GLX CVT,2015,204194,Automatic,Petrol,9.46,Islamabad,Silver,Local,2356967,True,91.1,88.8,99.0,100.0,100.0,92.4,84.9,84.6,100.0
+Honda,City,1.2LS,2019,146360,Automatic,Petrol,9.17,Rawalpindi,Black,Imported,3730092,True,94.5,97.0,91.7,83.1,90.3,86.9,94.7,76.5,87.2
+Kia,Picanto,MT,2020,103864,Automatic,Petrol,8.13,Rawalpindi,White,Local,3363290,True,91.9,81.9,100.0,81.9,66.5,92.6,89.5,74.1,90.1
+Suzuki,Swift,DLX,2018,144209,Automatic,Petrol,9.04,Lahore,Grey,Local,2438626,True,87.1,88.7,95.1,89.8,94.9,83.3,88.5,80.1,73.2
+Hyundai,Elantra,Ultimate,2013,234723,Automatic,Petrol,8.17,Lahore,White,Local,493403,True,84.6,91.7,88.0,76.8,67.2,99.0,95.0,74.5,85.4
+Suzuki,Swift,GLX CVT,2019,146643,Automatic,Petrol,9.69,Lahore,Black,Local,3409571,True,97.1,100.0,88.6,89.7,98.2,99.3,95.9,99.6,90.0
+Honda,Civic,RS,2012,269334,Manual,Petrol,9.1,Faisalabad,Grey,Local,963559,True,95.1,86.2,91.2,97.4,100.0,90.4,92.0,56.6,70.2
+Hyundai,Elantra,GLS,2017,173650,Automatic,Petrol,8.57,Karachi,Blue,Imported,3129747,True,90.7,95.2,89.1,96.7,75.2,99.1,92.0,91.6,43.7
+Honda,Civic,Oriel,2017,170429,Automatic,Petrol,8.41,Rawalpindi,White,Local,1799639,True,85.8,100.0,100.0,100.0,64.2,97.2,65.6,84.1,71.8
+Kia,Sportage,FWD,2013,192861,Automatic,Petrol,8.45,Lahore,White,Local,1295652,True,93.9,86.3,96.8,83.9,73.9,99.4,83.2,78.0,71.1
+Toyota,Corolla,XLi,2021,90520,Automatic,Petrol,9.32,Lahore,Silver,Local,4177169,True,82.7,95.8,94.7,100.0,100.0,94.3,74.2,67.2,77.1
+Toyota,Yaris,ATIV X,2024,70488,Manual,Petrol,9.27,Faisalabad,White,Imported,4993951,True,100.0,90.0,90.4,86.6,94.0,83.0,94.6,99.5,94.0
+Toyota,Corolla,XLi,2014,236223,Automatic,Hybrid,8.34,Lahore,Silver,Local,1782860,True,82.7,92.0,94.4,100.0,74.3,85.8,71.4,69.5,87.0
+Suzuki,Swift,GLX CVT,2014,197450,Automatic,Petrol,9.54,Lahore,Blue,Imported,2455236,True,96.8,92.0,99.2,79.3,98.4,84.9,97.4,99.8,77.2
+Hyundai,Tucson,FWD,2017,175239,Manual,Petrol,8.77,Karachi,Red,Imported,2369323,True,81.5,96.8,85.9,99.6,82.4,82.1,81.6,100.0,100.0
+Toyota,Yaris,GLI CVT,2015,201671,Automatic,Petrol,8.19,Islamabad,Silver,Local,1400406,True,82.8,79.6,82.7,73.6,82.1,84.1,100.0,88.7,62.7
+Honda,City,1.5 Aspire,2022,80157,Automatic,Petrol,8.62,Lahore,White,Imported,4767488,True,75.6,76.9,84.6,100.0,95.8,84.4,93.1,95.7,83.5
+Kia,Picanto,AT,2023,22724,Manual,Petrol,8.82,Faisalabad,Blue,Local,4900678,True,97.3,100.0,98.4,89.3,69.3,100.0,90.2,83.4,99.0
+Suzuki,Swift,DLX,2014,196181,Manual,Petrol,8.87,Karachi,Black,Imported,2136852,True,89.2,93.6,96.8,100.0,81.4,100.0,80.6,93.1,56.6
+Suzuki,Alto,VXR,2013,231243,Automatic,Petrol,9.11,Karachi,White,Local,1221879,True,100.0,87.7,92.5,90.9,88.6,100.0,83.1,94.2,89.5
+Suzuki,Swift,GLX CVT,2017,155149,Manual,Petrol,8.14,Islamabad,Grey,Local,2216999,True,95.9,93.6,90.4,98.4,63.6,93.3,87.4,59.2,91.1
+Suzuki,Alto,VXR,2019,106569,Automatic,Petrol,9.05,Lahore,White,Local,3449646,True,95.4,88.5,82.5,77.3,100.0,87.5,87.4,76.1,53.5
+Suzuki,Swift,GLX CVT,2022,96353,Manual,Petrol,8.32,Lahore,Grey,Imported,4145549,True,99.2,81.2,91.6,91.3,77.5,90.0,100.0,49.1,94.8
+Toyota,Yaris,GLI CVT,2015,205187,Manual,Petrol,8.42,Rawalpindi,Green,Local,995895,True,95.2,87.9,87.8,100.0,79.3,78.4,100.0,78.6,60.8
+Hyundai,Elantra,Ultimate,2025,21863,Manual,Hybrid,8.91,Islamabad,Black,Local,5716708,True,87.2,83.2,86.4,83.0,97.6,78.6,90.7,89.9,83.5
+Honda,Civic,RS,2017,172867,Automatic,Petrol,7.93,Islamabad,White,Local,2446873,True,100.0,72.7,89.2,100.0,73.0,77.1,79.2,82.0,80.6
+Hyundai,Tucson,FWD,2025,50113,Automatic,Petrol,8.0,Faisalabad,White,Imported,5414650,True,97.8,78.8,98.0,96.1,63.1,89.8,87.7,100.0,59.1
+Suzuki,Swift,DLX,2024,19151,Automatic,Petrol,8.97,Lahore,Grey,Local,5343813,True,91.7,87.2,85.0,94.9,100.0,88.9,100.0,54.0,65.0
+Suzuki,Swift,GLX CVT,2013,219540,Manual,Petrol,8.4,Faisalabad,Black,Local,1202893,True,88.2,80.5,96.6,73.9,79.4,81.4,92.2,89.6,73.9
+Honda,Civic,RS,2022,100914,Automatic,Petrol,7.73,Lahore,Black,Imported,4723789,True,85.7,86.6,98.2,97.6,52.1,93.1,97.1,93.7,69.6
+Hyundai,Elantra,GLS,2013,235197,Automatic,Petrol,8.06,Rawalpindi,Blue,Imported,1220412,True,86.1,88.0,79.4,98.6,69.4,97.6,88.8,84.6,83.7
+Kia,Sportage,Alpha,2021,68954,Automatic,Petrol,9.05,Faisalabad,White,Local,4206746,True,82.1,84.3,89.1,91.8,100.0,96.8,91.4,76.6,79.2
+Kia,Picanto,MT,2020,119661,Automatic,Hybrid,9.18,Lahore,Green,Imported,4298182,True,93.1,100.0,95.8,100.0,85.1,86.1,93.8,89.9,88.2
+Toyota,Corolla,XLi,2020,93916,Automatic,Petrol,9.18,Karachi,White,Local,3939958,True,100.0,85.2,89.7,100.0,92.6,97.2,83.2,100.0,98.5
+Toyota,Corolla,XLi,2012,257763,Automatic,Hybrid,8.96,Faisalabad,Silver,Local,450000,True,85.5,100.0,84.2,100.0,81.7,100.0,94.6,95.3,99.2
+Honda,Civic,VTi,2022,65589,Manual,Petrol,8.76,Islamabad,Silver,Local,4453284,True,82.6,90.7,94.7,85.4,86.0,82.4,95.9,82.0,75.7
+Hyundai,Elantra,Ultimate,2022,105429,Manual,Petrol,9.3,Lahore,White,Local,4031673,True,94.3,90.3,100.0,88.3,94.3,96.9,97.6,72.7,80.3
+Kia,Picanto,AT,2021,94585,Automatic,Petrol,8.45,Lahore,Black,Imported,4564128,True,98.9,89.0,80.7,82.0,76.3,90.6,99.6,84.9,82.4

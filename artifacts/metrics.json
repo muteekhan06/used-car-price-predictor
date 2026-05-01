@@ -1,0 +1,19 @@
+{
+  "mae": 383875.3338115078,
+  "median_ae": 166031.69924846827,
+  "mape": 0.095913129014359,
+  "r2": 0.9591463355403865,
+  "rows_used": 60612,
+  "train_rows": 30121,
+  "validation_rows": 30491,
+  "validation_eval_rows": 1200,
+  "inspection_rows": 2191,
+  "proxy_rows": 27678,
+  "prediction_modes": {
+    "no_inspection": 572,
+    "text_proxy": 534,
+    "score_only": 94
+  },
+  "avg_range_width": 1706773.435222587,
+  "range_coverage": 0.8641666666666666
+}

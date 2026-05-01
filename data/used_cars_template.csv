@@ -1,0 +1,4 @@
+make,model,variant,year,mileage,transmission,fuel_type,inspection_score,registered_in,color,assembly,price,section_interior_pct,section_engine_transmission_clutch_pct,section_electrical_electronics_pct,section_body_frame_accident_pct,section_exterior_body_pct,section_ac_heater_pct,section_brakes_pct,section_suspension_steering_pct,section_tyres_pct
+Toyota,Corolla,GLi,2019,62000,Automatic,Petrol,8.7,Karachi,White,Local,4850000,90,95,94,100,85,96,95,86,78
+Honda,Civic,Oriel,2018,79000,Automatic,Petrol,8.1,Lahore,Black,Local,4725000,86,90,88,100,78,92,90,80,72
+Suzuki,Alto,VXL AGS,2022,18000,Automatic,Petrol,9.4,Islamabad,Silver,Local,2850000,95,97,96,100,91,98,96,92,88

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Used Car Price Predictor</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">Production Predictor</div>
+      <h1>Used car price prediction with only the fields required to price a car.</h1>
+      <p>
+        Pick the exact vehicle from the trained catalog, confirm mileage, registration, color, and optional inspection,
+        then run a prediction. Every prediction is stored server-side, and can also be mirrored to GitHub when deploy
+        secrets are configured.
+      </p>
+      <div class="status-row" id="healthStatus">Connecting to prediction service...</div>
+    </section>
+
+    <section class="layout">
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Vehicle Input</h2>
+            <p>Chained selectors prevent impossible make/model/year/variant combinations.</p>
+          </div>
+        </div>
+
+        <form id="predictForm" class="form-grid">
+          <label>
+            <span>Make</span>
+            <select name="make" id="makeSelect" required></select>
+          </label>
+          <label>
+            <span>Model</span>
+            <select name="model" id="modelSelect" required disabled></select>
+          </label>
+          <label>
+            <span>Year</span>
+            <select name="year" id="yearSelect" required disabled></select>
+          </label>
+          <label>
+            <span>Variant</span>
+            <select name="variant" id="variantSelect" required disabled></select>
+          </label>
+          <label>
+            <span>Mileage</span>
+            <input name="mileage" id="mileageInput" type="number" min="0" required placeholder="Enter mileage in km">
+          </label>
+          <label>
+            <span>Registered In</span>
+            <select name="registered_in" id="registeredSelect" required disabled></select>
+          </label>
+          <label>
+            <span>Color</span>
+            <select name="color" id="colorSelect" required disabled></select>
+          </label>
+          <label>
+            <span>Transmission</span>
+            <input name="transmission" id="transmissionInput" readonly disabled>
+          </label>
+          <label>
+            <span>Fuel Type</span>
+            <input name="fuel_type" id="fuelTypeInput" readonly disabled>
+          </label>
+          <label>
+            <span>Assembly</span>
+            <input name="assembly" id="assemblyInput" readonly disabled>
+          </label>
+          <label>
+            <span>Body Type</span>
+            <input name="body_type" id="bodyTypeInput" readonly disabled>
+          </label>
+          <label>
+            <span>Engine Capacity CC</span>
+            <input name="engine_capacity_cc" id="engineCapacityInput" readonly disabled>
+          </label>
+
+          <div class="inspection-box">
+            <div class="inspection-head">
+              <strong>Inspection</strong>
+              <div class="mode-row">
+                <label><input type="radio" name="inspection_mode" value="score" checked> Score</label>
+                <label><input type="radio" name="inspection_mode" value="sections"> Sections</label>
+                <label><input type="radio" name="inspection_mode" value="none"> None</label>
+              </div>
+            </div>
+
+            <div id="scoreFields" class="subgrid active">
+              <label>
+                <span>Inspection Score</span>
+                <input name="inspection_score" type="number" min="0" max="10" step="0.1" placeholder="e.g. 8.5">
+              </label>
+            </div>
+
+            <div id="sectionFields" class="subgrid">
+              <label><span>Interior %</span><input name="section_interior_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>Engine / Transmission / Clutch %</span><input name="section_engine_transmission_clutch_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>Electrical & Electronics %</span><input name="section_electrical_electronics_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>Body Frame Accident %</span><input name="section_body_frame_accident_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>Exterior & Body %</span><input name="section_exterior_body_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>AC / Heater %</span><input name="section_ac_heater_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>Brakes %</span><input name="section_brakes_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>Suspension / Steering %</span><input name="section_suspension_steering_pct" type="number" min="0" max="100" step="0.1"></label>
+              <label><span>Tyres %</span><input name="section_tyres_pct" type="number" min="0" max="100" step="0.1"></label>
+            </div>
+          </div>
+
+          <div class="action-row">
+            <button class="button" type="submit" id="predictButton">Run Prediction</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Prediction Result</h2>
+            <p>Anchor price, condition adjustment, comparable blend, and stored prediction status.</p>
+          </div>
+        </div>
+
+        <div id="resultCard" class="empty">
+          Select a vehicle and run a prediction.
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="panel-header">
+          <div>
+            <h2>Recent Predictions</h2>
+            <p>The latest stored predictions from this deployment.</p>
+          </div>
+        </div>
+        <div id="recentPredictions" class="recent-list"></div>
+      </section>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

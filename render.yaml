@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: used-car-price-predictor
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 8000
+      - key: GITHUB_LOG_BRANCH
+        value: main
+      - key: GITHUB_LOG_DIR
+        value: prediction-logs
+

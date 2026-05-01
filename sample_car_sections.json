@@ -1,0 +1,21 @@
+{
+  "make": "Audi",
+  "model": "Q3",
+  "variant": "35 TDI",
+  "year": 2020,
+  "mileage": 58124,
+  "transmission": "Automatic",
+  "fuel_type": "Diesel",
+  "registered_in": "Lahore",
+  "color": "White",
+  "assembly": "Imported",
+  "section_interior_pct": 95.25,
+  "section_engine_transmission_clutch_pct": 100.0,
+  "section_electrical_electronics_pct": 100.0,
+  "section_body_frame_accident_pct": 100.0,
+  "section_exterior_body_pct": 78.45,
+  "section_ac_heater_pct": 100.0,
+  "section_brakes_pct": 100.0,
+  "section_suspension_steering_pct": 100.0,
+  "section_tyres_pct": 89.375
+}

@@ -1,0 +1,13 @@
+.next/
+node_modules/
+runtime_logs/
+__pycache__/
+src/__pycache__/
+web/__pycache__/
+*.pyc
+usedCars.db
+artifacts/validation_predictions_sample.csv
+artifacts/predictions.db
+artifacts/training_status.json
+.vercel/
+

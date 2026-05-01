@@ -1,0 +1,13 @@
+{
+  "make": "Toyota",
+  "model": "Corolla",
+  "variant": "GLi",
+  "year": 2019,
+  "mileage": 62000,
+  "transmission": "Automatic",
+  "fuel_type": "Petrol",
+  "inspection_score": 8.7,
+  "registered_in": "Karachi",
+  "color": "White",
+  "assembly": "Local"
+}
