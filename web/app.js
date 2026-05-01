@@ -45,6 +45,14 @@ function setSpecFields(spec = {}) {
   engineCapacityInput.value = spec.engine_capacity_cc || "";
 }
 
+function appendLockedSpecFields(payload) {
+  if (transmissionInput.value) payload.transmission = transmissionInput.value;
+  if (fuelTypeInput.value) payload.fuel_type = fuelTypeInput.value;
+  if (assemblyInput.value) payload.assembly = assemblyInput.value;
+  if (bodyTypeInput.value) payload.body_type = bodyTypeInput.value;
+  if (engineCapacityInput.value) payload.engine_capacity_cc = Number(engineCapacityInput.value);
+}
+
 async function loadHealth() {
   const health = await getJson("/api/health");
   healthStatus.textContent = `Service is live. Catalog: ${health.catalog_exists ? "ready" : "missing"} • GitHub mirror: ${health.github_mirror_enabled ? "enabled" : "disabled"} • Prediction store: ${health.prediction_store_exists ? "ready" : "missing"}`;
@@ -120,7 +128,10 @@ async function onYearChange() {
 }
 
 async function onVariantChange() {
-  if (!variantSelect.value) return;
+  if (!variantSelect.value) {
+    setSpecFields();
+    return;
+  }
   const spec = await getJson(`/api/catalog/spec?make=${encodeURIComponent(makeSelect.value)}&model=${encodeURIComponent(modelSelect.value)}&year=${encodeURIComponent(yearSelect.value)}&variant=${encodeURIComponent(variantSelect.value)}`);
   setSpecFields(spec.spec || {});
   setOptions(registeredSelect, spec.available_registered_in || [], "Select registration", false);
@@ -144,6 +155,7 @@ function serializeForm() {
     if (value === "") continue;
     payload[key] = value;
   }
+  appendLockedSpecFields(payload);
 
   [
     "year",

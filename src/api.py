@@ -12,7 +12,7 @@ from pathlib import Path
 import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -39,11 +39,11 @@ class PredictRequest(BaseModel):
     variant: str
     year: int
     mileage: float
-    transmission: str
-    fuel_type: str
+    transmission: str | None = None
+    fuel_type: str | None = None
     registered_in: str
     color: str
-    assembly: str
+    assembly: str | None = None
     body_type: str | None = "Unknown"
     engine_capacity_cc: float | None = None
     inspection_score: float | None = None
@@ -146,6 +146,35 @@ def median_or_none(frame: pd.DataFrame, column: str) -> int | None:
     return int(round(float(series.median())))
 
 
+def enrich_request_from_catalog(request: PredictRequest) -> dict:
+    payload = request.model_dump(exclude_none=True)
+    needs_spec = any(not payload.get(field) for field in ["transmission", "fuel_type", "assembly"])
+    if not needs_spec:
+        return payload
+
+    catalog = load_catalog_artifact()
+    if catalog is None:
+        return payload
+
+    spec = spec_payload(
+        catalog,
+        make=request.make,
+        model=request.model,
+        year=request.year,
+        variant=request.variant,
+    )
+    if spec is None:
+        return payload
+
+    spec_fields = spec.get("spec", {})
+    for field in ["transmission", "fuel_type", "assembly", "body_type", "engine_capacity_cc"]:
+        if payload.get(field) in [None, "", "Unknown"]:
+            value = spec_fields.get(field)
+            if value not in [None, ""]:
+                payload[field] = value
+    return payload
+
+
 @lru_cache(maxsize=2)
 def compute_data_overview(db_path: str, table: str) -> dict:
     raw = load_raw_dataset(db_path, table=table)
@@ -234,6 +263,11 @@ def run_training_job(config: TrainingConfig) -> None:
 @app.get("/")
 def root() -> FileResponse:
     return FileResponse(WEB_DIR / "index.html")
+
+
+@app.get("/favicon.ico")
+def favicon() -> Response:
+    return Response(status_code=204)
 
 
 @app.get("/api/health")
@@ -393,7 +427,7 @@ def training_start(request: TrainingRequest) -> dict:
 @app.post("/api/predict")
 def api_predict(request: PredictRequest) -> dict:
     try:
-        input_payload = request.model_dump(exclude_none=True)
+        input_payload = enrich_request_from_catalog(request)
         result = predict_record(input_payload, model_dir=ARTIFACTS_DIR)
         result["logged_to_github"] = False
 
