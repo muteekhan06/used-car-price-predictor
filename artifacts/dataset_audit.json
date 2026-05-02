@@ -1,0 +1,11 @@
+{
+  "raw_rows": 62200,
+  "drop_reasons": {
+    "duplicate_source_listing_hash": 0,
+    "duplicate_listing_url": 14,
+    "invalid_numeric_parse": 729,
+    "extreme_outlier_or_unsupported_year": 859,
+    "missing_required_variant": 1
+  },
+  "kept_rows": 60611
+}

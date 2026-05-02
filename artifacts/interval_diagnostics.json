@@ -1,0 +1,44 @@
+{
+  "overall": {
+    "coverage": 0.9526074122663168,
+    "count": 30490
+  },
+  "by_prediction_mode": {
+    "no_inspection": {
+      "count": 14773,
+      "coverage": 0.949976308129696
+    },
+    "score_only": {
+      "count": 2051,
+      "coverage": 0.961969770843491
+    },
+    "text_proxy": {
+      "count": 13666,
+      "coverage": 0.9540465388555539
+    }
+  },
+  "by_support_tier": {
+    "thin": {
+      "count": 30490,
+      "coverage": 0.9526074122663168
+    }
+  },
+  "by_price_band": {
+    "budget": {
+      "count": 9017,
+      "coverage": 0.9223688588222246
+    },
+    "luxury": {
+      "count": 909,
+      "coverage": 0.8745874587458746
+    },
+    "mid": {
+      "count": 16151,
+      "coverage": 0.9720141167729552
+    },
+    "premium": {
+      "count": 4413,
+      "coverage": 0.959438024019941
+    }
+  }
+}

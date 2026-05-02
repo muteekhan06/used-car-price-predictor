@@ -2,6 +2,9 @@ const form = document.getElementById("predictForm");
 const healthStatus = document.getElementById("healthStatus");
 const resultCard = document.getElementById("resultCard");
 const recentPredictions = document.getElementById("recentPredictions");
+const selectionSummary = document.getElementById("selectionSummary");
+const specLockState = document.getElementById("specLockState");
+const toast = document.getElementById("toast");
 
 const makeSelect = document.getElementById("makeSelect");
 const modelSelect = document.getElementById("modelSelect");
@@ -9,6 +12,8 @@ const yearSelect = document.getElementById("yearSelect");
 const variantSelect = document.getElementById("variantSelect");
 const registeredSelect = document.getElementById("registeredSelect");
 const colorSelect = document.getElementById("colorSelect");
+const mileageInput = document.getElementById("mileageInput");
+const inspectionScoreInput = document.getElementById("inspectionScoreInput");
 
 const transmissionInput = document.getElementById("transmissionInput");
 const fuelTypeInput = document.getElementById("fuelTypeInput");
@@ -16,9 +21,27 @@ const assemblyInput = document.getElementById("assemblyInput");
 const bodyTypeInput = document.getElementById("bodyTypeInput");
 const engineCapacityInput = document.getElementById("engineCapacityInput");
 
+let toastTimer = null;
+
 function money(value) {
   if (value == null) return "N/A";
   return new Intl.NumberFormat("en-PK", { maximumFractionDigits: 0 }).format(value);
+}
+
+function safeText(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function showToast(message) {
+  toast.textContent = message;
+  toast.classList.add("visible");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove("visible"), 3200);
 }
 
 async function getJson(url, options = {}) {
@@ -31,9 +54,9 @@ async function getJson(url, options = {}) {
 }
 
 function setOptions(select, options, placeholder, disabled = false) {
-  select.innerHTML = `<option value="">${placeholder}</option>` + options.map((option) => (
-    `<option value="${option}">${option}</option>`
-  )).join("");
+  select.innerHTML = `<option value="">${placeholder}</option>${options.map((option) => (
+    `<option value="${safeText(option)}">${safeText(option)}</option>`
+  )).join("")}`;
   select.disabled = disabled;
 }
 
@@ -53,29 +76,75 @@ function appendLockedSpecFields(payload) {
   if (engineCapacityInput.value) payload.engine_capacity_cc = Number(engineCapacityInput.value);
 }
 
+function activeInspectionMode() {
+  return document.querySelector("input[name='inspection_mode']:checked").value;
+}
+
+function updateStepState() {
+  const step1Ready = Boolean(makeSelect.value && modelSelect.value && yearSelect.value && variantSelect.value);
+  const step2Ready = step1Ready && Boolean(mileageInput.value && registeredSelect.value && colorSelect.value);
+
+  document.querySelectorAll(".step-chip").forEach((chip) => chip.classList.remove("active"));
+  if (!step1Ready) {
+    document.querySelector('[data-step="1"]').classList.add("active");
+  } else if (!step2Ready) {
+    document.querySelector('[data-step="2"]').classList.add("active");
+  } else {
+    document.querySelector('[data-step="3"]').classList.add("active");
+  }
+}
+
+function updateSelectionSummary() {
+  const bits = [makeSelect.value, modelSelect.value, yearSelect.value, variantSelect.value].filter(Boolean);
+  if (!bits.length) {
+    selectionSummary.textContent = "Select a valid vehicle path to unlock factory specs and localized options.";
+    specLockState.textContent = "Waiting for exact variant";
+    updateStepState();
+    return;
+  }
+
+  const detailBits = [];
+  if (registeredSelect.value) detailBits.push(`registered in ${registeredSelect.value}`);
+  if (colorSelect.value) detailBits.push(`${colorSelect.value.toLowerCase()} color`);
+  if (mileageInput.value) detailBits.push(`${money(mileageInput.value)} km`);
+
+  selectionSummary.textContent = `${bits.join(" / ")}${detailBits.length ? ` • ${detailBits.join(" • ")}` : ""}`;
+  specLockState.textContent = [transmissionInput.value, fuelTypeInput.value, assemblyInput.value].filter(Boolean).length
+    ? "Factory specs locked from catalog"
+    : "Waiting for exact variant";
+  updateStepState();
+}
+
+function updateInspectionMode() {
+  const mode = activeInspectionMode();
+  document.getElementById("scoreFields").classList.toggle("active", mode === "score");
+  document.getElementById("sectionFields").classList.toggle("active", mode === "sections");
+  updateStepState();
+}
+
 async function loadHealth() {
   const health = await getJson("/api/health");
-  healthStatus.textContent = `Service is live. Catalog: ${health.catalog_exists ? "ready" : "missing"} • GitHub mirror: ${health.github_mirror_enabled ? "enabled" : "disabled"} • Prediction store: ${health.prediction_store_exists ? "ready" : "missing"}`;
+  healthStatus.textContent = `Live service • catalog ${health.catalog_exists ? "ready" : "missing"} • GitHub mirror ${health.github_mirror_enabled ? "enabled" : "disabled"} • prediction store ${health.prediction_store_exists ? "ready" : "missing"}`;
 }
 
 async function loadRecentPredictions() {
-  const rows = await getJson("/api/predictions/recent?limit=8");
+  const rows = await getJson("/api/predictions/recent?limit=6");
   if (!rows.length) {
-    recentPredictions.innerHTML = `<div class="empty">No predictions stored yet.</div>`;
+    recentPredictions.innerHTML = `<div class="empty-state">No predictions stored yet.</div>`;
     return;
   }
 
   recentPredictions.innerHTML = rows.map((row) => `
     <article class="recent-card">
       <div class="recent-head">
-        <strong>#${row.id}</strong>
-        <span>${new Date(row.created_at).toLocaleString()}</span>
+        <strong>#${safeText(row.id)}</strong>
+        <span>${safeText(new Date(row.created_at).toLocaleString())}</span>
       </div>
       <div class="recent-grid">
-        <span>Mode: ${row.prediction_mode}</span>
-        <span>Price: PKR ${money(row.predicted_price)}</span>
-        <span>Range: PKR ${money(row.price_range_low)} to ${money(row.price_range_high)}</span>
-        <span>GitHub: ${row.github_status || "not mirrored"}</span>
+        <span>Mode: ${safeText(row.prediction_mode)}</span>
+        <span>Predicted price: PKR ${money(row.predicted_price)}</span>
+        <span>Range: PKR ${money(row.price_range_low)} to PKR ${money(row.price_range_high)}</span>
+        <span>Stored status: ${safeText(row.github_status || "not mirrored")}</span>
       </div>
     </article>
   `).join("");
@@ -94,6 +163,7 @@ async function initializeCatalog() {
   setOptions(variantSelect, [], "Select variant", true);
   setOptions(registeredSelect, [], "Select registration", true);
   setOptions(colorSelect, [], "Select color", true);
+  updateSelectionSummary();
 }
 
 async function onMakeChange() {
@@ -104,6 +174,7 @@ async function onMakeChange() {
   setOptions(registeredSelect, [], "Select registration", true);
   setOptions(colorSelect, [], "Select color", true);
   setSpecFields();
+  updateSelectionSummary();
 }
 
 async function onModelChange() {
@@ -113,6 +184,7 @@ async function onModelChange() {
   setOptions(registeredSelect, [], "Select registration", true);
   setOptions(colorSelect, [], "Select color", true);
   setSpecFields();
+  updateSelectionSummary();
 }
 
 async function onYearChange() {
@@ -125,27 +197,22 @@ async function onYearChange() {
   setOptions(registeredSelect, [], "Select registration", true);
   setOptions(colorSelect, [], "Select color", true);
   setSpecFields();
+  updateSelectionSummary();
 }
 
 async function onVariantChange() {
   if (!variantSelect.value) {
     setSpecFields();
+    updateSelectionSummary();
     return;
   }
+
   const spec = await getJson(`/api/catalog/spec?make=${encodeURIComponent(makeSelect.value)}&model=${encodeURIComponent(modelSelect.value)}&year=${encodeURIComponent(yearSelect.value)}&variant=${encodeURIComponent(variantSelect.value)}`);
   setSpecFields(spec.spec || {});
   setOptions(registeredSelect, spec.available_registered_in || [], "Select registration", false);
   setOptions(colorSelect, spec.available_colors || [], "Select color", false);
-}
-
-function activeInspectionMode() {
-  return document.querySelector("input[name='inspection_mode']:checked").value;
-}
-
-function updateInspectionMode() {
-  const mode = activeInspectionMode();
-  document.getElementById("scoreFields").classList.toggle("active", mode === "score");
-  document.getElementById("sectionFields").classList.toggle("active", mode === "sections");
+  updateSelectionSummary();
+  showToast("Factory specification fields were fetched from the catalog and locked.");
 }
 
 function serializeForm() {
@@ -170,7 +237,7 @@ function serializeForm() {
     "section_ac_heater_pct",
     "section_brakes_pct",
     "section_suspension_steering_pct",
-    "section_tyres_pct"
+    "section_tyres_pct",
   ].forEach((field) => {
     if (payload[field] != null) payload[field] = Number(payload[field]);
   });
@@ -190,29 +257,110 @@ function serializeForm() {
   return payload;
 }
 
+function renderComparables(comparables = []) {
+  if (!comparables.length) {
+    return `<div class="empty-state">No high-quality comparable listings were used for this request.</div>`;
+  }
+
+  return `
+    <div class="comparables-list">
+      ${comparables.map((comp) => `
+        <article class="comp-card">
+          <h4>${safeText(comp.make)} ${safeText(comp.model)} ${safeText(comp.variant)}</h4>
+          <div class="comp-meta">
+            <strong>${safeText(comp.year)}</strong> • ${money(comp.mileage)} km • PKR ${money(comp.price)}
+          </div>
+          <div class="comp-meta">
+            ${safeText(comp.registered_in)} • ${safeText(comp.assembly)} • distance score ${Number(comp.score || 0).toFixed(2)}
+          </div>
+          ${comp.listing_url ? `<a class="comp-link" href="${safeText(comp.listing_url)}" target="_blank" rel="noreferrer">Open listing</a>` : ""}
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
 function renderResult(result) {
-  const supportLabel = result.catalog_source_rows
-    ? `${result.support_tier} support (${result.catalog_source_rows} exact rows)`
-    : "support unknown";
+  const supportLabel = `${result.support_tier} support • ${result.exact_variant_rows} exact variant rows`;
+  const supportCopy = result.support_tier === "thin"
+    ? "Thin support: this result leans more on anchor and comparable statistics than dense exact-example learning."
+    : result.support_tier === "moderate"
+      ? "Moderate support: the system has useful exact-market evidence, but the interval should still be treated as an estimate."
+      : "Strong support: the system has dense exact-market evidence for this selection.";
+  const compQualityCopy = result.comp_quality_passed
+    ? "Comparable quality passed. Market comps contributed to the final blend."
+    : "Comparable quality did not pass the gate. The output leans on anchor and condition evidence only.";
+
   resultCard.innerHTML = `
     <div class="result-hero">
       <div class="result-kicker">Predicted Price</div>
       <div class="result-price">PKR ${money(result.predicted_price)}</div>
-      <div class="result-range">Range: PKR ${money(result.price_range_low)} to PKR ${money(result.price_range_high)}</div>
+      <div class="result-range">Expected range: PKR ${money(result.price_range_low)} to PKR ${money(result.price_range_high)}</div>
       <div class="pill-row">
-        <span class="pill">Mode: ${result.prediction_mode}</span>
-        <span class="pill">Confidence: ${Number(result.confidence_score).toFixed(2)}</span>
-        <span class="pill">Prediction ID: ${result.prediction_id}</span>
-        <span class="pill">${supportLabel}</span>
+        <span class="pill">${safeText(result.prediction_mode)}</span>
+        <span class="pill">Confidence index ${Number(result.confidence_index).toFixed(2)}</span>
+        <span class="pill">${safeText(supportLabel)}</span>
+        <span class="pill">${safeText(result.blend_mode)}</span>
       </div>
     </div>
 
-    <div class="kv-list">
-      <div class="kv-row"><span>Anchor Price</span><strong>PKR ${money(result.anchor_price)}</strong></div>
-      <div class="kv-row"><span>Condition Adjusted Price</span><strong>PKR ${money(result.condition_adjusted_price)}</strong></div>
-      <div class="kv-row"><span>Comparable Reference</span><strong>PKR ${money(result.comparable_reference_price)}</strong></div>
-      <div class="kv-row"><span>Comparable Count</span><strong>${result.comparable_count}</strong></div>
-      <div class="kv-row"><span>GitHub Mirror</span><strong>${result.logged_to_github ? "stored" : "not configured"}</strong></div>
+    <div class="selection-summary" style="margin-top:16px;">
+      ${safeText(supportCopy)} ${safeText(compQualityCopy)}
+    </div>
+
+    <div class="result-grid">
+      <article class="result-stat">
+        <span class="label">Anchor price</span>
+        <strong>PKR ${money(result.anchor_price)}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Condition-adjusted</span>
+        <strong>PKR ${money(result.condition_adjusted_price)}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Comparable reference</span>
+        <strong>PKR ${money(result.comparable_reference_price)}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Comparable count</span>
+        <strong>${safeText(result.comparable_count)}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Usable comparables</span>
+        <strong>${safeText(result.usable_comp_count)}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Prediction ID</span>
+        <strong>#${safeText(result.prediction_id)}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Storage</span>
+        <strong>${result.logged_to_github ? "Stored to GitHub" : "Stored locally"}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Inspection source</span>
+        <strong>${safeText(result.inspection_source)}</strong>
+      </article>
+      <article class="result-stat">
+        <span class="label">Inspection completeness</span>
+        <strong>${Number(result.inspection_completeness || 0).toFixed(2)}</strong>
+      </article>
+    </div>
+
+    <div class="comparables-block">
+      <h3>Nearest comparable listings</h3>
+      ${renderComparables(result.comparables)}
+    </div>
+  `;
+}
+
+function renderError(error) {
+  resultCard.innerHTML = `
+    <div class="empty-state">
+      <div>
+        <strong>Prediction failed.</strong><br>
+        ${safeText(error.message)}
+      </div>
     </div>
   `;
 }
@@ -221,7 +369,8 @@ async function onSubmit(event) {
   event.preventDefault();
   const button = document.getElementById("predictButton");
   button.disabled = true;
-  button.textContent = "Running...";
+  button.textContent = "Running prediction...";
+  resultCard.innerHTML = `<div class="empty-state">Running model blend and comparable search...</div>`;
 
   try {
     const result = await getJson("/api/predict", {
@@ -232,7 +381,7 @@ async function onSubmit(event) {
     renderResult(result);
     await loadRecentPredictions();
   } catch (error) {
-    resultCard.innerHTML = `<div class="empty">${error.message}</div>`;
+    renderError(error);
   } finally {
     button.disabled = false;
     button.textContent = "Run Prediction";
@@ -244,6 +393,10 @@ function bindEvents() {
   modelSelect.addEventListener("change", onModelChange);
   yearSelect.addEventListener("change", onYearChange);
   variantSelect.addEventListener("change", onVariantChange);
+  registeredSelect.addEventListener("change", updateSelectionSummary);
+  colorSelect.addEventListener("change", updateSelectionSummary);
+  mileageInput.addEventListener("input", updateSelectionSummary);
+  inspectionScoreInput.addEventListener("input", updateStepState);
   document.querySelectorAll("input[name='inspection_mode']").forEach((node) => {
     node.addEventListener("change", updateInspectionMode);
   });
@@ -252,6 +405,9 @@ function bindEvents() {
 
 bindEvents();
 updateInspectionMode();
+updateSelectionSummary();
+
 Promise.all([loadHealth(), initializeCatalog(), loadRecentPredictions()]).catch((error) => {
   healthStatus.textContent = `Startup failed: ${error.message}`;
+  renderError(error);
 });

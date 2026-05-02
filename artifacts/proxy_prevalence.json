@@ -1,0 +1,16 @@
+{
+  "kept_proxy_flags": {
+    "first_owner_flag": 0.08752536668261536,
+    "accident_free_flag": 0.12326145419148339,
+    "bumper_to_bumper_original_flag": 0.011054099090924089,
+    "ac_ok_flag": 0.04202207520087113,
+    "power_steering_flag": 0.028641665704245103,
+    "tax_up_to_date_flag": 0.03641253237861114,
+    "inspection_report_attached_flag": 0.03299731071917639,
+    "pakwheels_inspected_flag": 0.030835986867070335,
+    "like_new_flag": 0.16830278332315915,
+    "total_genuine_flag": 0.0870634043325469,
+    "non_accidental_flag": 0.07477190608965369
+  },
+  "dropped_low_prevalence_flags": {}
+}

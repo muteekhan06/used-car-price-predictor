@@ -1,0 +1,86 @@
+{
+  "core_only": {
+    "feature_columns": [
+      "make",
+      "model",
+      "transmission",
+      "fuel_type",
+      "registered_in",
+      "assembly",
+      "year",
+      "mileage",
+      "car_age",
+      "log_mileage",
+      "engine_capacity_cc"
+    ],
+    "mae": 554669.7373684328,
+    "median_ae": 200587.89972926886,
+    "mape": 0.11536604356952308,
+    "r2": 0.8540188519167419
+  },
+  "core_plus_variant": {
+    "feature_columns": [
+      "make",
+      "model",
+      "variant",
+      "transmission",
+      "fuel_type",
+      "registered_in",
+      "assembly",
+      "year",
+      "mileage",
+      "car_age",
+      "log_mileage",
+      "engine_capacity_cc"
+    ],
+    "mae": 548574.4756367644,
+    "median_ae": 198050.2368012889,
+    "mape": 0.11363618329041955,
+    "r2": 0.8580490963875285
+  },
+  "core_plus_variant_body": {
+    "feature_columns": [
+      "make",
+      "model",
+      "variant",
+      "transmission",
+      "fuel_type",
+      "registered_in",
+      "assembly",
+      "body_type",
+      "body_type_missing_flag",
+      "year",
+      "mileage",
+      "car_age",
+      "log_mileage",
+      "engine_capacity_cc"
+    ],
+    "mae": 517295.4744411876,
+    "median_ae": 193088.87725141254,
+    "mape": 0.11013109947475504,
+    "r2": 0.8722391393174254
+  },
+  "core_plus_variant_body_color": {
+    "feature_columns": [
+      "make",
+      "model",
+      "variant",
+      "transmission",
+      "fuel_type",
+      "registered_in",
+      "assembly",
+      "color",
+      "body_type",
+      "body_type_missing_flag",
+      "year",
+      "mileage",
+      "car_age",
+      "log_mileage",
+      "engine_capacity_cc"
+    ],
+    "mae": 521511.01980642765,
+    "median_ae": 194073.70659139985,
+    "mape": 0.11056351893960661,
+    "r2": 0.8705631557430701
+  }
+}

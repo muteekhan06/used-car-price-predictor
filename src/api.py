@@ -17,7 +17,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from catalog import load_catalog, option_payload, spec_payload
-from db_dataset import load_raw_dataset, load_and_prepare_dataset
+from db_dataset import load_raw_dataset, load_and_prepare_dataset, prepare_dataset_bundle
 from github_mirror import github_mirror_enabled, mirror_prediction
 from predict import predict_record
 from prediction_store import init_prediction_store, log_prediction, recent_predictions, update_github_status
@@ -68,10 +68,11 @@ class TrainingRequest(BaseModel):
 
 
 app = FastAPI(title="Used Car Price Predictor")
+allowed_origins = [origin.strip() for origin in os.getenv("ALLOW_ORIGINS", "http://127.0.0.1:8000,http://localhost:8000").split(",") if origin.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=allowed_origins,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -175,7 +176,8 @@ def enrich_request_from_catalog(request: PredictRequest) -> dict:
 @lru_cache(maxsize=2)
 def compute_data_overview(db_path: str, table: str) -> dict:
     raw = load_raw_dataset(db_path, table=table)
-    cleaned = load_and_prepare_dataset(db_path, table=table)
+    bundle = prepare_dataset_bundle(db_path, table=table)
+    cleaned = bundle.frame
     raw_rows = int(len(raw))
     cleaned_rows = int(len(cleaned))
 
@@ -218,6 +220,7 @@ def compute_data_overview(db_path: str, table: str) -> dict:
         "median_price": float(cleaned["price"].median()),
         "median_year": float(cleaned["year"].median()),
         "median_mileage": float(cleaned["mileage"].median()),
+        "dataset_audit": bundle.audit,
     }
 
 
@@ -399,6 +402,8 @@ def training_status() -> dict:
 
 @app.post("/api/train/start")
 def training_start(request: TrainingRequest) -> dict:
+    if os.getenv("ENABLE_ADMIN_TRAINING", "0") != "1":
+        raise HTTPException(status_code=403, detail="Training endpoint is disabled in this environment.")
     global _training_thread
     with _training_lock:
         if _training_thread is not None and _training_thread.is_alive():

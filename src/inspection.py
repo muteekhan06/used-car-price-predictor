@@ -15,6 +15,7 @@ SECTION_WEIGHTAGES = {
     "section_suspension_steering_pct": 4.00,
     "section_tyres_pct": 2.16,
 }
+SECTION_WEIGHTAGE_VERSION = "pakwheels-like-v1"
 
 SECTION_COLUMNS = [
     "section_interior_pct",

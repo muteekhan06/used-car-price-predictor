@@ -1,6 +1,9 @@
 {
   "db_path": "usedCars.db",
   "table": "car_listings_old",
+  "observed_max_year": 2025,
+  "inspection_weightage_version": "pakwheels-like-v1",
+  "selected_anchor_ablation": "core_plus_variant_body",
   "anchor_feature_columns": [
     "make",
     "model",
@@ -8,9 +11,9 @@
     "transmission",
     "fuel_type",
     "registered_in",
-    "color",
     "assembly",
     "body_type",
+    "body_type_missing_flag",
     "year",
     "mileage",
     "car_age",
@@ -20,34 +23,35 @@
   "delta_feature_columns": [
     "make",
     "model",
-    "variant",
     "transmission",
     "fuel_type",
     "registered_in",
-    "color",
     "assembly",
-    "body_type",
     "anchor_log_pred",
     "inspection_score",
     "car_age",
     "log_mileage",
+    "engine_capacity_cc",
     "inspection_mileage_interaction",
     "inspection_age_interaction",
-    "engine_capacity_cc"
+    "inspection_completeness",
+    "section_engine_transmission_clutch_pct",
+    "section_exterior_body_pct",
+    "section_suspension_steering_pct",
+    "section_tyres_pct",
+    "section_body_frame_accident_pct"
   ],
   "proxy_delta_feature_columns": [
     "make",
     "model",
-    "variant",
     "transmission",
     "fuel_type",
     "registered_in",
-    "color",
     "assembly",
-    "body_type",
     "anchor_log_pred",
     "car_age",
     "log_mileage",
+    "engine_capacity_cc",
     "owner_count",
     "owner_count_known_flag",
     "proxy_signal_count",
@@ -64,7 +68,12 @@
     "total_genuine_flag",
     "non_accidental_flag"
   ],
+  "inspection_adjustment_weight": 0.18,
+  "inspection_delta_clip": [
+    -0.14660389012719469,
+    0.14879874084430028
+  ],
   "has_inspection_delta_model": true,
-  "has_inspection_isotonic_model": true,
+  "has_inspection_calibrator": true,
   "has_proxy_delta_model": true
 }
